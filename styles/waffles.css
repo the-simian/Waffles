@@ -209,43 +209,115 @@
     
 }
 
-@media (min-width: 960px) and (max-width: 1023px) {
-    #resolution::after { content: "960-1023"; }
+@media (min-width: 993px) and (max-width: 1023px) {
+    #resolution::after { content: "993-1023"; }
 
-    /*Fixed*/
+
+}
+
+
+@media (min-width: 960px) and (max-width: 992px) {
+    #resolution::after { content: "960-992"; }
+    
+    /*Fixed + auto : [2 parts]*/
     .container_12 .grid_11.grid_fixed:first-child:nth-last-child(2) { clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%; }
     .container_12 .grid_12.grid_fixed:first-child:nth-last-child(2) { clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%; }
 
     .container_12 .grid_11.grid_fixed:first-child:nth-last-child(2) ~ .grid_auto { clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%; }
     .container_12 .grid_12.grid_fixed:first-child:nth-last-child(2) ~ .grid_auto { clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%; }
 
-    /*alpha and  omega fixed together wraps the alpha*/
+    /*Fixed + auto [ 3 parts]*/
     .container_12 .grid_fixed:first-child:nth-last-child(3).alpha {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
     .container_12 .grid_fixed:first-child:nth-last-child(3) ~ .grid_auto{ margin-left: 0px; clear:left}
     .container_12 .grid_fixed:first-child:nth-last-child(3) ~ .grid_auto.alpha{ margin-left: 0px; }
     
     .container_12 .grid_fixed:first-child:nth-last-child(3)  + .grid_11.grid_fixed.omega{clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%; }
     .container_12 .grid_fixed:first-child:nth-last-child(3)  + .grid_11.grid_fixed.omega + .grid_auto {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%; }
-}
-/*17*/
-@media (min-width: 880px) and (max-width: 959px) {
-    #resolution::after { content: "880-959"; }
 
-    /*Standard Pattern Matches*/
+}
+
+
+
+@media (min-width: 920px) and (max-width: 959px) {
+    #resolution::after { content: "920-959"; }
+
+
+
+
+    /*Standard: Repeat Pattern Matches*/
     .container_12 .grid_1:first-child:nth-last-child(12) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
     .container_12 .grid_1:first-child:nth-last-child(12) ~ .grid_1 { margin-left: 1%; margin-right: 1%; width: 14.666%; }
     .container_12 .grid_1:first-child:nth-last-child(12) ~ .grid_1:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
     .container_12 .grid_1:first-child:nth-last-child(12) ~ .grid_1:nth-child(7) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
     .container_12 .grid_1:first-child:nth-last-child(12) ~ .grid_1:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
 
-    /*auto*/
+    /*Auto*/
     .container_12 .grid_auto:first-child:nth-last-child(12) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
     .container_12 .grid_auto:first-child:nth-last-child(12) ~ .grid_auto { margin-left: 1%; margin-right: 1%; width: 14.666%; }
     .container_12 .grid_auto:first-child:nth-last-child(12) ~ .grid_auto:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
     .container_12 .grid_auto:first-child:nth-last-child(12) ~ .grid_auto:nth-child(7) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
     .container_12 .grid_auto:first-child:nth-last-child(12) ~ .grid_auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
 
-    /*Fixed*/
+
+    /*Fixed + auto : [2 parts]*/
+    .container_12 .grid_11.grid_fixed:first-child:nth-last-child(2) { clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%; }
+    .container_12 .grid_12.grid_fixed:first-child:nth-last-child(2) { clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%; }
+
+    .container_12 .grid_11.grid_fixed:first-child:nth-last-child(2) ~ .grid_auto { clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%; }
+    .container_12 .grid_12.grid_fixed:first-child:nth-last-child(2) ~ .grid_auto { clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%; }
+
+    /*Fixed + auto [ 3 parts]*/
+    .container_12 .grid_fixed:first-child:nth-last-child(3).alpha {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
+    .container_12 .grid_fixed:first-child:nth-last-child(3) ~ .grid_auto{ margin-left: 0px; clear:left}
+    .container_12 .grid_fixed:first-child:nth-last-child(3) ~ .grid_auto.alpha{ margin-left: 0px; }
+    
+    .container_12 .grid_fixed:first-child:nth-last-child(3)  + .grid_11.grid_fixed.omega{clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%; }
+    .container_12 .grid_fixed:first-child:nth-last-child(3)  + .grid_11.grid_fixed.omega + .grid_auto {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%; }
+    
+}
+
+
+
+/*17*/
+@media (min-width: 880px) and (max-width: 919px) {
+    #resolution::after { content: "880-919"; }
+
+
+
+    /*Core*/
+    .container_12 .grid_11.alpha:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%;}
+    .container_12 .grid_11.alpha:not(.grid_fixed) + .grid_1.omega { margin-left: 0; margin-right: 0; width: 100%;}
+
+    .container_12 .grid_1.alpha:not(.grid_fixed) {margin-left: 0; margin-right: 0; width: 100%; }
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_11,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_10,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_9 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_8 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_7 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_6 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_5 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_4 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_3 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_2 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_1{margin-left: 0; margin-right: 0; width: 100%; }
+
+
+
+    /*Standard: Repeat Pattern Matches*/
+    .container_12 .grid_1:first-child:nth-last-child(12) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
+    .container_12 .grid_1:first-child:nth-last-child(12) ~ .grid_1 { margin-left: 1%; margin-right: 1%; width: 14.666%; }
+    .container_12 .grid_1:first-child:nth-last-child(12) ~ .grid_1:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
+    .container_12 .grid_1:first-child:nth-last-child(12) ~ .grid_1:nth-child(7) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
+    .container_12 .grid_1:first-child:nth-last-child(12) ~ .grid_1:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
+
+    /*Auto*/
+    .container_12 .grid_auto:first-child:nth-last-child(12) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
+    .container_12 .grid_auto:first-child:nth-last-child(12) ~ .grid_auto { margin-left: 1%; margin-right: 1%; width: 14.666%; }
+    .container_12 .grid_auto:first-child:nth-last-child(12) ~ .grid_auto:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
+    .container_12 .grid_auto:first-child:nth-last-child(12) ~ .grid_auto:nth-child(7) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
+    .container_12 .grid_auto:first-child:nth-last-child(12) ~ .grid_auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
+
+     /*Fixed + auto : [2 parts]*/
     .container_12 .grid_10.grid_fixed:first-child:nth-last-child(2) { clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%; }
     .container_12 .grid_11.grid_fixed:first-child:nth-last-child(2) { clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%; }
     .container_12 .grid_12.grid_fixed:first-child:nth-last-child(2) { clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%; }
@@ -254,7 +326,7 @@
     .container_12 .grid_11.grid_fixed:first-child:nth-last-child(2) ~ .grid_auto { clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%; }
     .container_12 .grid_12.grid_fixed:first-child:nth-last-child(2) ~ .grid_auto { clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%; }
 
-    /*alpha and  omega fixed together wraps the alpha*/
+    /*Fixed + auto [ 3 parts]*/
     .container_12 .grid_fixed:first-child:nth-last-child(3).alpha {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
     .container_12 .grid_fixed:first-child:nth-last-child(3) ~ .grid_auto{ margin-left: 0px; clear:left}
     .container_12 .grid_fixed:first-child:nth-last-child(3) ~ .grid_auto.alpha{ margin-left: 0px; }
@@ -271,22 +343,30 @@
     #resolution::after { content: "840-879"; }
 
     /*Core*/
-    .container_12 .grid_1:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_1.alpha:not(.grid_fixed) , 
-    .container_12 .grid_1.omega:not(.grid_fixed)  { margin-left: 0; margin-right: 0; width: 100%; }
-    
-    .container_12 .grid_11:not(.grid_fixed)  { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_11.alpha:not(.grid_fixed) , 
-    .container_12 .grid_11.omega:not(.grid_fixed)  { margin-left: 0; margin-right: 0; width: 100%; }
+    .container_12 .grid_11.alpha:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%;}
+    .container_12 .grid_11.alpha:not(.grid_fixed) + .grid_1.omega { margin-left: 0; margin-right: 0; width: 100%;}
 
-    /*Standard Pattern Matches*/
+    .container_12 .grid_1.alpha:not(.grid_fixed) {margin-left: 0; margin-right: 0; width: 100%; }
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_11,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_10,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_9 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_8 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_7 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_6 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_5 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_4 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_3 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_2 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_1{margin-left: 0; margin-right: 0; width: 100%; }
+
+    /*Standard: Repeat Pattern Matches*/
     .container_12 .grid_1:first-child:nth-last-child(12) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
     .container_12 .grid_1:first-child:nth-last-child(12) ~ .grid_1 { margin-left: 1%; margin-right: 1%; width: 14.666%; }
     .container_12 .grid_1:first-child:nth-last-child(12) ~ .grid_1:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
     .container_12 .grid_1:first-child:nth-last-child(12) ~ .grid_1:nth-child(7) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
     .container_12 .grid_1:first-child:nth-last-child(12) ~ .grid_1:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
 
-    /*auto*/
+     /*Auto*/
     .container_12 .grid_auto:first-child:nth-last-child(11) { clear: left; margin-left: 0%; margin-right: 1%; width: 19%; }
     .container_12 .grid_auto:first-child:nth-last-child(11) ~ .grid_auto { width: 18%; }
     .container_12 .grid_auto:first-child:nth-last-child(11) ~ .grid_auto:nth-child(5) { clear: right; margin-left: 1%; margin-right: 0%; width: 19%; }
@@ -300,7 +380,7 @@
     .container_12 .grid_auto:first-child:nth-last-child(12) ~ .grid_auto:nth-child(7) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
     .container_12 .grid_auto:first-child:nth-last-child(12) ~ .grid_auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
 
-    /*Fixed*/
+    /*Fixed + auto : [2 parts]*/
     .container_12 .grid_10.grid_fixed:first-child:nth-last-child(2) { clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%; }
     .container_12 .grid_11.grid_fixed:first-child:nth-last-child(2) { clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%; }
     .container_12 .grid_12.grid_fixed:first-child:nth-last-child(2) { clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%; }
@@ -309,7 +389,7 @@
     .container_12 .grid_11.grid_fixed:first-child:nth-last-child(2) ~ .grid_auto { clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%; }
     .container_12 .grid_12.grid_fixed:first-child:nth-last-child(2) ~ .grid_auto { clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%; }
 
-    /*alpha and  omega fixed together wraps the alpha*/
+    /*Fixed + auto [ 3 parts]*/
     .container_12 .grid_fixed:first-child:nth-last-child(3).alpha {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
     .container_12 .grid_fixed:first-child:nth-last-child(3) ~ .grid_auto{ margin-left: 0px; clear:left}
     .container_12 .grid_fixed:first-child:nth-last-child(3) ~ .grid_auto.alpha{ margin-left: 0px; }
@@ -325,14 +405,22 @@
 @media (min-width: 800px) and (max-width: 839px) {
     #resolution::after { content: "800-839"; }
     
-    .container_12 .grid_1:not(.grid_fixed)  { margin-left: 0; margin-right: 0; width: 100%; }
-    
-    .container_12 .grid_1.alpha:not(.grid_fixed)  { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_1.omega:not(.grid_fixed)  { margin-left: 0; margin-right: 0; width: 100%; }
-    
-    .container_12 .grid_11:not(.grid_fixed)  { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_11.alpha:not(.grid_fixed)  { margin-left: 0; margin-right: 0; width: 100%; } 
-    .container_12 .grid_11.omega:not(.grid_fixed)  { margin-left: 0; margin-right: 0; width: 100%; }
+    /*Core*/
+    .container_12 .grid_11.alpha:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%;}
+    .container_12 .grid_11.alpha:not(.grid_fixed) + .grid_1.omega { margin-left: 0; margin-right: 0; width: 100%;}
+
+    .container_12 .grid_1.alpha:not(.grid_fixed) {margin-left: 0; margin-right: 0; width: 100%; }
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_11,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_10,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_9 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_8 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_7 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_6 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_5 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_4 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_3 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_2 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_1{margin-left: 0; margin-right: 0; width: 100%; }
 
     /*Standard Pattern Matches*/
     .container_12 .grid_1:first-child:nth-last-child(12) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
@@ -388,12 +476,22 @@
 /*14*/
 @media (min-width: 760px) and (max-width: 799px) {
     #resolution::after { content: "760-799"; }
-    .container_12 .grid_1:not(.grid_fixed)  { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_1.alpha:not(.grid_fixed) , 
-    .container_12 .grid_1.omega:not(.grid_fixed)  { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_11:not(.grid_fixed)  { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_11.alpha:not(.grid_fixed) , 
-    .container_12 .grid_11.omega:not(.grid_fixed)  { margin-left: 0; margin-right: 0; width: 100%; }
+    /*Core*/
+    .container_12 .grid_11.alpha:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%;}
+    .container_12 .grid_11.alpha:not(.grid_fixed) + .grid_1.omega { margin-left: 0; margin-right: 0; width: 100%;}
+
+    .container_12 .grid_1.alpha:not(.grid_fixed) {margin-left: 0; margin-right: 0; width: 100%; }
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_11,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_10,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_9 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_8 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_7 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_6 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_5 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_4 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_3 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_2 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_1{margin-left: 0; margin-right: 0; width: 100%; }
 
     /*Standard Pattern Matches*/
     .container_12 .grid_1:first-child:nth-last-child(12) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
@@ -457,13 +555,22 @@
 /*13*/
 @media (min-width: 720px) and (max-width: 759px) {
     #resolution::after { content: "720-759"; }
-    .container_12 .grid_1:not(.grid_fixed)  { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_1.alpha:not(.grid_fixed) ,
-    .container_12 .grid_1.omega:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    
-    .container_12 .grid_11:not(.grid_fixed)  { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_11.alpha:not(.grid_fixed) , 
-    .container_12 .grid_11.omega:not(.grid_fixed)  { margin-left: 0; margin-right: 0; width: 100%; }
+    /*Core*/
+    .container_12 .grid_11.alpha:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%;}
+    .container_12 .grid_11.alpha:not(.grid_fixed) + .grid_1.omega { margin-left: 0; margin-right: 0; width: 100%;}
+
+    .container_12 .grid_1.alpha:not(.grid_fixed) {margin-left: 0; margin-right: 0; width: 100%; }
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_11,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_10,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_9 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_8 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_7 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_6 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_5 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_4 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_3 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_2 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_1{margin-left: 0; margin-right: 0; width: 100%; }
 
     /*Standard Pattern Matches*/
     .container_12 .grid_1:first-child:nth-last-child(12) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
@@ -539,12 +646,21 @@
     #resolution::after { content: "680-719"; }
 
     /*standard*/
-    .container_12 .grid_1:not(.grid_fixed)  { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_1.alpha:not(.grid_fixed) , 
-    .container_12 .grid_1.omega:not(.grid_fixed)  { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_11:not(.grid_fixed)  { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_11.alpha:not(.grid_fixed) , 
-    .container_12 .grid_11.omega:not(.grid_fixed)  { margin-left: 0; margin-right: 0; width: 100%; }
+    .container_12 .grid_11.alpha:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%;}
+    .container_12 .grid_11.alpha:not(.grid_fixed) + .grid_1.omega { margin-left: 0; margin-right: 0; width: 100%;}
+
+    .container_12 .grid_1.alpha:not(.grid_fixed) {margin-left: 0; margin-right: 0; width: 100%; }
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_11,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_10,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_9 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_8 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_7 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_6 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_5 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_4 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_3 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_2 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_1{margin-left: 0; margin-right: 0; width: 100%; }
 
     /*Standard Pattern Matches*/
     .container_12 .grid_1:first-child:nth-last-child(12) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
@@ -626,12 +742,22 @@
 /*11 [6s removed]*/
 @media (min-width: 640px) and (max-width: 679px) {
     #resolution::after { content: "640-679"; }
-
     /*standard*/
-    .container_12 .grid_1:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_1.alpha:not(.grid_fixed), .container_12 .grid_1.omega:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_11:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_11.alpha:not(.grid_fixed), .container_12 .grid_11.omega:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
+    .container_12 .grid_11.alpha:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%;}
+    .container_12 .grid_11.alpha:not(.grid_fixed) + .grid_1.omega { margin-left: 0; margin-right: 0; width: 100%;}
+
+    .container_12 .grid_1.alpha:not(.grid_fixed) {margin-left: 0; margin-right: 0; width: 100%; }
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_11,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_10,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_9 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_8 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_7 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_6 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_5 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_4 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_3 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_2 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_1{margin-left: 0; margin-right: 0; width: 100%; }
 
     /*Standard Pattern Matches*/
     .container_12 .grid_2:first-child:nth-last-child(6) { margin-left: 0; margin-right: 1%; width: 32.33%; }
@@ -738,15 +864,37 @@
 /*10 [5s removed]*/
 @media (min-width: 600px) and (max-width: 639px) {
     #resolution::after { content: "600-639"; }
+    /*standard*/
+    .container_12 .grid_11.alpha:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%;}
+    .container_12 .grid_11.alpha:not(.grid_fixed) + .grid_1.omega { margin-left: 0; margin-right: 0; width: 100%;}
+    .container_12 .grid_10.alpha:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%;}
+    .container_12 .grid_10.alpha:not(.grid_fixed) + .grid_2.omega { margin-left: 0; margin-right: 0; width: 100%;}
 
-    .container_12 .grid_1:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_2:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_10:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_11:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_1.alpha:not(.grid_fixed), .container_12 .grid_1.omega:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_2.alpha:not(.grid_fixed), .container_12 .grid_2.omega:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_10.alpha:not(.grid_fixed), .container_12 .grid_10.omega:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_11.alpha:not(.grid_fixed), .container_12 .grid_11.omega:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
+    .container_12 .grid_1.alpha:not(.grid_fixed) {margin-left: 0; margin-right: 0; width: 100%; }
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_11,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_10,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_9 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_8 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_7 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_6 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_5 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_4 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_3 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_2 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_1{margin-left: 0; margin-right: 0; width: 100%; }
+
+    .container_12 .grid_2.alpha:not(.grid_fixed) {margin-left: 0; margin-right: 0; width: 100%; }
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_10,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_9 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_8 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_7 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_6 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_5 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_4 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_3 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_2 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_1{margin-left: 0; margin-right: 0; width: 100%; }
+
 
     /*Standard Pattern Matches*/
     .container_12 .grid_2:first-child:nth-last-child(6) { margin-left: 0; margin-right: 1%; width: 32.33%; }
@@ -863,15 +1011,35 @@
 @media (min-width: 560px) and (max-width: 599px) {
     #resolution::after { content: "560-599"; }
 
-    .container_12 .grid_1:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_2:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_10:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_11:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_12:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_1.alpha:not(.grid_fixed), .container_12 .grid_1.omega:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_2.alpha:not(.grid_fixed), .container_12 .grid_2.omega:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_10.alpha:not(.grid_fixed), .container_12 .grid_10.omega:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_11.alpha:not(.grid_fixed), .container_12 .grid_11.omega:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
+    .container_12 .grid_11.alpha:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%;}
+    .container_12 .grid_11.alpha:not(.grid_fixed) + .grid_1.omega { margin-left: 0; margin-right: 0; width: 100%;}
+    .container_12 .grid_10.alpha:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%;}
+    .container_12 .grid_10.alpha:not(.grid_fixed) + .grid_2.omega { margin-left: 0; margin-right: 0; width: 100%;}
+
+    .container_12 .grid_1.alpha:not(.grid_fixed) {margin-left: 0; margin-right: 0; width: 100%; }
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_11,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_10,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_9 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_8 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_7 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_6 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_5 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_4 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_3 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_2 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_1{margin-left: 0; margin-right: 0; width: 100%; }
+
+    .container_12 .grid_2.alpha:not(.grid_fixed) {margin-left: 0; margin-right: 0; width: 100%; }
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_10,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_9 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_8 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_7 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_6 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_5 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_4 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_3 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_2 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_1{margin-left: 0; margin-right: 0; width: 100%; }
 
     /*Special Subdivision cases*/
     .container_12 .grid_3:first-child:nth-last-child(4) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
@@ -996,21 +1164,52 @@
 /*8*/
 @media (min-width: 520px) and (max-width: 559px) {
     #resolution::after { content: "520-559"; }
+    /*Core*/
+    .container_12 .grid_11.alpha:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%;}
+    .container_12 .grid_11.alpha:not(.grid_fixed) + .grid_1.omega { margin-left: 0; margin-right: 0; width: 100%;}
+    .container_12 .grid_10.alpha:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%;}
+    .container_12 .grid_10.alpha:not(.grid_fixed) + .grid_2.omega { margin-left: 0; margin-right: 0; width: 100%;}
+    .container_12 .grid_9.alpha:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%;}
+    .container_12 .grid_9.alpha:not(.grid_fixed) + .grid_3.omega { margin-left: 0; margin-right: 0; width: 100%;}
 
-    .container_12 .grid_1:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_2:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_3:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_9:not(.grid_fixed){ margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_10:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_11:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_12:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_1.alpha:not(.grid_fixed), .container_12 .grid_1.omega:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_2.alpha:not(.grid_fixed), .container_12 .grid_2.omega:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_3.omega:not(.grid_fixed), .container_12 .grid_3.alpha:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_9.omega:not(.grid_fixed), .container_12 .grid_9.alpha:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_10.alpha:not(.grid_fixed), .container_12 .grid_10.omega:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_11.alpha:not(.grid_fixed), .container_12 .grid_11.omega:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
+    .container_12 .grid_1.alpha:not(.grid_fixed) {margin-left: 0; margin-right: 0; width: 100%; }
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_11,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_10,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_9 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_8 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_7 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_6 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_5 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_4 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_3 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_2 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_1{margin-left: 0; margin-right: 0; width: 100%; }
 
+    .container_12 .grid_2.alpha:not(.grid_fixed) {margin-left: 0; margin-right: 0; width: 100%; }
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_10,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_9 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_8 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_7 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_6 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_5 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_4 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_3 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_2 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_1{margin-left: 0; margin-right: 0; width: 100%; }
+
+    .container_12 .grid_3.alpha:not(.grid_fixed) {margin-left: 0; margin-right: 0; width: 100%; }
+    .container_12 .grid_3.alpha:not(.grid_fixed) ~ .grid_9 ,
+    .container_12 .grid_3.alpha:not(.grid_fixed) ~ .grid_8 ,
+    .container_12 .grid_3.alpha:not(.grid_fixed) ~ .grid_7 ,
+    .container_12 .grid_3.alpha:not(.grid_fixed) ~ .grid_6 ,
+    .container_12 .grid_3.alpha:not(.grid_fixed) ~ .grid_5 ,
+    .container_12 .grid_3.alpha:not(.grid_fixed) ~ .grid_4 ,
+    .container_12 .grid_3.alpha:not(.grid_fixed) ~ .grid_3 ,
+    .container_12 .grid_3.alpha:not(.grid_fixed) ~ .grid_2 ,
+    .container_12 .grid_3.alpha:not(.grid_fixed) ~ .grid_1{margin-left: 0; margin-right: 0; width: 100%; }
+
+
+    /*Pattern Matches*/
     .container_12 .grid_3:first-child:nth-last-child(4):not(.grid_fixed) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
     .container_12 .grid_3:first-child:nth-last-child(4) ~ .grid_3:nth-child(2):not(.grid_fixed) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
     .container_12 .grid_3:first-child:nth-last-child(4) ~ .grid_3:nth-child(3):not(.grid_fixed) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
@@ -1136,21 +1335,53 @@
 @media (min-width: 480px) and (max-width: 519px) {
     #resolution::after { content: "480-519"; }
 
-    /*do stuff up here this query*/
-    .container_12 .grid_1:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_2:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_3:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_9:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_10:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_11:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_12:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_1.alpha:not(.grid_fixed), .container_12 .grid_1.omega:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_2.alpha:not(.grid_fixed), .container_12 .grid_2.omega:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_3.omega:not(.grid_fixed), .container_12 .grid_3.alpha:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_9.omega:not(.grid_fixed), .container_12 .grid_9.alpha:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_10.alpha:not(.grid_fixed), .container_12 .grid_10.omega:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_11.alpha:not(.grid_fixed), .container_12 .grid_11.omega:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
+     /*Core*/
+    .container_12 .grid_11.alpha:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%;}
+    .container_12 .grid_11.alpha:not(.grid_fixed) + .grid_1.omega { margin-left: 0; margin-right: 0; width: 100%;}
+    .container_12 .grid_10.alpha:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%;}
+    .container_12 .grid_10.alpha:not(.grid_fixed) + .grid_2.omega { margin-left: 0; margin-right: 0; width: 100%;}
+    .container_12 .grid_9.alpha:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%;}
+    .container_12 .grid_9.alpha:not(.grid_fixed) + .grid_3.omega { margin-left: 0; margin-right: 0; width: 100%;}
 
+    .container_12 .grid_1.alpha:not(.grid_fixed) {margin-left: 0; margin-right: 0; width: 100%; }
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_11,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_10,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_9 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_8 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_7 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_6 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_5 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_4 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_3 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_2 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_1{margin-left: 0; margin-right: 0; width: 100%; }
+
+    .container_12 .grid_2.alpha:not(.grid_fixed) {margin-left: 0; margin-right: 0; width: 100%; }
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_10,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_9 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_8 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_7 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_6 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_5 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_4 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_3 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_2 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_1{margin-left: 0; margin-right: 0; width: 100%; }
+
+    .container_12 .grid_3.alpha:not(.grid_fixed) {margin-left: 0; margin-right: 0; width: 100%; }
+    .container_12 .grid_3.alpha:not(.grid_fixed) ~ .grid_9 ,
+    .container_12 .grid_3.alpha:not(.grid_fixed) ~ .grid_8 ,
+    .container_12 .grid_3.alpha:not(.grid_fixed) ~ .grid_7 ,
+    .container_12 .grid_3.alpha:not(.grid_fixed) ~ .grid_6 ,
+    .container_12 .grid_3.alpha:not(.grid_fixed) ~ .grid_5 ,
+    .container_12 .grid_3.alpha:not(.grid_fixed) ~ .grid_4 ,
+    .container_12 .grid_3.alpha:not(.grid_fixed) ~ .grid_3 ,
+    .container_12 .grid_3.alpha:not(.grid_fixed) ~ .grid_2 ,
+    .container_12 .grid_3.alpha:not(.grid_fixed) ~ .grid_1{margin-left: 0; margin-right: 0; width: 100%; }
+
+
+
+    /*Pattern Matches*/
     .container_12 .grid_3:first-child:nth-last-child(4):not(.grid_fixed) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
     .container_12 .grid_3:first-child:nth-last-child(4) ~ .grid_3:nth-child(2):not(.grid_fixed) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
     .container_12 .grid_3:first-child:nth-last-child(4) ~ .grid_3:nth-child(3):not(.grid_fixed) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
@@ -1271,20 +1502,52 @@
 /*6*/
 @media (min-width: 440px) and (max-width: 479px) {
     #resolution::after { content: "440-479"; }
-    .container_12 .grid_1:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_2:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_3:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_9:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_10:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_11:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_12:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_1.alpha:not(.grid_fixed), .container_12 .grid_1.omega:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_2.alpha:not(.grid_fixed), .container_12 .grid_2.omega:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_3.omega:not(.grid_fixed), .container_12 .grid_3.alpha:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_9.omega:not(.grid_fixed), .container_12 .grid_9.alpha:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_10.alpha:not(.grid_fixed), .container_12 .grid_10.omega:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_11.alpha:not(.grid_fixed), .container_12 .grid_11.omega:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
+    /*Core*/
+    .container_12 .grid_11.alpha:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%;}
+    .container_12 .grid_11.alpha:not(.grid_fixed) + .grid_1.omega { margin-left: 0; margin-right: 0; width: 100%;}
+    .container_12 .grid_10.alpha:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%;}
+    .container_12 .grid_10.alpha:not(.grid_fixed) + .grid_2.omega { margin-left: 0; margin-right: 0; width: 100%;}
+    .container_12 .grid_9.alpha:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%;}
+    .container_12 .grid_9.alpha:not(.grid_fixed) + .grid_3.omega { margin-left: 0; margin-right: 0; width: 100%;}
 
+    .container_12 .grid_1.alpha:not(.grid_fixed) {margin-left: 0; margin-right: 0; width: 100%; }
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_11,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_10,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_9 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_8 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_7 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_6 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_5 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_4 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_3 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_2 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_1{margin-left: 0; margin-right: 0; width: 100%; }
+
+    .container_12 .grid_2.alpha:not(.grid_fixed) {margin-left: 0; margin-right: 0; width: 100%; }
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_10,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_9 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_8 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_7 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_6 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_5 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_4 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_3 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_2 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_1{margin-left: 0; margin-right: 0; width: 100%; }
+
+    .container_12 .grid_3.alpha:not(.grid_fixed) {margin-left: 0; margin-right: 0; width: 100%; }
+    .container_12 .grid_3.alpha:not(.grid_fixed) ~ .grid_9 ,
+    .container_12 .grid_3.alpha:not(.grid_fixed) ~ .grid_8 ,
+    .container_12 .grid_3.alpha:not(.grid_fixed) ~ .grid_7 ,
+    .container_12 .grid_3.alpha:not(.grid_fixed) ~ .grid_6 ,
+    .container_12 .grid_3.alpha:not(.grid_fixed) ~ .grid_5 ,
+    .container_12 .grid_3.alpha:not(.grid_fixed) ~ .grid_4 ,
+    .container_12 .grid_3.alpha:not(.grid_fixed) ~ .grid_3 ,
+    .container_12 .grid_3.alpha:not(.grid_fixed) ~ .grid_2 ,
+    .container_12 .grid_3.alpha:not(.grid_fixed) ~ .grid_1{margin-left: 0; margin-right: 0; width: 100%; }
+
+
+    /*Pattern Matches*/
     .container_12 .grid_4:first-child:nth-last-child(3):not(.grid_fixed) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
     .container_12 .grid_4:first-child:nth-last-child(3) ~ .grid_4:nth-child(even):not(.grid_fixed) { clear: left; margin-left: 0%; margin-right: 1%; width: 49%; }
     .container_12 .grid_4:first-child:nth-last-child(3) ~ .grid_4:nth-child(odd):not(.grid_fixed) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
@@ -1388,25 +1651,64 @@
 @media (min-width: 400px) and (max-width: 439px) {
     #resolution::after { content: "400-439"; }
 
-    /*Do stuff here this round*/
-    .container_12 .grid_1:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_2:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_3:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_4:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_8:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_9:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_10:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_11:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_12:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_1.alpha:not(.grid_fixed), .container_12 .grid_1.omega:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_2.alpha:not(.grid_fixed), .container_12 .grid_2.omega:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_3.omega:not(.grid_fixed), .container_12 .grid_3.alpha:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_4.alpha:not(.grid_fixed), .container_12 .grid_4.omega:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_9.omega:not(.grid_fixed), .container_12 .grid_9.alpha:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_8.alpha:not(.grid_fixed), .container_12 .grid_8.omega:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_10.alpha:not(.grid_fixed), .container_12 .grid_10.omega:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_11.alpha:not(.grid_fixed), .container_12 .grid_11.omega:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
+    /*DCore*/
+    .container_12 .grid_11.alpha:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%;}
+    .container_12 .grid_11.alpha:not(.grid_fixed) + .grid_1.omega { margin-left: 0; margin-right: 0; width: 100%;}
+    .container_12 .grid_10.alpha:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%;}
+    .container_12 .grid_10.alpha:not(.grid_fixed) + .grid_2.omega { margin-left: 0; margin-right: 0; width: 100%;}
+    .container_12 .grid_9.alpha:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%;}
+    .container_12 .grid_9.alpha:not(.grid_fixed) + .grid_3.omega { margin-left: 0; margin-right: 0; width: 100%;}
+    .container_12 .grid_8.alpha:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%;}
+    .container_12 .grid_8.alpha:not(.grid_fixed) + .grid_4.omega { margin-left: 0; margin-right: 0; width: 100%;}
 
+    .container_12 .grid_1.alpha:not(.grid_fixed) {margin-left: 0; margin-right: 0; width: 100%; }
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_11,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_10,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_9 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_8 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_7 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_6 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_5 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_4 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_3 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_2 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_1{margin-left: 0; margin-right: 0; width: 100%; }
+
+    .container_12 .grid_2.alpha:not(.grid_fixed) {margin-left: 0; margin-right: 0; width: 100%; }
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_10,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_9 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_8 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_7 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_6 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_5 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_4 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_3 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_2 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_1{margin-left: 0; margin-right: 0; width: 100%; }
+
+    .container_12 .grid_3.alpha:not(.grid_fixed) {margin-left: 0; margin-right: 0; width: 100%; }
+    .container_12 .grid_3.alpha:not(.grid_fixed) ~ .grid_9 ,
+    .container_12 .grid_3.alpha:not(.grid_fixed) ~ .grid_8 ,
+    .container_12 .grid_3.alpha:not(.grid_fixed) ~ .grid_7 ,
+    .container_12 .grid_3.alpha:not(.grid_fixed) ~ .grid_6 ,
+    .container_12 .grid_3.alpha:not(.grid_fixed) ~ .grid_5 ,
+    .container_12 .grid_3.alpha:not(.grid_fixed) ~ .grid_4 ,
+    .container_12 .grid_3.alpha:not(.grid_fixed) ~ .grid_3 ,
+    .container_12 .grid_3.alpha:not(.grid_fixed) ~ .grid_2 ,
+    .container_12 .grid_3.alpha:not(.grid_fixed) ~ .grid_1{margin-left: 0; margin-right: 0; width: 100%; }
+
+    .container_12 .grid_4.alpha:not(.grid_fixed) {margin-left: 0; margin-right: 0; width: 100%; }
+    .container_12 .grid_4.alpha:not(.grid_fixed) ~ .grid_8 ,
+    .container_12 .grid_4.alpha:not(.grid_fixed) ~ .grid_7 ,
+    .container_12 .grid_4.alpha:not(.grid_fixed) ~ .grid_6 ,
+    .container_12 .grid_4.alpha:not(.grid_fixed) ~ .grid_5 ,
+    .container_12 .grid_4.alpha:not(.grid_fixed) ~ .grid_4 ,
+    .container_12 .grid_4.alpha:not(.grid_fixed) ~ .grid_3 ,
+    .container_12 .grid_4.alpha:not(.grid_fixed) ~ .grid_2 ,
+    .container_12 .grid_4.alpha:not(.grid_fixed) ~ .grid_1{margin-left: 0; margin-right: 0; width: 100%; }
+
+
+    /*Pattern Matches*/
     .container_12 .grid_4:first-child:nth-last-child(3) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
     .container_12 .grid_4:first-child:nth-last-child(3) ~ .grid_4:nth-child(even) { clear: left; margin-left: 0%; margin-right: 1%; width: 49%; }
     .container_12 .grid_4:first-child:nth-last-child(3) ~ .grid_4:nth-child(odd) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
@@ -1508,24 +1810,64 @@
     #resolution::after { content: "360-399"; }
 
     /*Core Fluid Widths**/
-    .container_12 .grid_1:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_2:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_3:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_4:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_8:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_9:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_10:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_11:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_12:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_1.alpha:not(.grid_fixed), .container_12 .grid_1.omega:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_2.alpha:not(.grid_fixed), .container_12 .grid_2.omega:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_3.omega:not(.grid_fixed), .container_12 .grid_3.alpha:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_4.alpha:not(.grid_fixed), .container_12 .grid_4.omega:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_9.omega:not(.grid_fixed), .container_12 .grid_9.alpha:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_8.alpha:not(.grid_fixed), .container_12 .grid_8.omega:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_10.alpha:not(.grid_fixed), .container_12 .grid_10.omega:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_11.alpha:not(.grid_fixed), .container_12 .grid_11.omega:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
+    /*DCore*/
+    .container_12 .grid_11.alpha:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%;}
+    .container_12 .grid_11.alpha:not(.grid_fixed) + .grid_1.omega { margin-left: 0; margin-right: 0; width: 100%;}
+    .container_12 .grid_10.alpha:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%;}
+    .container_12 .grid_10.alpha:not(.grid_fixed) + .grid_2.omega { margin-left: 0; margin-right: 0; width: 100%;}
+    .container_12 .grid_9.alpha:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%;}
+    .container_12 .grid_9.alpha:not(.grid_fixed) + .grid_3.omega { margin-left: 0; margin-right: 0; width: 100%;}
+    .container_12 .grid_8.alpha:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%;}
+    .container_12 .grid_8.alpha:not(.grid_fixed) + .grid_4.omega { margin-left: 0; margin-right: 0; width: 100%;}
 
+    .container_12 .grid_1.alpha:not(.grid_fixed) {margin-left: 0; margin-right: 0; width: 100%; }
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_11,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_10,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_9 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_8 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_7 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_6 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_5 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_4 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_3 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_2 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_1{margin-left: 0; margin-right: 0; width: 100%; }
+
+    .container_12 .grid_2.alpha:not(.grid_fixed) {margin-left: 0; margin-right: 0; width: 100%; }
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_10,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_9 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_8 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_7 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_6 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_5 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_4 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_3 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_2 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_1{margin-left: 0; margin-right: 0; width: 100%; }
+
+    .container_12 .grid_3.alpha:not(.grid_fixed) {margin-left: 0; margin-right: 0; width: 100%; }
+    .container_12 .grid_3.alpha:not(.grid_fixed) ~ .grid_9 ,
+    .container_12 .grid_3.alpha:not(.grid_fixed) ~ .grid_8 ,
+    .container_12 .grid_3.alpha:not(.grid_fixed) ~ .grid_7 ,
+    .container_12 .grid_3.alpha:not(.grid_fixed) ~ .grid_6 ,
+    .container_12 .grid_3.alpha:not(.grid_fixed) ~ .grid_5 ,
+    .container_12 .grid_3.alpha:not(.grid_fixed) ~ .grid_4 ,
+    .container_12 .grid_3.alpha:not(.grid_fixed) ~ .grid_3 ,
+    .container_12 .grid_3.alpha:not(.grid_fixed) ~ .grid_2 ,
+    .container_12 .grid_3.alpha:not(.grid_fixed) ~ .grid_1{margin-left: 0; margin-right: 0; width: 100%; }
+
+    .container_12 .grid_4.alpha:not(.grid_fixed) {margin-left: 0; margin-right: 0; width: 100%; }
+    .container_12 .grid_4.alpha:not(.grid_fixed) ~ .grid_8 ,
+    .container_12 .grid_4.alpha:not(.grid_fixed) ~ .grid_7 ,
+    .container_12 .grid_4.alpha:not(.grid_fixed) ~ .grid_6 ,
+    .container_12 .grid_4.alpha:not(.grid_fixed) ~ .grid_5 ,
+    .container_12 .grid_4.alpha:not(.grid_fixed) ~ .grid_4 ,
+    .container_12 .grid_4.alpha:not(.grid_fixed) ~ .grid_3 ,
+    .container_12 .grid_4.alpha:not(.grid_fixed) ~ .grid_2 ,
+    .container_12 .grid_4.alpha:not(.grid_fixed) ~ .grid_1{margin-left: 0; margin-right: 0; width: 100%; }
+
+
+    /*Pattern Matches*/
     .container_12 .grid_4:first-child:nth-last-child(3) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
     .container_12 .grid_4:first-child:nth-last-child(3) ~ .grid_4:nth-child(even) { clear: left; margin-left: 0%; margin-right: 1%; width: 49%; }
     .container_12 .grid_4:first-child:nth-last-child(3) ~ .grid_4:nth-child(odd) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
@@ -1625,29 +1967,75 @@
 @media (min-width: 320px) and (max-width: 359px) {
     #resolution::after { content: "320-359"; }
 
-    /*Core Fluid Widths**/
-    .container_12 .grid_1:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_2:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_3:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_4:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_5:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_7:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_8:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_9:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_10:not(.grid_fixed){ margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_11:not(.grid_fixed){ margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_12:not(.grid_fixed){ margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_1.alpha:not(.grid_fixed), .container_12 .grid_1.omega:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_2.alpha:not(.grid_fixed), .container_12 .grid_2.omega:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_3.omega:not(.grid_fixed), .container_12 .grid_3.alpha:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_4.alpha:not(.grid_fixed), .container_12 .grid_4.omega:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_5.alpha:not(.grid_fixed), .container_12 .grid_5.omega:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_7.alpha:not(.grid_fixed), .container_12 .grid_7.omega:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_8.alpha:not(.grid_fixed), .container_12 .grid_8.omega:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_9.omega:not(.grid_fixed), .container_12 .grid_9.alpha:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_10.alpha:not(.grid_fixed), .container_12 .grid_10.omega:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
-    .container_12 .grid_11.alpha:not(.grid_fixed), .container_12 .grid_11.omega:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%; }
+    /*Core*/
+    .container_12 .grid_11.alpha:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%;}
+    .container_12 .grid_11.alpha:not(.grid_fixed) + .grid_1.omega { margin-left: 0; margin-right: 0; width: 100%;}
+    .container_12 .grid_10.alpha:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%;}
+    .container_12 .grid_10.alpha:not(.grid_fixed) + .grid_2.omega { margin-left: 0; margin-right: 0; width: 100%;}
+    .container_12 .grid_9.alpha:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%;}
+    .container_12 .grid_9.alpha:not(.grid_fixed) + .grid_3.omega { margin-left: 0; margin-right: 0; width: 100%;}
+    .container_12 .grid_8.alpha:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%;}
+    .container_12 .grid_8.alpha:not(.grid_fixed) + .grid_4.omega { margin-left: 0; margin-right: 0; width: 100%;}
+    .container_12 .grid_7.alpha:not(.grid_fixed) { margin-left: 0; margin-right: 0; width: 100%;}
+    .container_12 .grid_7.alpha:not(.grid_fixed) + .grid_5.omega { margin-left: 0; margin-right: 0; width: 100%;}
 
+    .container_12 .grid_1.alpha:not(.grid_fixed) {margin-left: 0; margin-right: 0; width: 100%; }
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_11,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_10,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_9 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_8 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_7 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_6 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_5 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_4 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_3 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_2 ,
+    .container_12 .grid_1.alpha:not(.grid_fixed) ~ .grid_1{margin-left: 0; margin-right: 0; width: 100%; }
+
+    .container_12 .grid_2.alpha:not(.grid_fixed) {margin-left: 0; margin-right: 0; width: 100%; }
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_10,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_9 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_8 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_7 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_6 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_5 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_4 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_3 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_2 ,
+    .container_12 .grid_2.alpha:not(.grid_fixed) ~ .grid_1{margin-left: 0; margin-right: 0; width: 100%; }
+
+    .container_12 .grid_3.alpha:not(.grid_fixed) {margin-left: 0; margin-right: 0; width: 100%; }
+    .container_12 .grid_3.alpha:not(.grid_fixed) ~ .grid_9 ,
+    .container_12 .grid_3.alpha:not(.grid_fixed) ~ .grid_8 ,
+    .container_12 .grid_3.alpha:not(.grid_fixed) ~ .grid_7 ,
+    .container_12 .grid_3.alpha:not(.grid_fixed) ~ .grid_6 ,
+    .container_12 .grid_3.alpha:not(.grid_fixed) ~ .grid_5 ,
+    .container_12 .grid_3.alpha:not(.grid_fixed) ~ .grid_4 ,
+    .container_12 .grid_3.alpha:not(.grid_fixed) ~ .grid_3 ,
+    .container_12 .grid_3.alpha:not(.grid_fixed) ~ .grid_2 ,
+    .container_12 .grid_3.alpha:not(.grid_fixed) ~ .grid_1{margin-left: 0; margin-right: 0; width: 100%; }
+
+    .container_12 .grid_4.alpha:not(.grid_fixed) {margin-left: 0; margin-right: 0; width: 100%; }
+    .container_12 .grid_4.alpha:not(.grid_fixed) ~ .grid_8 ,
+    .container_12 .grid_4.alpha:not(.grid_fixed) ~ .grid_7 ,
+    .container_12 .grid_4.alpha:not(.grid_fixed) ~ .grid_6 ,
+    .container_12 .grid_4.alpha:not(.grid_fixed) ~ .grid_5 ,
+    .container_12 .grid_4.alpha:not(.grid_fixed) ~ .grid_4 ,
+    .container_12 .grid_4.alpha:not(.grid_fixed) ~ .grid_3 ,
+    .container_12 .grid_4.alpha:not(.grid_fixed) ~ .grid_2 ,
+    .container_12 .grid_4.alpha:not(.grid_fixed) ~ .grid_1{margin-left: 0; margin-right: 0; width: 100%; }
+
+    .container_12 .grid_5.alpha:not(.grid_fixed) {margin-left: 0; margin-right: 0; width: 100%; }
+    .container_12 .grid_5.alpha:not(.grid_fixed) ~ .grid_7 ,
+    .container_12 .grid_5.alpha:not(.grid_fixed) ~ .grid_6 ,
+    .container_12 .grid_5.alpha:not(.grid_fixed) ~ .grid_5 ,
+    .container_12 .grid_5.alpha:not(.grid_fixed) ~ .grid_4 ,
+    .container_12 .grid_5.alpha:not(.grid_fixed) ~ .grid_3 ,
+    .container_12 .grid_5.alpha:not(.grid_fixed) ~ .grid_2 ,
+    .container_12 .grid_5.alpha:not(.grid_fixed) ~ .grid_1{margin-left: 0; margin-right: 0; width: 100%; }
+
+
+    /*Pattern Matches*/
     .container_12 .grid_4:first-child:nth-last-child(3) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
     .container_12 .grid_4:first-child:nth-last-child(3) ~ .grid_4:nth-child(even) { clear: left; margin-left: 0%; margin-right: 1%; width: 49%; }
     .container_12 .grid_4:first-child:nth-last-child(3) ~ .grid_4:nth-child(odd) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
@@ -1779,8 +2167,8 @@
 .omega.grid_fixed ~ .grid_auto { background-color: peru; }
 .grid_fixed ~ .grid_auto .brick { background-color: aquamarine; }
 
-/*debuggin yo*/
-
 .alpha ~ .omega .brick { background-color: yellow; }
 .omega ~ .alpha .brick { background-color: yellowgreen; }
+
+.grid_1 { background-color: blue}
 
