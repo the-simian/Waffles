@@ -3,20 +3,20 @@
 
 
 
-.grid_1 .brick { background-color: #FF6699; }
-.grid_2 .brick { background-color: #E85DA2; }
-.grid_3 .brick { background-color: #D153AC; }
-.grid_4 .brick { background-color: #B94AB5; }
-.grid_5 .brick { background-color: #A241BE; }
-.grid_6 .brick { background-color: #8B38C7; }
-.grid_7 .brick { background-color: #742ED1; }
-.grid_8 .brick { background-color: #5D25DA; }
-.grid_9 .brick { background-color: #461CE3; }
-.grid_10 .brick { background-color: #2E13EC; }
-.grid_11 .brick { background-color: #1709F6; }
-.grid_12 .brick { background-color: #0000FF; }
+.grid_1 > .brick { background-color: #FF6699; }
+.grid_2 > .brick { background-color: #E85DA2; }
+.grid_3 > .brick { background-color: #D153AC; }
+.grid_4 > .brick { background-color: #B94AB5; }
+.grid_5 > .brick { background-color: #A241BE; }
+.grid_6 > .brick { background-color: #8B38C7; }
+.grid_7 > .brick { background-color: #742ED1; }
+.grid_8 > .brick { background-color: #5D25DA; }
+.grid_9 > .brick { background-color: #461CE3; }
+.grid_10 >.brick { background-color: #2E13EC; }
+.grid_11 >.brick { background-color: #1709F6; }
+.grid_12 > .brick { background-color: #0000FF; }
 
-.grid_auto .brick { background-color: aqua; }
+.grid_auto > .brick { background-color: aqua; }
 
 
 .omega > .brick { background-color: yellow; }
