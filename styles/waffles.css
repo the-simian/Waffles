@@ -18,8 +18,8 @@
 
    /* .container_12  .grid_auto > .alpha.omega { clear: none; background-color:yellow} */
     
-    .container_12  .grid_auto >  .alpha { clear: none; clear: none; background-color:purple}
-    .container_12  .grid_auto  > .omega { clear: none; clear: none; background-color:purple}
+    .container_12  .grid_auto >  .alpha { clear: none; clear: none;}
+    .container_12  .grid_auto  > .omega { clear: none; clear: none;}
 
     /*Core Fluid Widths**/
     .container_12 .grid_1 { width: 6.333%; }
@@ -2159,16 +2159,7 @@
 }
 
 
-/*DEBUGA LUGGIN*/
 
-.brick { -webkit-transition: height 0.25s ease; background-color: lightgrey; background-image: -webkit-repeating-linear-gradient(120deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, .1) 1px, transparent 1px, transparent 60px), -webkit-repeating-linear-gradient(60deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, .1) 1px, transparent 1px, transparent 60px), -webkit-linear-gradient(60deg, rgba(0, 0, 0, .1) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, .1) 75%, rgba(0, 0, 0, .1)), -webkit-linear-gradient(120deg, rgba(0, 0, 0, .1) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, .1) 75%, rgba(0, 0, 0, .1)); background-size: 35px 60px; border: 1px gray dotted; font-family: calibri; font-size: 10px; height: 12px; opacity: 0.65; width: auto; }
-.alpha.omega .brick { background-color: papayawhip; }
-.alpha.grid_fixed ~ .grid_auto { background-color: lightskyblue; }
-.omega.grid_fixed ~ .grid_auto { background-color: peru; }
-.grid_fixed ~ .grid_auto .brick { background-color: aquamarine; }
 
-.alpha ~ .omega .brick { background-color: yellow; }
-.omega ~ .alpha .brick { background-color: yellowgreen; }
 
-.grid_1 { background-color: blue}
 
