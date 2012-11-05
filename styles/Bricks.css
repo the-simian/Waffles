@@ -21,3 +21,92 @@
 
 .omega > .brick { background-color: yellow; }
 .alpha > .brick { background-color: yellowgreen; }
+
+
+#resolution { color: darkslategray; display: block; font-size: 30px; left: 2.5%; opacity: 0.7; position: fixed; top: 2.5%; }
+
+/*xx-large*/
+@media (min-width: 1680px) {
+    #resolution::after { content: "1680 +"; }
+}
+
+/*x-Large*/
+@media (min-width: 1280px) and (max-width: 1679px) {
+    #resolution::after { content: "1280-1679"; }
+}
+
+/*Large*/
+@media (min-width: 1024px) and (max-width: 1279px) {
+    #resolution::after { content: "1024-1279"; }
+    
+}
+
+@media (min-width: 993px) and (max-width: 1023px) {
+    #resolution::after { content: "993-1023"; }
+
+
+}
+
+@media (min-width: 960px) and (max-width: 992px) {
+    #resolution::after { content: "960-992"; }
+}
+
+@media (min-width: 920px) and (max-width: 959px) {
+     #resolution::after { content: "920-959"; }
+}
+
+@media (min-width: 880px) and (max-width: 919px) {
+    #resolution::after { content: "880-919"; }
+}
+
+
+@media (min-width: 840px) and (max-width: 879px) {
+    #resolution::after { content: "840-879"; }
+}
+
+@media (min-width: 800px) and (max-width: 839px) {
+    #resolution::after { content: "800-839"; }
+}
+
+@media (min-width: 760px) and (max-width: 799px) {
+    #resolution::after { content: "760-799"; }
+}
+@media (min-width: 720px) and (max-width: 759px) {
+    #resolution::after { content: "720-759"; }
+}
+@media (min-width: 680px) and (max-width: 719px) {
+    #resolution::after { content: "680-719"; }
+}
+@media (min-width: 640px) and (max-width: 679px) {
+    #resolution::after { content: "640-679"; }
+}
+@media (min-width: 600px) and (max-width: 639px) {
+    #resolution::after { content: "600-639"; }
+}
+
+@media (min-width: 560px) and (max-width: 599px) {
+    #resolution::after { content: "560-599"; }
+}
+@media (min-width: 520px) and (max-width: 559px) {
+    #resolution::after { content: "520-559"; }
+}
+@media (min-width: 480px) and (max-width: 519px) {
+    #resolution::after { content: "480-519"; }
+}
+@media (min-width: 440px) and (max-width: 479px) {
+    #resolution::after { content: "440-479"; }
+}
+@media (min-width: 400px) and (max-width: 439px) {
+    #resolution::after { content: "400-439"; }
+}
+
+@media (min-width: 360px) and (max-width: 399px) {
+    #resolution::after { content: "360-399"; }
+}
+
+@media (min-width: 320px) and (max-width: 359px) {
+    #resolution::after { content: "320-359"; }
+}
+@media (min-width: 0px) and (max-width: 319px) {
+    #resolution::after { content: "280-319"; }
+}
