@@ -3,24 +3,24 @@
 
 
 
-.grid_1 > .brick { background-color: #FF6699; }
-.grid_2 > .brick { background-color: #E85DA2; }
-.grid_3 > .brick { background-color: #D153AC; }
-.grid_4 > .brick { background-color: #B94AB5; }
-.grid_5 > .brick { background-color: #A241BE; }
-.grid_6 > .brick { background-color: #8B38C7; }
-.grid_7 > .brick { background-color: #742ED1; }
-.grid_8 > .brick { background-color: #5D25DA; }
-.grid_9 > .brick { background-color: #461CE3; }
-.grid_10 >.brick { background-color: #2E13EC; }
-.grid_11 >.brick { background-color: #1709F6; }
-.grid_12 > .brick { background-color: #0000FF; }
+.w-1 > .brick { background-color: #FF6699; }
+.w-2 > .brick { background-color: #E85DA2; }
+.w-3 > .brick { background-color: #D153AC; }
+.w-4 > .brick { background-color: #B94AB5; }
+.w-5 > .brick { background-color: #A241BE; }
+.w-6 > .brick { background-color: #8B38C7; }
+.w-7 > .brick { background-color: #742ED1; }
+.w-8 > .brick { background-color: #5D25DA; }
+.w-9 > .brick { background-color: #461CE3; }
+.w-10 >.brick { background-color: #2E13EC; }
+.w-11 >.brick { background-color: #1709F6; }
+.w-12 > .brick { background-color: #0000FF; }
 
-.grid_auto > .brick { background-color: aqua; }
+.w-auto > .brick { background-color: aqua; }
 
 
-.omega > .brick { background-color: yellow; }
-.alpha > .brick { background-color: yellowgreen; }
+.w-omega > .brick { background-color: yellow; }
+.w-alpha > .brick { background-color: yellowgreen; }
 
 
 #resolution { color: darkslategray; display: block; font-size: 30px; left: 2.5%; opacity: 0.7; position: fixed; top: 2.5%; }
