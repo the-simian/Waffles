@@ -1,6 +1,6 @@
 ﻿.brick { -webkit-transition: height 0.25s ease; background-color: lightgrey; background-image: -webkit-repeating-linear-gradient(120deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, .1) 1px, transparent 1px, transparent 60px), -webkit-repeating-linear-gradient(60deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, .1) 1px, transparent 1px, transparent 60px), -webkit-linear-gradient(60deg, rgba(0, 0, 0, .1) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, .1) 75%, rgba(0, 0, 0, .1)), -webkit-linear-gradient(120deg, rgba(0, 0, 0, .1) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, .1) 75%, rgba(0, 0, 0, .1)); background-size: 35px 60px; border: 1px gray dotted; font-family: calibri; font-size: 10px; height: 12px; width: auto; }
 
-
+.brick-icon {background-color:aqua}
 
 
 .w-1 > .brick { background-color: #FF6699; }

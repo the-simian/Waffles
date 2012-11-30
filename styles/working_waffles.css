@@ -2,7 +2,7 @@
     /*Waffles by Jesse Harlin*/
     .waffles { margin-left: auto; margin-right: auto; max-width: 100%; min-width: 240px; width: 98%; }
 
-    .w-1, .w-2, .w-3, .w-4, .w-5, .w-6, .w-7, .w-8, .w-9, .w-10, .w-11, .w-12, .w-13, .w-14, .w-15, .w-16, .grid_oneFifth, .w-100p, .w-auto, .w-autogroup { display: block; float: left; margin-left: 1%; margin-right: 1%; position: static; }
+    .w-1, .w-2, .w-3, .w-4, .w-5, .w-6, .w-7, .w-8, .w-9, .w-10, .w-11, .w-12, .w-auto  { display: block; float: left; margin-left: 1%; margin-right: 1%; position: static; }
 
     .waffles .w-alpha { margin-left: 0; }
     .waffles .w-omega { margin-right: 0; }
@@ -262,6 +262,7 @@
     .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-9 ~ .w-auto{ margin-left: 0px; clear:left}
     .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-9 ~ .w-auto.w-alpha{ margin-left: 0px; }
     
+
     .waffles .w-fix:first-child:nth-last-child(3).w-alpha.w-3.w-pair-8 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
     .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-8 ~ .w-auto{ margin-left: 0px; clear:left}
     .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-8 ~ .w-auto.w-alpha{ margin-left: 0px; }
