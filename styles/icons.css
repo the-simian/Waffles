@@ -14,6 +14,19 @@
 .ui-icon-64 { font-size: 64px; height: 64px; width: 64px; }
 
 
+
+
+
+/*debuggin prosef*/
+.ui-icon{ background-color: blue; color:red}
+.ui-icon-24 { background-color: orange; color:blue }
+              
+.ui-icon-32 { background-color: green; color:yellow }
+             
+.ui-icon-48 { background-color: white; color:black }
+             
+.ui-icon-64 { background-color: red; color:yellow }
+
 /*Icon Font Decorators*/
 .ui-icon-decorator-dropShadow { text-shadow: 0 2px 3px #343434; }
 
