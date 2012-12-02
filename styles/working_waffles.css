@@ -15,7 +15,7 @@
 
    /* .waffles  .w-auto > .w-alpha.w-omega { clear: none; background-color:yellow} */
     
-    .waffles  .w-auto >  .w-alpha { clear: none; clear: none;}
+    .waffles  .w-auto > .w-alpha { clear: none; clear: none;}
     .waffles  .w-auto > .w-omega { clear: none; clear: none;}
 
     /*Core Fluid Widths**/
@@ -80,17 +80,17 @@
     .waffles .w-auto:first-child:nth-last-child(9) ~ .w-auto { width: 9.111%; }
     .waffles .w-auto:first-child:nth-last-child(9) ~ .w-auto:last-child { margin-right: 0%; width: 10.111%; }
 
-    .waffles .w-auto:first-child:nth-last-child(10) { margin-left: 0; width: 9.005%; }
+    .waffles .w-auto:first-child:nth-last-child(10) { margin-left: 0; width: 8.99%; }
     .waffles .w-auto:first-child:nth-last-child(10) ~ .w-auto { width: 8%; }
-    .waffles .w-auto:first-child:nth-last-child(10) ~ .w-auto:last-child { margin-right: 0%; width: 9.005%; }
+    .waffles .w-auto:first-child:nth-last-child(10) ~ .w-auto:last-child { margin-right: 0%; width: 8.99%; }
 
     .waffles .w-auto:first-child:nth-last-child(11) { margin-left: 0; width: 8.09%; }
     .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto { width: 7.091%; }
     .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:last-child { margin-right: 0%; width: 8.091%; }
 
-    .waffles .w-auto:first-child:nth-last-child(12) { margin-left: 0; width: 7.334%; }
+    .waffles .w-auto:first-child:nth-last-child(12) { margin-left: 0; width: 7.332%; }
     .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto { width: 6.334%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:last-child { margin-right: 0%; width: 7.334%; }
+    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:last-child { margin-right: 0%; width: 7.332%; }
 
     /*fixed stuff*/
     .waffles .w-1.w-fix.w-alpha,
@@ -194,33 +194,32 @@
 
 }
 
-
 @media (min-width: 960px) and (max-width: 992px) {
 
 
 
 }
 
-
-
 @media (min-width: 920px) and (max-width: 959px) {
 
     /*Standard: Repeat Pattern Matches*/
-    .waffles .w-1:first-child:nth-last-child(12) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1 { margin-left: 1%; margin-right: 1%; width: 14.666%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(7) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
+    .waffles :not(.w-fix) > .w-1:first-child:nth-last-child(12) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
+    .waffles :not(.w-fix) > .w-1:first-child:nth-last-child(12) ~ .w-1 { margin-left: 1%; margin-right: 1%; width: 14.666%; }
+    .waffles :not(.w-fix) > .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
+    .waffles :not(.w-fix) > .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(7) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
+    .waffles :not(.w-fix) > .w-1:first-child:nth-last-child(12) ~ .w-1:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
 
     /*Auto*/
-    .waffles .w-auto:first-child:nth-last-child(12) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 14.666%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(7) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 14.666%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(7) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
 
-
+    /*Fixed*/
     
+    
+        
 }
 
 @media (min-width: 880px) and (max-width: 919px) {
@@ -245,20 +244,19 @@
 
 
     /*Standard: Repeat Pattern Matches*/
-    .waffles .w-1:first-child:nth-last-child(12) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1 { margin-left: 1%; margin-right: 1%; width: 14.666%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(7) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-1:first-child:nth-last-child(12) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-1:first-child:nth-last-child(12) ~ .w-1 { margin-left: 1%; margin-right: 1%; width: 14.666%; }
+    .waffles  :not(.w-fix) > .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(7) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-1:first-child:nth-last-child(12) ~ .w-1:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
 
     /*Auto*/
-    .waffles .w-auto:first-child:nth-last-child(12) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 14.666%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(7) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 14.666%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(7) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
 
-   
 }
 
 
@@ -282,25 +280,25 @@
     .waffles .w-1.w-alpha:not(.w-fix) ~ .w-1{margin-left: 0; margin-right: 0; width: 100%; }
 
     /*Standard: Repeat Pattern Matches*/
-    .waffles .w-1:first-child:nth-last-child(12) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1 { margin-left: 1%; margin-right: 1%; width: 14.666%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(7) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-1:first-child:nth-last-child(12) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-1:first-child:nth-last-child(12) ~ .w-1 { margin-left: 1%; margin-right: 1%; width: 14.666%; }
+    .waffles  :not(.w-fix) > .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(7) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-1:first-child:nth-last-child(12) ~ .w-1:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
 
      /*Auto*/
-    .waffles .w-auto:first-child:nth-last-child(11) { clear: left; margin-left: 0%; margin-right: 1%; width: 19%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto { width: 18%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(5) { clear: right; margin-left: 1%; margin-right: 0%; width: 19%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(6) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(6) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 14.666%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(6) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) { clear: left; margin-left: 0%; margin-right: 1%; width: 19%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) ~ .w-auto { width: 18%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(5) { clear: right; margin-left: 1%; margin-right: 0%; width: 19%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(6) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(6) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 14.666%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(6) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
 
-    .waffles .w-auto:first-child:nth-last-child(12) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 14.666%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(7) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 14.666%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(7) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
 
     
 }
@@ -325,31 +323,31 @@
     .waffles .w-1.w-alpha:not(.w-fix) ~ .w-1{margin-left: 0; margin-right: 0; width: 100%; }
 
     /*Standard Pattern Matches*/
-    .waffles .w-1:first-child:nth-last-child(12) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1 { margin-left: 1%; margin-right: 1%; width: 14.666%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(7) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-1:first-child:nth-last-child(12) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-1:first-child:nth-last-child(12) ~ .w-1 { margin-left: 1%; margin-right: 1%; width: 14.666%; }
+    .waffles  :not(.w-fix) > .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(7) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-1:first-child:nth-last-child(12) ~ .w-1:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
 
     /*auto*/
-    .waffles .w-auto:first-child:nth-last-child(10) { clear: left; margin-left: 0%; margin-right: 1%; width: 19%; }
-    .waffles .w-auto:first-child:nth-last-child(10) ~ .w-auto { width: 18%; }
-    .waffles .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(5) { clear: right; margin-left: 1%; margin-right: 0%; width: 19%; }
-    .waffles .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(6) { clear: left; margin-left: 0%; margin-right: 1%; width: 19%; }
-    .waffles .w-auto:first-child:nth-last-child(10) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 19%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(10) { clear: left; margin-left: 0%; margin-right: 1%; width: 19%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(10) ~ .w-auto { width: 18%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(5) { clear: right; margin-left: 1%; margin-right: 0%; width: 19%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(6) { clear: left; margin-left: 0%; margin-right: 1%; width: 19%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(10) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 19%; }
 
-    .waffles .w-auto:first-child:nth-last-child(11) { clear: left; margin-left: 0%; margin-right: 1%; width: 19%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto { width: 18%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(5) { clear: right; margin-left: 1%; margin-right: 0%; width: 19%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(6) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(6) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 14.666%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(6) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) { clear: left; margin-left: 0%; margin-right: 1%; width: 19%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) ~ .w-auto { width: 18%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(5) { clear: right; margin-left: 1%; margin-right: 0%; width: 19%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(6) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(6) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 14.666%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(6) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
 
-    .waffles .w-auto:first-child:nth-last-child(12) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 14.666%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(7) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 14.666%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(7) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
 
    
 }
@@ -374,40 +372,39 @@
     .waffles .w-1.w-alpha:not(.w-fix) ~ .w-1{margin-left: 0; margin-right: 0; width: 100%; }
 
     /*Standard Pattern Matches*/
-    .waffles .w-1:first-child:nth-last-child(12) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1 { margin-left: 1%; margin-right: 1%; width: 14.666%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(7) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-1:first-child:nth-last-child(12) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-1:first-child:nth-last-child(12) ~ .w-1 { margin-left: 1%; margin-right: 1%; width: 14.666%; }
+    .waffles  :not(.w-fix) > .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(7) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-1:first-child:nth-last-child(12) ~ .w-1:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
 
     /*auto*/
-    .waffles .w-auto:first-child:nth-last-child(9) { clear: left; margin-left: 0%; margin-right: 1%; width: 24%; }
-    .waffles .w-auto:first-child:nth-last-child(9) ~ .w-auto { width: 23%; }
-    .waffles .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(4) { clear: right; margin-left: 1%; margin-right: 0%; width: 24%; }
-    .waffles .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(5) { clear: left; margin-left: 0%; margin-right: 1%; width: 19%; }
-    .waffles .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(5) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 18%; }
-    .waffles .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(5) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 19%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(9) { clear: left; margin-left: 0%; margin-right: 1%; width: 24%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(9) ~ .w-auto { width: 23%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(4) { clear: right; margin-left: 1%; margin-right: 0%; width: 24%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(5) { clear: left; margin-left: 0%; margin-right: 1%; width: 19%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(5) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 18%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(5) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 19%; }
 
-    .waffles .w-auto:first-child:nth-last-child(10) { clear: left; margin-left: 0%; margin-right: 1%; width: 19%; }
-    .waffles .w-auto:first-child:nth-last-child(10) ~ .w-auto { width: 18%; }
-    .waffles .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(5) { clear: right; margin-left: 1%; margin-right: 0%; width: 19%; }
-    .waffles .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(6) { clear: left; margin-left: 0%; margin-right: 1%; width: 19%; }
-    .waffles .w-auto:first-child:nth-last-child(10) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 19%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(10) { clear: left; margin-left: 0%; margin-right: 1%; width: 19%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(10) ~ .w-auto { width: 18%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(5) { clear: right; margin-left: 1%; margin-right: 0%; width: 19%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(6) { clear: left; margin-left: 0%; margin-right: 1%; width: 19%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(10) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 19%; }
 
-    .waffles .w-auto:first-child:nth-last-child(11) { clear: left; margin-left: 0%; margin-right: 1%; width: 19%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto { width: 18%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(5) { clear: right; margin-left: 1%; margin-right: 0%; width: 19%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(6) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(6) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 14.666%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(6) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) { clear: left; margin-left: 0%; margin-right: 1%; width: 19%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) ~ .w-auto { width: 18%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(5) { clear: right; margin-left: 1%; margin-right: 0%; width: 19%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(6) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(6) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 14.666%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(6) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
 
-    .waffles .w-auto:first-child:nth-last-child(12) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 14.666%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(7) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 14.666%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(7) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
 
-   
 }
 
 @media (min-width: 720px) and (max-width: 759px) {
@@ -430,44 +427,44 @@
     .waffles .w-1.w-alpha:not(.w-fix) ~ .w-1{margin-left: 0; margin-right: 0; width: 100%; }
 
     /*Standard Pattern Matches*/
-    .waffles .w-1:first-child:nth-last-child(12) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1 { margin-left: 1%; margin-right: 1%; width: 14.666%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(7) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-1:first-child:nth-last-child(12) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-1:first-child:nth-last-child(12) ~ .w-1 { margin-left: 1%; margin-right: 1%; width: 14.666%; }
+    .waffles  :not(.w-fix) > .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(7) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-1:first-child:nth-last-child(12) ~ .w-1:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
 
     /*auto*/
-    .waffles .w-auto:first-child:nth-last-child(8) { clear: left; margin-left: 0%; margin-right: 1%; width: 24%; }
-    .waffles .w-auto:first-child:nth-last-child(8) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 23%; }
-    .waffles .w-auto:first-child:nth-last-child(8) ~ .w-auto:nth-child(4) { clear: right; margin-left: 1%; margin-right: 0%; width: 24%; }
-    .waffles .w-auto:first-child:nth-last-child(8) ~ .w-auto:nth-child(5) { clear: left; margin-left: 0%; margin-right: 1%; width: 24%; }
-    .waffles .w-auto:first-child:nth-last-child(8) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 24%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(8) { clear: left; margin-left: 0%; margin-right: 1%; width: 24%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(8) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 23%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(8) ~ .w-auto:nth-child(4) { clear: right; margin-left: 1%; margin-right: 0%; width: 24%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(8) ~ .w-auto:nth-child(5) { clear: left; margin-left: 0%; margin-right: 1%; width: 24%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(8) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 24%; }
 
-    .waffles .w-auto:first-child:nth-last-child(9) { clear: left; margin-left: 0%; margin-right: 1%; width: 24%; }
-    .waffles .w-auto:first-child:nth-last-child(9) ~ .w-auto { width: 23%; }
-    .waffles .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(4) { clear: right; margin-left: 1%; margin-right: 0%; width: 24%; }
-    .waffles .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(5) { clear: left; margin-left: 0%; margin-right: 1%; width: 19%; }
-    .waffles .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(5) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 18%; }
-    .waffles .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(5) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 19%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(9) { clear: left; margin-left: 0%; margin-right: 1%; width: 24%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(9) ~ .w-auto { width: 23%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(4) { clear: right; margin-left: 1%; margin-right: 0%; width: 24%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(5) { clear: left; margin-left: 0%; margin-right: 1%; width: 19%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(5) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 18%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(5) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 19%; }
 
-    .waffles .w-auto:first-child:nth-last-child(10) { clear: left; margin-left: 0%; margin-right: 1%; width: 19%; }
-    .waffles .w-auto:first-child:nth-last-child(10) ~ .w-auto { width: 18%; }
-    .waffles .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(5) { clear: right; margin-left: 1%; margin-right: 0%; width: 19%; }
-    .waffles .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(6) { clear: left; margin-left: 0%; margin-right: 1%; width: 19%; }
-    .waffles .w-auto:first-child:nth-last-child(10) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 19%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(10) { clear: left; margin-left: 0%; margin-right: 1%; width: 19%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(10) ~ .w-auto { width: 18%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(5) { clear: right; margin-left: 1%; margin-right: 0%; width: 19%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(6) { clear: left; margin-left: 0%; margin-right: 1%; width: 19%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(10) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 19%; }
 
-    .waffles .w-auto:first-child:nth-last-child(11) { clear: left; margin-left: 0%; margin-right: 1%; width: 19%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto { width: 18%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(5) { clear: right; margin-left: 1%; margin-right: 0%; width: 19%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(6) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(6) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 14.666%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(6) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) { clear: left; margin-left: 0%; margin-right: 1%; width: 19%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) ~ .w-auto { width: 18%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(5) { clear: right; margin-left: 1%; margin-right: 0%; width: 19%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(6) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(6) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 14.666%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(6) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
 
-    .waffles .w-auto:first-child:nth-last-child(12) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 14.666%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(7) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 14.666%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(7) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
 
     
 }
@@ -492,51 +489,51 @@
     .waffles .w-1.w-alpha:not(.w-fix) ~ .w-1{margin-left: 0; margin-right: 0; width: 100%; }
 
     /*Standard Pattern Matches*/
-    .waffles .w-1:first-child:nth-last-child(12) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1 { margin-left: 1%; margin-right: 1%; width: 14.666%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(7) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-1:first-child:nth-last-child(12) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-1:first-child:nth-last-child(12) ~ .w-1 { margin-left: 1%; margin-right: 1%; width: 14.666%; }
+    .waffles  :not(.w-fix) > .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(7) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-1:first-child:nth-last-child(12) ~ .w-1:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
 
     /*auto*/
-    .waffles .w-auto:first-child:nth-last-child(7) { clear: left; margin-left: 0; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(7) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 31.33%; }
-    .waffles .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(3) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(4) { clear: left; margin-left: 0%; margin-right: 1%; width: 24%; }
-    .waffles .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(4) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 23%; }
-    .waffles .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(4) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 24%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(7) { clear: left; margin-left: 0; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(7) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 31.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(3) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(4) { clear: left; margin-left: 0%; margin-right: 1%; width: 24%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(4) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 23%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(4) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 24%; }
 
-    .waffles .w-auto:first-child:nth-last-child(8) { clear: left; margin-left: 0%; margin-right: 1%; width: 24%; }
-    .waffles .w-auto:first-child:nth-last-child(8) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 23%; }
-    .waffles .w-auto:first-child:nth-last-child(8) ~ .w-auto:nth-child(4) { clear: right; margin-left: 1%; margin-right: 0%; width: 24%; }
-    .waffles .w-auto:first-child:nth-last-child(8) ~ .w-auto:nth-child(5) { clear: left; margin-left: 0%; margin-right: 1%; width: 24%; }
-    .waffles .w-auto:first-child:nth-last-child(8) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 24%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(8) { clear: left; margin-left: 0%; margin-right: 1%; width: 24%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(8) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 23%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(8) ~ .w-auto:nth-child(4) { clear: right; margin-left: 1%; margin-right: 0%; width: 24%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(8) ~ .w-auto:nth-child(5) { clear: left; margin-left: 0%; margin-right: 1%; width: 24%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(8) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 24%; }
 
-    .waffles .w-auto:first-child:nth-last-child(9) { clear: left; margin-left: 0%; margin-right: 1%; width: 24%; }
-    .waffles .w-auto:first-child:nth-last-child(9) ~ .w-auto { width: 23%; }
-    .waffles .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(4) { clear: right; margin-left: 1%; margin-right: 0%; width: 24%; }
-    .waffles .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(5) { clear: left; margin-left: 0%; margin-right: 1%; width: 19%; }
-    .waffles .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(5) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 18%; }
-    .waffles .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(5) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 19%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(9) { clear: left; margin-left: 0%; margin-right: 1%; width: 24%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(9) ~ .w-auto { width: 23%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(4) { clear: right; margin-left: 1%; margin-right: 0%; width: 24%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(5) { clear: left; margin-left: 0%; margin-right: 1%; width: 19%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(5) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 18%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(5) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 19%; }
 
-    .waffles .w-auto:first-child:nth-last-child(10) { clear: left; margin-left: 0%; margin-right: 1%; width: 19%; }
-    .waffles .w-auto:first-child:nth-last-child(10) ~ .w-auto { width: 18%; }
-    .waffles .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(5) { clear: right; margin-left: 1%; margin-right: 0%; width: 19%; }
-    .waffles .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(6) { clear: left; margin-left: 0%; margin-right: 1%; width: 19%; }
-    .waffles .w-auto:first-child:nth-last-child(10) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 19%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(10) { clear: left; margin-left: 0%; margin-right: 1%; width: 19%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(10) ~ .w-auto { width: 18%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(5) { clear: right; margin-left: 1%; margin-right: 0%; width: 19%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(6) { clear: left; margin-left: 0%; margin-right: 1%; width: 19%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(10) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 19%; }
 
-    .waffles .w-auto:first-child:nth-last-child(11) { clear: left; margin-left: 0%; margin-right: 1%; width: 19%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto { width: 18%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(5) { clear: right; margin-left: 1%; margin-right: 0%; width: 19%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(6) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(6) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 14.666%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(6) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) { clear: left; margin-left: 0%; margin-right: 1%; width: 19%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) ~ .w-auto { width: 18%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(5) { clear: right; margin-left: 1%; margin-right: 0%; width: 19%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(6) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(6) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 14.666%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(6) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
 
-    .waffles .w-auto:first-child:nth-last-child(12) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 14.666%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(7) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 14.666%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(7) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
 
 
 }
@@ -561,73 +558,73 @@
     .waffles .w-1.w-alpha:not(.w-fix) ~ .w-1{margin-left: 0; margin-right: 0; width: 100%; }
 
     /*Standard Pattern Matches*/
-    .waffles .w-2:first-child:nth-last-child(6) { margin-left: 0; margin-right: 1%; width: 32.33%; }
-    .waffles .w-2:first-child:nth-last-child(6) ~ .w-2 { margin-left: 1%; margin-right: 1%; width: 31.33%; }
-    .waffles .w-2:first-child:nth-last-child(6) ~ .w-2:nth-child(3) { margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-2:first-child:nth-last-child(6) ~ .w-2:nth-child(4) { margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-2:first-child:nth-last-child(6) ~ .w-2:last-child { margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-2:first-child:nth-last-child(6) { margin-left: 0; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-2:first-child:nth-last-child(6) ~ .w-2 { margin-left: 1%; margin-right: 1%; width: 31.33%; }
+    .waffles  :not(.w-fix) > .w-2:first-child:nth-last-child(6) ~ .w-2:nth-child(3) { margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-2:first-child:nth-last-child(6) ~ .w-2:nth-child(4) { margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-2:first-child:nth-last-child(6) ~ .w-2:last-child { margin-left: 1%; margin-right: 0%; width: 32.33%; }
 
-    .waffles .w-1:first-child:nth-last-child(12) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1 { margin-left: 1%; margin-right: 1%; width: 31.33%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(3) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(4) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(7) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(9) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(10) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-1:first-child:nth-last-child(12) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-1:first-child:nth-last-child(12) ~ .w-1 { margin-left: 1%; margin-right: 1%; width: 31.33%; }
+    .waffles  :not(.w-fix) > .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(3) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(4) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(7) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(9) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(10) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-1:first-child:nth-last-child(12) ~ .w-1:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
 
     /*auto*/
-    .waffles .w-auto:first-child:nth-last-child(6) { margin-left: 0; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(6) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 31.33%; }
-    .waffles .w-auto:first-child:nth-last-child(6) ~ .w-auto:nth-child(3) { margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(6) ~ .w-auto:nth-child(4) { margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(6) ~ .w-auto:last-child { margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(6) { margin-left: 0; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(6) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 31.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(6) ~ .w-auto:nth-child(3) { margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(6) ~ .w-auto:nth-child(4) { margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(6) ~ .w-auto:last-child { margin-left: 1%; margin-right: 0%; width: 32.33%; }
 
-    .waffles .w-auto:first-child:nth-last-child(7) { clear: left; margin-left: 0; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(7) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 31.33%; }
-    .waffles .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(3) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(4) { clear: left; margin-left: 0%; margin-right: 1%; width: 24%; }
-    .waffles .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(4) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 23%; }
-    .waffles .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(4) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 24%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(7) { clear: left; margin-left: 0; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(7) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 31.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(3) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(4) { clear: left; margin-left: 0%; margin-right: 1%; width: 24%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(4) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 23%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(4) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 24%; }
 
-    .waffles .w-auto:first-child:nth-last-child(8) { clear: left; margin-left: 0%; margin-right: 1%; width: 24%; }
-    .waffles .w-auto:first-child:nth-last-child(8) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 23%; }
-    .waffles .w-auto:first-child:nth-last-child(8) ~ .w-auto:nth-child(4) { clear: right; margin-left: 1%; margin-right: 0%; width: 24%; }
-    .waffles .w-auto:first-child:nth-last-child(8) ~ .w-auto:nth-child(5) { clear: left; margin-left: 0%; margin-right: 1%; width: 24%; }
-    .waffles .w-auto:first-child:nth-last-child(8) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 24%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(8) { clear: left; margin-left: 0%; margin-right: 1%; width: 24%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(8) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 23%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(8) ~ .w-auto:nth-child(4) { clear: right; margin-left: 1%; margin-right: 0%; width: 24%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(8) ~ .w-auto:nth-child(5) { clear: left; margin-left: 0%; margin-right: 1%; width: 24%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(8) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 24%; }
 
-    .waffles .w-auto:first-child:nth-last-child(9) { clear: left; margin-left: 0%; margin-right: 1%; width: 24%; }
-    .waffles .w-auto:first-child:nth-last-child(9) ~ .w-auto { width: 23%; }
-    .waffles .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(4) { clear: right; margin-left: 1%; margin-right: 0%; width: 24%; }
-    .waffles .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(5) { clear: left; margin-left: 0%; margin-right: 1%; width: 19%; }
-    .waffles .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(5) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 18%; }
-    .waffles .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(5) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 19%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(9) { clear: left; margin-left: 0%; margin-right: 1%; width: 24%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(9) ~ .w-auto { width: 23%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(4) { clear: right; margin-left: 1%; margin-right: 0%; width: 24%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(5) { clear: left; margin-left: 0%; margin-right: 1%; width: 19%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(5) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 18%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(5) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 19%; }
 
-    .waffles .w-auto:first-child:nth-last-child(10) { clear: left; margin-left: 0%; margin-right: 1%; width: 19%; }
-    .waffles .w-auto:first-child:nth-last-child(10) ~ .w-auto { width: 18%; }
-    .waffles .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(5) { clear: right; margin-left: 1%; margin-right: 0%; width: 19%; }
-    .waffles .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(6) { clear: left; margin-left: 0%; margin-right: 1%; width: 19%; }
-    .waffles .w-auto:first-child:nth-last-child(10) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 19%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(10) { clear: left; margin-left: 0%; margin-right: 1%; width: 19%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(10) ~ .w-auto { width: 18%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(5) { clear: right; margin-left: 1%; margin-right: 0%; width: 19%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(6) { clear: left; margin-left: 0%; margin-right: 1%; width: 19%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(10) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 19%; }
 
-    .waffles .w-auto:first-child:nth-last-child(11) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 23%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 24%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(2) { margin-left: 1%; margin-right: 1%; width: 31.33%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(3) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(4) { clear: left; margin-left: 0%; margin-right: 1%; width: 24%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(7) { clear: right; margin-left: 1%; margin-right: 0%; width: 24%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(8) { clear: left; margin-left: 0%; margin-right: 1%; width: 24%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 23%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 24%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(2) { margin-left: 1%; margin-right: 1%; width: 31.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(3) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(4) { clear: left; margin-left: 0%; margin-right: 1%; width: 24%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(7) { clear: right; margin-left: 1%; margin-right: 0%; width: 24%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(8) { clear: left; margin-left: 0%; margin-right: 1%; width: 24%; }
 
-    .waffles .w-auto:first-child:nth-last-child(12) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 31.33%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(3) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(4) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(7) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(9) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(10) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 31.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(3) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(4) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(7) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(9) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(10) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
 
   
 }
@@ -667,83 +664,83 @@
 
 
     /*Standard Pattern Matches*/
-    .waffles .w-2:first-child:nth-last-child(6) { margin-left: 0; margin-right: 1%; width: 32.33%; }
-    .waffles .w-2:first-child:nth-last-child(6) ~ .w-2 { margin-left: 1%; margin-right: 1%; width: 31.33%; }
-    .waffles .w-2:first-child:nth-last-child(6) ~ .w-2:nth-child(3) { margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-2:first-child:nth-last-child(6) ~ .w-2:nth-child(4) { margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-2:first-child:nth-last-child(6) ~ .w-2:last-child { margin-left: 1%; margin-right: 0%; width: 32.33%; }
-
-    .waffles .w-1:first-child:nth-last-child(12) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1 { margin-left: 1%; margin-right: 1%; width: 31.33%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(3) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(4) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(7) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(9) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(10) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-2:first-child:nth-last-child(6) { margin-left: 0; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-2:first-child:nth-last-child(6) ~ .w-2 { margin-left: 1%; margin-right: 1%; width: 31.33%; }
+    .waffles  :not(.w-fix) > .w-2:first-child:nth-last-child(6) ~ .w-2:nth-child(3) { margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-2:first-child:nth-last-child(6) ~ .w-2:nth-child(4) { margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-2:first-child:nth-last-child(6) ~ .w-2:last-child { margin-left: 1%; margin-right: 0%; width: 32.33%; }
+              
+    .waffles  :not(.w-fix) > .w-1:first-child:nth-last-child(12) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-1:first-child:nth-last-child(12) ~ .w-1 { margin-left: 1%; margin-right: 1%; width: 31.33%; }
+    .waffles  :not(.w-fix) > .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(3) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(4) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(7) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(9) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(10) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-1:first-child:nth-last-child(12) ~ .w-1:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
 
     /*Special Subdivision cases*/
-    .waffles .w-auto:first-child:nth-last-child(5) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(5) ~ .w-auto:nth-child(2) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(5) ~ .w-auto:nth-child(3) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(5) ~ .w-auto:nth-child(4) { margin-left: 1%; margin-right: 1%; width: 31.33%; }
-    .waffles .w-auto:first-child:nth-last-child(5) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-
-    .waffles .w-auto:first-child:nth-last-child(6) { margin-left: 0; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(6) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 31.33%; }
-    .waffles .w-auto:first-child:nth-last-child(6) ~ .w-auto:nth-child(3) { margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(6) ~ .w-auto:nth-child(4) { margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(6) ~ .w-auto:last-child { margin-left: 1%; margin-right: 0%; width: 32.33%; }
-
-    .waffles .w-auto:first-child:nth-last-child(7) { clear: left; margin-left: 0; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(7) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 31.33%; }
-    .waffles .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(3) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(4) { clear: left; margin-left: 0%; margin-right: 1%; width: 24%; }
-    .waffles .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(4) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 23%; }
-    .waffles .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(4) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 24%; }
-
-    .waffles .w-auto:first-child:nth-last-child(8) { clear: left; margin-left: 0%; margin-right: 1%; width: 24%; }
-    .waffles .w-auto:first-child:nth-last-child(8) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 23%; }
-    .waffles .w-auto:first-child:nth-last-child(8) ~ .w-auto:nth-child(4) { clear: right; margin-left: 1%; margin-right: 0%; width: 24%; }
-    .waffles .w-auto:first-child:nth-last-child(8) ~ .w-auto:nth-child(5) { clear: left; margin-left: 0%; margin-right: 1%; width: 24%; }
-    .waffles .w-auto:first-child:nth-last-child(8) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 24%; }
-
-    .waffles .w-auto:first-child:nth-last-child(9) { clear: left; margin-left: 0; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(9) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 31.33%; }
-    .waffles .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(3) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(4) { clear: left; margin-left: 0; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(7) { clear: left; margin-left: 0; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(9) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-
-    .waffles .w-auto:first-child:nth-last-child(10) { clear: left; margin-left: 0; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(10) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 31.33%; }
-    .waffles .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(3) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(4) { clear: left; margin-left: 0; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(7) { clear: left; margin-left: 0%; margin-right: 1%; width: 24%; }
-    .waffles .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(7) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 23%; }
-    .waffles .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(7) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 24%; }
-
-    .waffles .w-auto:first-child:nth-last-child(11) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 23%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 24%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(2) { margin-left: 1%; margin-right: 1%; width: 31.33%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(3) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(4) { clear: left; margin-left: 0%; margin-right: 1%; width: 24%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(7) { clear: right; margin-left: 1%; margin-right: 0%; width: 24%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(8) { clear: left; margin-left: 0%; margin-right: 1%; width: 24%; }
-
-    .waffles .w-auto:first-child:nth-last-child(12) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 31.33%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(3) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(4) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(7) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(9) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(10) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(5) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(5) ~ .w-auto:nth-child(2) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(5) ~ .w-auto:nth-child(3) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(5) ~ .w-auto:nth-child(4) { margin-left: 1%; margin-right: 1%; width: 31.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(5) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+        
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(6) { margin-left: 0; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(6) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 31.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(6) ~ .w-auto:nth-child(3) { margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(6) ~ .w-auto:nth-child(4) { margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(6) ~ .w-auto:last-child { margin-left: 1%; margin-right: 0%; width: 32.33%; }
+            
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(7) { clear: left; margin-left: 0; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(7) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 31.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(3) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(4) { clear: left; margin-left: 0%; margin-right: 1%; width: 24%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(4) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 23%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(4) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 24%; }
+      
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(8) { clear: left; margin-left: 0%; margin-right: 1%; width: 24%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(8) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 23%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(8) ~ .w-auto:nth-child(4) { clear: right; margin-left: 1%; margin-right: 0%; width: 24%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(8) ~ .w-auto:nth-child(5) { clear: left; margin-left: 0%; margin-right: 1%; width: 24%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(8) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 24%; }
+          
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(9) { clear: left; margin-left: 0; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(9) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 31.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(3) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(4) { clear: left; margin-left: 0; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(7) { clear: left; margin-left: 0; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(9) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+             
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(10) { clear: left; margin-left: 0; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(10) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 31.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(3) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(4) { clear: left; margin-left: 0; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(7) { clear: left; margin-left: 0%; margin-right: 1%; width: 24%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(7) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 23%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(7) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 24%; }
+            
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 23%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 24%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(2) { margin-left: 1%; margin-right: 1%; width: 31.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(3) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(4) { clear: left; margin-left: 0%; margin-right: 1%; width: 24%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(7) { clear: right; margin-left: 1%; margin-right: 0%; width: 24%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(8) { clear: left; margin-left: 0%; margin-right: 1%; width: 24%; }
+              
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 31.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(3) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(4) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(7) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(9) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(10) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
 
     
     
@@ -783,88 +780,88 @@
     .waffles .w-2.w-alpha:not(.w-fix) ~ .w-1{margin-left: 0; margin-right: 0; width: 100%; }
 
     /*Special Subdivision cases*/
-    .waffles .w-3:first-child:nth-last-child(4) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-3:first-child:nth-last-child(4) ~ .w-3:nth-child(2) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-    .waffles .w-3:first-child:nth-last-child(4) ~ .w-3:nth-child(3) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-3:first-child:nth-last-child(4) ~ .w-3:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-
-    .waffles .w-2:first-child:nth-last-child(6) { margin-left: 0; margin-right: 1%; width: 32.33%; }
-    .waffles .w-2:first-child:nth-last-child(6) ~ .w-2 { margin-left: 1%; margin-right: 1%; width: 31.33%; }
-    .waffles .w-2:first-child:nth-last-child(6) ~ .w-2:nth-child(3) { margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-2:first-child:nth-last-child(6) ~ .w-2:nth-child(4) { margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-2:first-child:nth-last-child(6) ~ .w-2:last-child { margin-left: 1%; margin-right: 0%; width: 32.33%; }
-
-    .waffles .w-1:first-child:nth-last-child(12) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1 { margin-left: 1%; margin-right: 1%; width: 31.33%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(3) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(4) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(7) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(9) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(10) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) >  .w-3:first-child:nth-last-child(4) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-3:first-child:nth-last-child(4) ~ .w-3:nth-child(2) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-3:first-child:nth-last-child(4) ~ .w-3:nth-child(3) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-3:first-child:nth-last-child(4) ~ .w-3:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+              
+    .waffles  :not(.w-fix) >  .w-2:first-child:nth-last-child(6) { margin-left: 0; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) >  .w-2:first-child:nth-last-child(6) ~ .w-2 { margin-left: 1%; margin-right: 1%; width: 31.33%; }
+    .waffles  :not(.w-fix) >  .w-2:first-child:nth-last-child(6) ~ .w-2:nth-child(3) { margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) >  .w-2:first-child:nth-last-child(6) ~ .w-2:nth-child(4) { margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) >  .w-2:first-child:nth-last-child(6) ~ .w-2:last-child { margin-left: 1%; margin-right: 0%; width: 32.33%; }
+               
+    .waffles  :not(.w-fix) >  .w-1:first-child:nth-last-child(12) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) >  .w-1:first-child:nth-last-child(12) ~ .w-1 { margin-left: 1%; margin-right: 1%; width: 31.33%; }
+    .waffles  :not(.w-fix) >  .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(3) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) >  .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(4) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) >  .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) >  .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(7) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) >  .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(9) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) >  .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(10) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) >  .w-1:first-child:nth-last-child(12) ~ .w-1:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
     
     /*Auto*/
-    .waffles .w-auto:first-child:nth-last-child(4) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(4) ~ .w-auto:nth-child(2) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(4) ~ .w-auto:nth-child(3) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(4) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-
-    .waffles .w-auto:first-child:nth-last-child(5) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(5) ~ .w-auto:nth-child(2) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(5) ~ .w-auto:nth-child(3) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(5) ~ .w-auto:nth-child(4) { margin-left: 1%; margin-right: 1%; width: 31.33%; }
-    .waffles .w-auto:first-child:nth-last-child(5) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-
-    .waffles .w-auto:first-child:nth-last-child(6) { margin-left: 0; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(6) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 31.33%; }
-    .waffles .w-auto:first-child:nth-last-child(6) ~ .w-auto:nth-child(3) { margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(6) ~ .w-auto:nth-child(4) { margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(6) ~ .w-auto:last-child { margin-left: 1%; margin-right: 0%; width: 32.33%; }
-
-    .waffles .w-auto:first-child:nth-last-child(7) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(2) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(3) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(4) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(5) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(6) { margin-left: 1%; margin-right: 1%; width: 31.33%; }
-    .waffles .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(7) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-
-    .waffles .w-auto:first-child:nth-last-child(8) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(8) ~ .w-auto:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(8) ~ .w-auto:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-
-    .waffles .w-auto:first-child:nth-last-child(9) { clear: left; margin-left: 0; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(9) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 31.33%; }
-    .waffles .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(3) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(4) { clear: left; margin-left: 0; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(7) { clear: left; margin-left: 0; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(9) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-
-    .waffles .w-auto:first-child:nth-last-child(10) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-
-    .waffles .w-auto:first-child:nth-last-child(11) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 31.33%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(2) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(3) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(5) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(6) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(8) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(9) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
-
-    .waffles .w-auto:first-child:nth-last-child(12) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 31.33%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(3) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(4) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(7) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(9) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(10) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(4) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(4) ~ .w-auto:nth-child(2) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(4) ~ .w-auto:nth-child(3) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(4) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+           
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(5) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(5) ~ .w-auto:nth-child(2) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(5) ~ .w-auto:nth-child(3) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(5) ~ .w-auto:nth-child(4) { margin-left: 1%; margin-right: 1%; width: 31.33%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(5) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(6) { margin-left: 0; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(6) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 31.33%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(6) ~ .w-auto:nth-child(3) { margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(6) ~ .w-auto:nth-child(4) { margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(6) ~ .w-auto:last-child { margin-left: 1%; margin-right: 0%; width: 32.33%; }
+           
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(7) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(2) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(3) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(4) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(5) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(6) { margin-left: 1%; margin-right: 1%; width: 31.33%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(7) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+             
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(8) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(8) ~ .w-auto:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(8) ~ .w-auto:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+             
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(9) { clear: left; margin-left: 0; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(9) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 31.33%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(3) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(4) { clear: left; margin-left: 0; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(7) { clear: left; margin-left: 0; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(9) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+              
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(10) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+             
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(11) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(11) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 31.33%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(11) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(2) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(3) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(5) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(6) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(8) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(9) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
+            
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(12) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(12) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 31.33%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(3) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(4) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(7) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(9) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(10) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(12) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
 
     
 }
@@ -916,88 +913,88 @@
 
 
     /*Pattern Matches*/
-    .waffles .w-3:first-child:nth-last-child(4):not(.w-fix) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-3:first-child:nth-last-child(4) ~ .w-3:nth-child(2):not(.w-fix) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-    .waffles .w-3:first-child:nth-last-child(4) ~ .w-3:nth-child(3):not(.w-fix) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-3:first-child:nth-last-child(4) ~ .w-3:last-child:not(.w-fix) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-
-    .waffles .w-2:first-child:nth-last-child(6):not(.w-fix) { margin-left: 0; margin-right: 1%; width: 32.33%; }
-    .waffles .w-2:first-child:nth-last-child(6) ~ .w-2 { margin-left: 1%; margin-right: 1%; width: 31.33%; }
-    .waffles .w-2:first-child:nth-last-child(6) ~ .w-2:nth-child(3):not(.w-fix) { margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-2:first-child:nth-last-child(6) ~ .w-2:nth-child(4):not(.w-fix) { margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-2:first-child:nth-last-child(6) ~ .w-2:last-child:not(.w-fix) { margin-left: 1%; margin-right: 0%; width: 32.33%; }
-
-    .waffles .w-1:first-child:nth-last-child(12):not(.w-fix) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1:not(.w-fix) { margin-left: 1%; margin-right: 1%; width: 31.33%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(3):not(.w-fix) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(4):not(.w-fix) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(6):not(.w-fix) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(7):not(.w-fix) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(9):not(.w-fix) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(10):not(.w-fix) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1:last-child:not(.w-fix) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) >  .w-3:first-child:nth-last-child(4):not(.w-fix) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-3:first-child:nth-last-child(4) ~ .w-3:nth-child(2):not(.w-fix) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-3:first-child:nth-last-child(4) ~ .w-3:nth-child(3):not(.w-fix) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-3:first-child:nth-last-child(4) ~ .w-3:last-child:not(.w-fix) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+          
+    .waffles  :not(.w-fix) >  .w-2:first-child:nth-last-child(6):not(.w-fix) { margin-left: 0; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) >  .w-2:first-child:nth-last-child(6) ~ .w-2 { margin-left: 1%; margin-right: 1%; width: 31.33%; }
+    .waffles  :not(.w-fix) >  .w-2:first-child:nth-last-child(6) ~ .w-2:nth-child(3):not(.w-fix) { margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) >  .w-2:first-child:nth-last-child(6) ~ .w-2:nth-child(4):not(.w-fix) { margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) >  .w-2:first-child:nth-last-child(6) ~ .w-2:last-child:not(.w-fix) { margin-left: 1%; margin-right: 0%; width: 32.33%; }
+                
+    .waffles  :not(.w-fix) >  .w-1:first-child:nth-last-child(12):not(.w-fix) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) >  .w-1:first-child:nth-last-child(12) ~ .w-1:not(.w-fix) { margin-left: 1%; margin-right: 1%; width: 31.33%; }
+    .waffles  :not(.w-fix) >  .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(3):not(.w-fix) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) >  .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(4):not(.w-fix) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) >  .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(6):not(.w-fix) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) >  .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(7):not(.w-fix) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) >  .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(9):not(.w-fix) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) >  .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(10):not(.w-fix) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) >  .w-1:first-child:nth-last-child(12) ~ .w-1:last-child:not(.w-fix) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
 
     /*auto*/
-    .waffles .w-auto:first-child:nth-last-child(4) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(4) ~ .w-auto:nth-child(2) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(4) ~ .w-auto:nth-child(3) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(4) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-
-    .waffles .w-auto:first-child:nth-last-child(5) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(5) ~ .w-auto:nth-child(2) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(5) ~ .w-auto:nth-child(3) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(5) ~ .w-auto:nth-child(4) { margin-left: 1%; margin-right: 1%; width: 31.33%; }
-    .waffles .w-auto:first-child:nth-last-child(5) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-
-    .waffles .w-auto:first-child:nth-last-child(6) { margin-left: 0; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(6) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 31.33%; }
-    .waffles .w-auto:first-child:nth-last-child(6) ~ .w-auto:nth-child(3) { margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(6) ~ .w-auto:nth-child(4) { margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(6) ~ .w-auto:last-child { margin-left: 1%; margin-right: 0%; width: 32.33%; }
-
-    .waffles .w-auto:first-child:nth-last-child(7) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(2) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(3) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(4) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(5) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(6) { margin-left: 1%; margin-right: 1%; width: 31.33%; }
-    .waffles .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(7) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-
-    .waffles .w-auto:first-child:nth-last-child(8) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(8) ~ .w-auto:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(8) ~ .w-auto:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-
-    .waffles .w-auto:first-child:nth-last-child(9) { clear: left; margin-left: 0; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(9) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 31.33%; }
-    .waffles .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(3) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(4) { clear: left; margin-left: 0; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(7) { clear: left; margin-left: 0; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(9) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-
-    .waffles .w-auto:first-child:nth-last-child(10) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-
-    .waffles .w-auto:first-child:nth-last-child(11) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 31.33%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(2) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(3) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(5) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(6) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(8) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(9) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
-
-    .waffles .w-auto:first-child:nth-last-child(12) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 31.33%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(3) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(4) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(7) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(9) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(10) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(4) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(4) ~ .w-auto:nth-child(2) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(4) ~ .w-auto:nth-child(3) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(4) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+             
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(5) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(5) ~ .w-auto:nth-child(2) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(5) ~ .w-auto:nth-child(3) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(5) ~ .w-auto:nth-child(4) { margin-left: 1%; margin-right: 1%; width: 31.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(5) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+             
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(6) { margin-left: 0; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(6) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 31.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(6) ~ .w-auto:nth-child(3) { margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(6) ~ .w-auto:nth-child(4) { margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(6) ~ .w-auto:last-child { margin-left: 1%; margin-right: 0%; width: 32.33%; }
+             
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(7) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(2) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(3) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(4) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(5) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(6) { margin-left: 1%; margin-right: 1%; width: 31.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(7) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+             
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(8) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(8) ~ .w-auto:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(8) ~ .w-auto:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+           
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(9) { clear: left; margin-left: 0; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(9) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 31.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(3) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(4) { clear: left; margin-left: 0; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(7) { clear: left; margin-left: 0; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(9) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+              
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(10) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+             
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 31.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(2) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(3) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(5) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(6) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(8) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(9) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
+           
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 31.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(3) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(4) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(7) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(9) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(10) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
 
     
 
@@ -1050,80 +1047,80 @@
     .waffles .w-3.w-alpha:not(.w-fix) ~ .w-1{margin-left: 0; margin-right: 0; width: 100%; }
 
     /*Pattern Matches*/
-    .waffles .w-3:first-child:nth-last-child(4):not(.w-fix) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-3:first-child:nth-last-child(4) ~ .w-3:nth-child(2):not(.w-fix) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-    .waffles .w-3:first-child:nth-last-child(4) ~ .w-3:nth-child(3):not(.w-fix) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-3:first-child:nth-last-child(4) ~ .w-3:last-child:not(.w-fix) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-
-    .waffles .w-2:first-child:nth-last-child(6):not(.w-fix) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-2:first-child:nth-last-child(6) ~ .w-2:nth-child(even):not(.w-fix) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-    .waffles .w-2:first-child:nth-last-child(6) ~ .w-2:nth-child(odd):not(.w-fix) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-
-    .waffles .w-1:first-child:nth-last-child(12):not(.w-fix) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(even):not(.w-fix) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(odd):not(.w-fix) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-3:first-child:nth-last-child(4):not(.w-fix) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-3:first-child:nth-last-child(4) ~ .w-3:nth-child(2):not(.w-fix) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-3:first-child:nth-last-child(4) ~ .w-3:nth-child(3):not(.w-fix) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-3:first-child:nth-last-child(4) ~ .w-3:last-child:not(.w-fix) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+            
+    .waffles  :not(.w-fix) > .w-2:first-child:nth-last-child(6):not(.w-fix) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-2:first-child:nth-last-child(6) ~ .w-2:nth-child(even):not(.w-fix) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-2:first-child:nth-last-child(6) ~ .w-2:nth-child(odd):not(.w-fix) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+             
+    .waffles  :not(.w-fix) > .w-1:first-child:nth-last-child(12):not(.w-fix) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(even):not(.w-fix) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(odd):not(.w-fix) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
 
     /*auto*/
-    .waffles .w-auto:first-child:nth-last-child(4) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(4) ~ .w-auto:nth-child(2) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(4) ~ .w-auto:nth-child(3) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(4) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-
-    .waffles .w-auto:first-child:nth-last-child(5) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(5) ~ .w-auto:nth-child(2) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(5) ~ .w-auto:nth-child(3) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(5) ~ .w-auto:nth-child(4) { margin-left: 1%; margin-right: 1%; width: 31.33%; }
-    .waffles .w-auto:first-child:nth-last-child(5) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-
-    .waffles .w-auto:first-child:nth-last-child(6) { margin-left: 0; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(6) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 31.33%; }
-    .waffles .w-auto:first-child:nth-last-child(6) ~ .w-auto:nth-child(3) { margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(6) ~ .w-auto:nth-child(4) { margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(6) ~ .w-auto:last-child { margin-left: 1%; margin-right: 0%; width: 32.33%; }
-
-    .waffles .w-auto:first-child:nth-last-child(7) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(2) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(3) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(4) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(5) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(6) { margin-left: 1%; margin-right: 1%; width: 31.33%; }
-    .waffles .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(7) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-
-    .waffles .w-auto:first-child:nth-last-child(8) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(8) ~ .w-auto:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(8) ~ .w-auto:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-
-    .waffles .w-auto:first-child:nth-last-child(9) { clear: left; margin-left: 0; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(9) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 31.33%; }
-    .waffles .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(3) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(4) { clear: left; margin-left: 0; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(7) { clear: left; margin-left: 0; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(9) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-
-    .waffles .w-auto:first-child:nth-last-child(10) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-
-    .waffles .w-auto:first-child:nth-last-child(11) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 31.33%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(2) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(3) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(5) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(6) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(8) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(9) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
-
-    .waffles .w-auto:first-child:nth-last-child(12) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 31.33%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(3) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(4) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(7) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(9) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(10) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(4) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(4) ~ .w-auto:nth-child(2) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(4) ~ .w-auto:nth-child(3) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(4) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+            
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(5) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(5) ~ .w-auto:nth-child(2) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(5) ~ .w-auto:nth-child(3) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(5) ~ .w-auto:nth-child(4) { margin-left: 1%; margin-right: 1%; width: 31.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(5) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+           
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(6) { margin-left: 0; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(6) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 31.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(6) ~ .w-auto:nth-child(3) { margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(6) ~ .w-auto:nth-child(4) { margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(6) ~ .w-auto:last-child { margin-left: 1%; margin-right: 0%; width: 32.33%; }
+              
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(7) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(2) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(3) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(4) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(5) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(6) { margin-left: 1%; margin-right: 1%; width: 31.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(7) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+            
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(8) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(8) ~ .w-auto:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(8) ~ .w-auto:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+            
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(9) { clear: left; margin-left: 0; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(9) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 31.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(3) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(4) { clear: left; margin-left: 0; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(7) { clear: left; margin-left: 0; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(9) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+        
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(10) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+              
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 31.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(2) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(3) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(5) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(6) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(8) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(9) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
+           
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto { margin-left: 1%; margin-right: 1%; width: 31.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(3) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(4) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(7) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(9) { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(10) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
 
    
     
@@ -1177,62 +1174,62 @@
 
 
     /*Pattern Matches*/
-    .waffles .w-4:first-child:nth-last-child(3):not(.w-fix) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
-    .waffles .w-4:first-child:nth-last-child(3) ~ .w-4:nth-child(even):not(.w-fix) { clear: left; margin-left: 0%; margin-right: 1%; width: 49%; }
-    .waffles .w-4:first-child:nth-last-child(3) ~ .w-4:nth-child(odd):not(.w-fix) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-
-    .waffles .w-3:first-child:nth-last-child(4):not(.w-fix) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-3:first-child:nth-last-child(4) ~ .w-3:nth-child(even):not(.w-fix) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-    .waffles .w-3:first-child:nth-last-child(4) ~ .w-3:nth-child(odd):not(.w-fix) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-
-    .waffles .w-2:first-child:nth-last-child(6):not(.w-fix) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-2:first-child:nth-last-child(6) ~ .w-2:nth-child(even):not(.w-fix) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-    .waffles .w-2:first-child:nth-last-child(6) ~ .w-2:nth-child(odd):not(.w-fix) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-
-    .waffles .w-1:first-child:nth-last-child(12):not(.w-fix) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(even):not(.w-fix) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-    .waffles .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(odd):not(.w-fix) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-4:first-child:nth-last-child(3):not(.w-fix) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
+    .waffles  :not(.w-fix) > .w-4:first-child:nth-last-child(3) ~ .w-4:nth-child(even):not(.w-fix) { clear: left; margin-left: 0%; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-4:first-child:nth-last-child(3) ~ .w-4:nth-child(odd):not(.w-fix) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+              
+    .waffles  :not(.w-fix) > .w-3:first-child:nth-last-child(4):not(.w-fix) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-3:first-child:nth-last-child(4) ~ .w-3:nth-child(even):not(.w-fix) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-3:first-child:nth-last-child(4) ~ .w-3:nth-child(odd):not(.w-fix) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+              
+    .waffles  :not(.w-fix) > .w-2:first-child:nth-last-child(6):not(.w-fix) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-2:first-child:nth-last-child(6) ~ .w-2:nth-child(even):not(.w-fix) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-2:first-child:nth-last-child(6) ~ .w-2:nth-child(odd):not(.w-fix) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+             
+    .waffles  :not(.w-fix) > .w-1:first-child:nth-last-child(12):not(.w-fix) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(even):not(.w-fix) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-1:first-child:nth-last-child(12) ~ .w-1:nth-child(odd):not(.w-fix) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
 
     /*Auto*/
-    .waffles .w-auto:first-child:nth-last-child(3) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
-    .waffles .w-auto:first-child:nth-last-child(3) ~ .w-auto:nth-child(even) { clear: left; margin-left: 0%; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(3) ~ .w-auto:nth-child(odd) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-
-    .waffles .w-auto:first-child:nth-last-child(4) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(4) ~ .w-auto:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(4) ~ .w-auto:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-
-    .waffles .w-auto:first-child:nth-last-child(5) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
-    .waffles .w-auto:first-child:nth-last-child(5) ~ .w-auto:nth-child(even) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(5) ~ .w-auto:nth-child(odd) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-
-    .waffles .w-auto:first-child:nth-last-child(6) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(6) ~ .w-auto:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(6) ~ .w-auto:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-
-    .waffles .w-auto:first-child:nth-last-child(7) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
-    .waffles .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(even) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(odd) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-
-    .waffles .w-auto:first-child:nth-last-child(8) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(8) ~ .w-auto:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(8) ~ .w-auto:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-
-    .waffles .w-auto:first-child:nth-last-child(9) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
-    .waffles .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(even) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(odd) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-
-    .waffles .w-auto:first-child:nth-last-child(10) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-
-    .waffles .w-auto:first-child:nth-last-child(11) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(even) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(odd) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-
-    .waffles .w-auto:first-child:nth-last-child(12) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(3) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(3) ~ .w-auto:nth-child(even) { clear: left; margin-left: 0%; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(3) ~ .w-auto:nth-child(odd) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+         
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(4) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(4) ~ .w-auto:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(4) ~ .w-auto:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+             
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(5) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(5) ~ .w-auto:nth-child(even) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(5) ~ .w-auto:nth-child(odd) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+            
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(6) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(6) ~ .w-auto:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(6) ~ .w-auto:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+          
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(7) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(even) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(odd) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+              
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(8) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(8) ~ .w-auto:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(8) ~ .w-auto:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+             
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(9) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(even) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(odd) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+              
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(10) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+              
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(even) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(odd) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+              
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
     
 
 }
@@ -1297,58 +1294,58 @@
 
 
     /*Pattern Matches*/
-    .waffles .w-4:first-child:nth-last-child(3) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
-    .waffles .w-4:first-child:nth-last-child(3) ~ .w-4:nth-child(even) { clear: left; margin-left: 0%; margin-right: 1%; width: 49%; }
-    .waffles .w-4:first-child:nth-last-child(3) ~ .w-4:nth-child(odd) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-
-    .waffles .w-3:first-child:nth-last-child(4) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-3:first-child:nth-last-child(4) ~ .w-3:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-    .waffles .w-3:first-child:nth-last-child(4) ~ .w-3:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-
-    .waffles .w-2:first-child:nth-last-child(6) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-2:first-child:nth-last-child(6) ~ .w-2:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-    .waffles .w-2:first-child:nth-last-child(6) ~ .w-2:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-4:first-child:nth-last-child(3) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
+    .waffles  :not(.w-fix) >  .w-4:first-child:nth-last-child(3) ~ .w-4:nth-child(even) { clear: left; margin-left: 0%; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-4:first-child:nth-last-child(3) ~ .w-4:nth-child(odd) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+                
+    .waffles  :not(.w-fix) >  .w-3:first-child:nth-last-child(4) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-3:first-child:nth-last-child(4) ~ .w-3:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-3:first-child:nth-last-child(4) ~ .w-3:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+               
+    .waffles  :not(.w-fix) >  .w-2:first-child:nth-last-child(6) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-2:first-child:nth-last-child(6) ~ .w-2:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-2:first-child:nth-last-child(6) ~ .w-2:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
 
     /*Auto*/
-    .waffles .w-auto:first-child:nth-last-child(3) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
-    .waffles .w-auto:first-child:nth-last-child(3) ~ .w-auto:nth-child(even) { clear: left; margin-left: 0%; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(3) ~ .w-auto:nth-child(odd) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-
-    .waffles .w-auto:first-child:nth-last-child(4) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(4) ~ .w-auto:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(4) ~ .w-auto:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-
-    .waffles .w-auto:first-child:nth-last-child(5) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
-    .waffles .w-auto:first-child:nth-last-child(5) ~ .w-auto:nth-child(even) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(5) ~ .w-auto:nth-child(odd) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-
-    .waffles .w-auto:first-child:nth-last-child(6) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(6) ~ .w-auto:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(6) ~ .w-auto:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-
-    .waffles .w-auto:first-child:nth-last-child(7) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
-    .waffles .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(even) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(odd) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-
-    .waffles .w-auto:first-child:nth-last-child(8) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(8) ~ .w-auto:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(8) ~ .w-auto:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-
-    .waffles .w-auto:first-child:nth-last-child(9) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
-    .waffles .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(even) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(odd) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-
-    .waffles .w-auto:first-child:nth-last-child(10) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-
-    .waffles .w-auto:first-child:nth-last-child(11) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(even) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(odd) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-
-    .waffles .w-auto:first-child:nth-last-child(12) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(3) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(3) ~ .w-auto:nth-child(even) { clear: left; margin-left: 0%; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(3) ~ .w-auto:nth-child(odd) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+             
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(4) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(4) ~ .w-auto:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(4) ~ .w-auto:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+              
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(5) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(5) ~ .w-auto:nth-child(even) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(5) ~ .w-auto:nth-child(odd) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+               
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(6) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(6) ~ .w-auto:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(6) ~ .w-auto:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+               
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(7) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(even) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(odd) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+         
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(8) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(8) ~ .w-auto:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(8) ~ .w-auto:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+             
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(9) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(even) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(odd) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+             
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(10) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+              
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(11) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(even) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(odd) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+              
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(12) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
 }
 
 /*4*/
@@ -1412,54 +1409,54 @@
     .waffles .w-4.w-alpha:not(.w-fix) ~ .w-1{margin-left: 0; margin-right: 0; width: 100%; }
 
     /*Pattern Matches*/
-    .waffles .w-4:first-child:nth-last-child(3) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
-    .waffles .w-4:first-child:nth-last-child(3) ~ .w-4:nth-child(even) { clear: left; margin-left: 0%; margin-right: 1%; width: 49%; }
-    .waffles .w-4:first-child:nth-last-child(3) ~ .w-4:nth-child(odd) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-
-    .waffles .w-3:first-child:nth-last-child(4) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-3:first-child:nth-last-child(4) ~ .w-3:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-    .waffles .w-3:first-child:nth-last-child(4) ~ .w-3:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-4:first-child:nth-last-child(3) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
+    .waffles  :not(.w-fix) > .w-4:first-child:nth-last-child(3) ~ .w-4:nth-child(even) { clear: left; margin-left: 0%; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-4:first-child:nth-last-child(3) ~ .w-4:nth-child(odd) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+             
+    .waffles  :not(.w-fix) > .w-3:first-child:nth-last-child(4) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-3:first-child:nth-last-child(4) ~ .w-3:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-3:first-child:nth-last-child(4) ~ .w-3:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
 
     /*Auto*/
-    .waffles .w-auto:first-child:nth-last-child(3) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
-    .waffles .w-auto:first-child:nth-last-child(3) ~ .w-auto:nth-child(even) { clear: left; margin-left: 0%; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(3) ~ .w-auto:nth-child(odd) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-
-    .waffles .w-auto:first-child:nth-last-child(4) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(4) ~ .w-auto:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(4) ~ .w-auto:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-
-    .waffles .w-auto:first-child:nth-last-child(5) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
-    .waffles .w-auto:first-child:nth-last-child(5) ~ .w-auto:nth-child(even) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(5) ~ .w-auto:nth-child(odd) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-
-    .waffles .w-auto:first-child:nth-last-child(6) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(6) ~ .w-auto:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(6) ~ .w-auto:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-
-    .waffles .w-auto:first-child:nth-last-child(7) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
-    .waffles .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(even) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(odd) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-
-    .waffles .w-auto:first-child:nth-last-child(8) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(8) ~ .w-auto:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(8) ~ .w-auto:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-
-    .waffles .w-auto:first-child:nth-last-child(9) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
-    .waffles .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(even) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(odd) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-
-    .waffles .w-auto:first-child:nth-last-child(10) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-
-    .waffles .w-auto:first-child:nth-last-child(11) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(even) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(odd) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-
-    .waffles .w-auto:first-child:nth-last-child(12) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(3) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(3) ~ .w-auto:nth-child(even) { clear: left; margin-left: 0%; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(3) ~ .w-auto:nth-child(odd) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+           
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(4) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(4) ~ .w-auto:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(4) ~ .w-auto:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+          
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(5) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(5) ~ .w-auto:nth-child(even) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(5) ~ .w-auto:nth-child(odd) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+          
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(6) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(6) ~ .w-auto:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(6) ~ .w-auto:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+         
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(7) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(even) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(odd) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+            
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(8) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(8) ~ .w-auto:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(8) ~ .w-auto:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+             
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(9) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(even) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(odd) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+            
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(10) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+              
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(even) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(odd) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+             
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
 
 
 
@@ -1541,45 +1538,45 @@
     .waffles .w-4:first-child:nth-last-child(3) ~ .w-4:nth-child(odd) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
 
     /*Auto*/
-    .waffles .w-auto:first-child:nth-last-child(3) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
-    .waffles .w-auto:first-child:nth-last-child(3) ~ .w-auto:nth-child(even) { clear: left; margin-left: 0%; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(3) ~ .w-auto:nth-child(odd) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-
-    .waffles .w-auto:first-child:nth-last-child(4) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(4) ~ .w-auto:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(4) ~ .w-auto:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-
-    .waffles .w-auto:first-child:nth-last-child(5) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
-    .waffles .w-auto:first-child:nth-last-child(5) ~ .w-auto:nth-child(even) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(5) ~ .w-auto:nth-child(odd) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-
-    .waffles .w-auto:first-child:nth-last-child(6) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(6) ~ .w-auto:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(6) ~ .w-auto:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-
-    .waffles .w-auto:first-child:nth-last-child(7) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
-    .waffles .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(even) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(odd) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-
-    .waffles .w-auto:first-child:nth-last-child(8) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(8) ~ .w-auto:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(8) ~ .w-auto:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-
-    .waffles .w-auto:first-child:nth-last-child(9) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
-    .waffles .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(even) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(odd) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-
-    .waffles .w-auto:first-child:nth-last-child(10) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-
-    .waffles .w-auto:first-child:nth-last-child(11) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(even) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(odd) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-
-    .waffles .w-auto:first-child:nth-last-child(12) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-    .waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(3) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(3) ~ .w-auto:nth-child(even) { clear: left; margin-left: 0%; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(3) ~ .w-auto:nth-child(odd) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+             
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(4) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(4) ~ .w-auto:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(4) ~ .w-auto:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+          
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(5) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(5) ~ .w-auto:nth-child(even) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(5) ~ .w-auto:nth-child(odd) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+              
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(6) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(6) ~ .w-auto:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(6) ~ .w-auto:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+             
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(7) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(even) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(7) ~ .w-auto:nth-child(odd) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+               
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(8) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(8) ~ .w-auto:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(8) ~ .w-auto:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+             
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(9) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(even) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(9) ~ .w-auto:nth-child(odd) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+              
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(10) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(10) ~ .w-auto:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+             
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(11) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(even) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(11) ~ .w-auto:nth-child(odd) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+             
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(12) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
 
 
 }
