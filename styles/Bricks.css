@@ -1,4 +1,4 @@
-﻿.brick { -webkit-transition: height 0.25s ease; background-color: lightgrey; background-image: -webkit-repeating-linear-gradient(120deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, .1) 1px, transparent 1px, transparent 60px), -webkit-repeating-linear-gradient(60deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, .1) 1px, transparent 1px, transparent 60px), -webkit-linear-gradient(60deg, rgba(0, 0, 0, .1) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, .1) 75%, rgba(0, 0, 0, .1)), -webkit-linear-gradient(120deg, rgba(0, 0, 0, .1) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, .1) 75%, rgba(0, 0, 0, .1)); background-size: 35px 60px; border: 1px gray dotted; font-family: calibri; font-size: 10px; height: 12px; width: auto; }
+﻿.brick {  background-color: lightgrey; background-image: -webkit-repeating-linear-gradient(120deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, .1) 1px, transparent 1px, transparent 60px), -webkit-repeating-linear-gradient(60deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, .1) 1px, transparent 1px, transparent 60px), -webkit-linear-gradient(60deg, rgba(0, 0, 0, .1) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, .1) 75%, rgba(0, 0, 0, .1)), -webkit-linear-gradient(120deg, rgba(0, 0, 0, .1) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, .1) 75%, rgba(0, 0, 0, .1)); background-size: 35px 60px; border: 1px gray dotted; font-family: calibri; font-size: 10px; height: 12px; width: 100%; display:block; }
 
 .brick-icon {background-color:aqua}
 
@@ -30,29 +30,70 @@
     #resolution::after { content: "1680 +"; }
 }
 
-/*x-Large*/
-@media (min-width: 1280px) and (max-width: 1679px) {
-    #resolution::after { content: "1280-1679"; }
+@media (min-width: 1580px) and (max-width: 1879px) {
+#resolution::after { content: "1580-1879"; }
+}
+
+
+@media (min-width: 1480px) and (max-width: 1579px) {
+    #resolution::after { content: "1480-1579"; }
+}
+
+@media (min-width: 1380px) and (max-width: 1479px) 
+{ 
+    #resolution::after { content: "1380-1479"; }
+}
+
+@media (min-width: 1280px) and (max-width: 1379px) 
+{ 
+    #resolution::after { content: "1280-1379"; }
 }
 
 /*Large*/
-@media (min-width: 1024px) and (max-width: 1279px) {
-    #resolution::after { content: "1024-1279"; }
+@media (min-width: 1153px) and (max-width: 1279px) {
+    #resolution::after { content: "1153-1279"; }
+}
+
+@media (min-width: 1088px) and (max-width: 1152px) {
+    #resolution::after { content: "1088-1152"; }
     
 }
 
-@media (min-width: 993px) and (max-width: 1023px) {
-    #resolution::after { content: "993-1023"; }
-
-
+@media (min-width: 1058px) and (max-width: 1087px) {
+    #resolution::after { content: "1058-1087"; }
 }
 
-@media (min-width: 960px) and (max-width: 992px) {
-    #resolution::after { content: "960-992"; }
+@media (min-width: 1024px) and (max-width: 1057px) {
+    #resolution::after { content: "1024-1057"; }
 }
 
-@media (min-width: 920px) and (max-width: 959px) {
-     #resolution::after { content: "920-959"; }
+@media (min-width: 1008px) and (max-width:1023px) 
+{
+    
+    #resolution::after { content: "1008-1023"; }
+    
+}
+
+@media (min-width: 993px) and (max-width:1007px) 
+{
+    #resolution::after { content: "993-1007"; }
+    
+}
+
+@media (min-width: 976px) and (max-width: 992px) {
+    #resolution::after { content: "976-992"; }
+}
+
+@media (min-width: 960px) and (max-width: 975px) {
+    #resolution::after { content: "960-975"; }
+}
+
+@media (min-width: 940px) and (max-width: 959px) {
+     #resolution::after { content: "940-959"; }
+}
+
+@media (min-width: 920px) and (max-width: 939px) {
+     #resolution::after { content: "920-939"; }
 }
 
 @media (min-width: 880px) and (max-width: 919px) {
