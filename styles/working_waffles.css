@@ -1,10 +1,23 @@
 ﻿@media all {
     /*Waffles by Jesse Harlin*/
-    .waffles { margin-left: auto; margin-right: auto; max-width: 100%; min-width: 240px; width: 98%; }
+    .waffles { margin-left: auto; margin-right: auto; max-width: 100%; min-width: 240px; width: 98%; height:100%}
 
-    .w-1, .w-2, .w-3, .w-4, .w-5, .w-6, .w-7, .w-8, .w-9, .w-10, .w-11, .w-12, .w-auto  { display: block; float: left; margin-left: 1%; margin-right: 1%; position: static; }
-
+    .waffles .w-1, 
+    .waffles .w-2, 
+    .waffles .w-3, 
+    .waffles .w-4, 
+    .waffles .w-5, 
+    .waffles .w-6, 
+    .waffles .w-7, 
+    .waffles .w-8, 
+    .waffles .w-9, 
+    .waffles .w-10, 
+    .waffles .w-11, 
+    .waffles .w-12, 
+    .waffles .w-auto  { display: block; float: left; margin-left: 1%; margin-right: 1%; position: static; box-sizing: border-box; }
     
+    
+    .waffles .w-fix:first-child:nth-last-child(3) ~ .w-auto {overflow:hidden}
      
     .waffles .w-alpha { margin-left: 0; }
     .waffles .w-omega { margin-right: 0; }
@@ -906,7 +919,7 @@
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8 ~ .w-auto {margin-right:0; clear:right} 
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8 + .w-8 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
     .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9 ~ .w-auto {margin-right:0; clear:right} 
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9 + .w-8 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9 + .w-9 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
     .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-10 ~ .w-auto {margin-right:0; clear:right} 
     .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-10 + .w-10 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
     .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-11 ~ .w-auto {margin-right:0; clear:right} 
@@ -1242,29 +1255,36 @@
     .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(7) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
     .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
     
+    
+    
+    
+    
      /* Fixed - 3 sum 24 */
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 ~ .w-auto {margin-right:0; clear:right} 
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
      
      /* Fixed - 3 sum 23*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ~ .w-auto {margin-right:0; clear:right} 
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 + .w-11 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ~ .w-auto {margin-left:0; clear:left} 
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
+    /*crease*/
     .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 ~ .w-auto {margin-right:0; clear:right} 
     .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    
+
     /* Fixed - 3 sum 22*/
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10 ~ .w-auto {margin-right:0; clear:right} 
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10 + .w-10 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
+    /*crease*/
     .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11 ~ .w-auto {margin-right:0; clear:right} 
     .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11 + .w-11 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 ~ .w-auto {margin-right:0; clear:right} 
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 ~ .w-auto {margin-left:0; clear:left} 
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12  {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
     
      /* Fixed - 3 sum 21*/
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9 ~ .w-auto {margin-right:0; clear:right} 
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9 + .w-9 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
     .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10 ~ .w-auto {margin-right:0; clear:right} 
     .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10 + .w-10 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
+    /*crease*/
     .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11 ~ .w-auto {margin-right:0; clear:right} 
     .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11 + .w-11 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
     .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 ~ .w-auto {margin-right:0; clear:right} 
@@ -1274,7 +1294,8 @@
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8 ~ .w-auto {margin-right:0; clear:right} 
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8 + .w-8 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
     .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9 ~ .w-auto {margin-right:0; clear:right} 
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9 + .w-8 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9 + .w-9 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
+    /*crease*/
     .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-10 ~ .w-auto {margin-right:0; clear:right} 
     .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-10 + .w-10 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
     .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-11 ~ .w-auto {margin-right:0; clear:right} 
@@ -1289,6 +1310,7 @@
     .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-8 + .w-8 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
     .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-9 ~ .w-auto {margin-right:0; clear:right} 
     .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-9 + .w-9 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
+    /*crease*/
     .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-10 ~ .w-auto {margin-right:0; clear:right} 
     .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-10 + .w-10 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
     .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-11 ~ .w-auto {margin-right:0; clear:right} 
@@ -1303,6 +1325,7 @@
     .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-7 + .w-7 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
     .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-8 ~ .w-auto {margin-right:0; clear:right} 
     .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-8 + .w-8 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
+    /*crease*/
     .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-9 ~ .w-auto {margin-right:0; clear:right} 
     .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-9 + .w-9 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
     .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-10 ~ .w-auto {margin-right:0; clear:right} 
@@ -1321,6 +1344,7 @@
     .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-7 + .w-7 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
     .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-8 ~ .w-auto {margin-right:0; clear:right} 
     .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-8 + .w-8 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
+    /*crease*/
     .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-9 ~ .w-auto {margin-right:0; clear:right} 
     .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-9 + .w-9 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
     .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-10 ~ .w-auto {margin-right:0; clear:right} 
@@ -1447,14 +1471,14 @@
     .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-10 + .w-10 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;} 
     .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-11 ~ .w-auto {margin-right:0; clear:right} 
     .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-11 + .w-11 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
+    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-12 ~ .w-auto {margin-right:0; clear:right} 
+    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}   
     
     
-    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-12 ~ .w-auto {margin-right:0; clear:right;  background-color:green;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%; }
-    
+    /*Incorrect! The top unit needs to fold, not the back. Why? because it was the larger of the two.*/
     
     .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-1 ~ .w-auto {margin-right:0; clear:right} 
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-1 + .w-11 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;  
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-1 + .w-1 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;  }
         
 }
 
