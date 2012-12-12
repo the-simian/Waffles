@@ -61,6 +61,9 @@
     .waffles .w-11.w-alpha, .waffles .w-11.w-omega { width: 90.6666%; }
     .waffles .w-12.w-alpha.w-omega { width: 100%; }
 
+
+    /*TODO: Add additional support up to 16 items?*/
+
     /*autogroup*/
     .waffles .w-auto:first-child:nth-last-child(1) { margin-left: 0; margin-right: 0; width: 100%; }
 
@@ -204,1116 +207,428 @@
 }
 
 
+/**TODO: Hidden Helpers, Vertical spacers, procedurally add media queries and breaks!! (i mean duh!)*/
 
+@media (min-width: 1780px) and (max-width: 1879px) {
+    /*3-fixed*/
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 
+    {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
 
-@media (min-width: 1580px) and (max-width: 1879px) {
-     /* Fixed - 3 sum 24 */
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 ~ .w-auto {margin-left:0; clear:left} 
-    
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 ~ .w-auto 
+    {margin-left:0; clear:left} 
+}
+
+@media (min-width: 1680px) and (max-width: 1779px) {
+    /*3-fixed*/
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 + .w-12 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 + .w-12 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 
+    {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
+
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 ~ .w-auto ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ~ .w-auto 
+    {margin-left:0; clear:left}
+
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 ~ .w-auto 
+    {margin-right:0;clear: right; overflow:hidden} 
+}
+
+@media (min-width: 1580px) and (max-width: 1679px) {
+    /*3-fixed*/
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 + .w-12 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 + .w-12 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 
+    {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
+
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 ~ .w-auto ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ~ .w-auto 
+    {margin-left:0; clear:left}
+
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 ~ .w-auto 
+    {margin-right:0;clear: right; overflow:hidden} 
 }
 
 @media (min-width: 1480px) and (max-width: 1579px) {
-     /* Fixed - 3 sum 24 */
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 ~ .w-auto {margin-left:0; clear:left} 
+    /*3-fixed*/
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 + .w-12 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 + .w-12 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 
+    {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
 
-    /* Fixed - 3 sum 23*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ~ .w-auto {margin-left:0; clear:left} 
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 ~ .w-auto ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ~ .w-auto 
+    {margin-left:0; clear:left}
 
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden}  
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 ~ .w-auto 
+    {margin-right:0;clear: right; overflow:hidden} 
 }
 
 @media (min-width: 1380px) and (max-width: 1479px) {
-     /* Fixed - 3 sum 24 */
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 ~ .w-auto {margin-left:0; clear:left} 
+    /*3-fixed*/
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 + .w-12 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 + .w-12 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 
+    {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
 
-    /* Fixed - 3 sum 23*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ~ .w-auto {margin-left:0; clear:left} 
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 ~ .w-auto ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ~ .w-auto 
+    {margin-left:0; clear:left}
 
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden} 
-
-    /* Fixed - 3 sum 22*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10 ~ .w-auto {margin-left:0; clear:left}
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 +.w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 ~ .w-auto {margin-right:0; clear: right; overflow:hidden}
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 ~ .w-auto 
+    {margin-right:0;clear: right; overflow:hidden} 
 }
 
 @media (min-width: 1280px) and (max-width: 1379px) {
-     /* Fixed - 3 sum 24 */
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 ~ .w-auto {margin-left:0; clear:left} 
+    /*3-fixed*/
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 + .w-12 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 + .w-12 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11 + .w-11 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-12 + .w-12
+    {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
 
-    /* Fixed - 3 sum 23*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ~ .w-auto {margin-left:0; clear:left} 
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 ~ .w-auto ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ~ .w-auto ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10 ~ .w-auto
+    {margin-left:0; clear:left}
 
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden} 
-
-    /* Fixed - 3 sum 22*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10 ~ .w-auto {margin-left:0; clear:left}
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 +.w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 ~ .w-auto {margin-right:0; clear: right; overflow:hidden}
-
-     /* Fixed - 3 sum 21*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9   {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9 ~ .w-auto {margin-left:0; clear:left} 
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden} 
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 ~ .w-auto 
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-12 ~ .w-auto
+    {margin-right:0;clear: right; overflow:hidden} 
 }
 
-
-
 @media (min-width: 1153px) and (max-width: 1279px) {
-         /* Fixed - 3 sum 24 */
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 ~ .w-auto {margin-left:0; clear:left} 
-
-    /* Fixed - 3 sum 23*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ~ .w-auto {margin-left:0; clear:left} 
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden} 
-
-    /* Fixed - 3 sum 22*/
+    /*3-fixed*/
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ,
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11  {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-7,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9,
+
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 + .w-12 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 + .w-12 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11 + .w-11 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-11 + .w-11 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-12 + .w-12
+    {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
+
+
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 ~ .w-auto ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ~ .w-auto ,
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11 ~ .w-auto {margin-left:0; clear:left}
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 +.w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 ~ .w-auto {margin-right:0; clear: right; overflow:hidden}
-
-     /* Fixed - 3 sum 21*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9   {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9 ~ .w-auto{margin-left:0; clear:left} 
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden} 
-
-     /* Fixed - 3 sum 20*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8 ~ .w-auto  {margin-left:0; clear:left}
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden} 
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-7 ~ .w-auto ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9 ~ .w-auto
+    {margin-left:0; clear:left}
 
 
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 ~ .w-auto ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-12 ~ .w-auto 
+    {margin-right:0;clear: right; overflow:hidden} 
 }
 
 @media (min-width: 1088px) and (max-width: 1152px) {
-     /* Fixed - 3 sum 24 */
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 ~ .w-auto {margin-left:0; clear:left} 
-
-    /* Fixed - 3 sum 23*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ~ .w-auto {margin-left:0; clear:left} 
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden} 
-
-    /* Fixed - 3 sum 22*/
+    /*3-fixed*/
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ,
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11  {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11 ~ .w-auto {margin-left:0; clear:left}
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 +.w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 ~ .w-auto {margin-right:0; clear: right; overflow:hidden}
-
-     /* Fixed - 3 sum 21*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10  {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10 ~ .w-auto  {margin-left:0; clear:left} 
-
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-7,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-6 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 + .w-12 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 + .w-12 ,
     .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11 + .w-11 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-11 + .w-11 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 + .w-12 
+    {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
+
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 ~ .w-auto ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ~ .w-auto ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-7 ~ .w-auto ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-6 ~ .w-auto ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-10 ~ .w-auto 
+    {margin-left:0; clear:left}
+
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 ~ .w-auto ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 ~ .w-auto,
     .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden} 
-
-     /* Fixed - 3 sum 20*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8 ~ .w-auto {margin-left:0; clear:left}
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden} 
-
-     /* Fixed - 3 sum 19*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-7 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-7 ~ .w-auto {margin-left:0; clear:left} 
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden} 
-
-     /* Fixed - 3 sum 18*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-6   {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-6 ~ .w-auto  {margin-left:0; clear:left}
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 ~ .w-auto  {margin-right:0;clear: right; overflow:hidden} 
-
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-12 ~ .w-auto ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 ~ .w-auto
+    {margin-right:0;clear: right; overflow:hidden} 
 }
-
 
 @media (min-width: 1058px) and (max-width: 1087px) {
-     /* Fixed - 3 sum 24 */
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 ~ .w-auto {margin-left:0; clear:left} 
-
-    /* Fixed - 3 sum 23*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ~ .w-auto {margin-left:0; clear:left} 
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden} 
-
-    /* Fixed - 3 sum 22*/
+     /*3-fixed*/
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ,
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11  {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11 ~ .w-auto {margin-left:0; clear:left}
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 +.w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 ~ .w-auto {margin-right:0; clear: right; overflow:hidden}
-
-     /* Fixed - 3 sum 21*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10  {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10 ~ .w-auto  {margin-left:0; clear:left} 
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11 + .w-11 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden} 
-
-     /* Fixed - 3 sum 20*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8  ,                                                           
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-10  {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-10 ~ .w-auto {margin-left:0; clear:left}
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-11 + .w-11 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-11 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden} 
-
-     /* Fixed - 3 sum 19*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-7 ,                                                                 
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-7,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-6 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9,
     .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-8 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-9 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-7 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-8 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-9 ~ .w-auto {margin-left:0; clear:left} 
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-9 ,
 
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-10 + .w-10 ,                                                                  
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 + .w-12 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 + .w-12 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11 + .w-11 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-11 + .w-11 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-12 + .w-12,
     .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-11 + .w-11 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-10 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-11 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden} 
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 + .w-12 
+    {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
 
-     /* Fixed - 3 sum 18*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-6  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-7  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-8  {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 ~ .w-auto ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ~ .w-auto ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-7 ~ .w-auto ,
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-6 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-7 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-8 ~ .w-auto {margin-left:0; clear:left}
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-10 ~ .w-auto ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-9 ~ .w-auto 
+    {margin-left:0; clear:left}
 
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-9 + .w-9   ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-10 + .w-10 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-11 + .w-11,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-9 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-10 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-11 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 ~ .w-auto  {margin-right:0;clear: right; overflow:hidden} 
-
-     /* Fixed - 3 sum 17*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-5 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-6 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-7 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-8 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-5 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-6 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-7 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-8 ~ .w-auto {margin-left:0; clear:left} 
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-9 + .w-9   ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-10 + .w-10 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-11 + .w-11 , 
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-9 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-10 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-11 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden}  
-    
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 ~ .w-auto ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-12 ~ .w-auto ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 ~ .w-auto
+    {margin-right:0;clear: right; overflow:hidden}
 }
 
-@media (min-width: 1024px) and (max-width: 1057px) {
-     /* Fixed - 3 sum 24 */
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 ~ .w-auto {margin-left:0; clear:left} 
-
-    /* Fixed - 3 sum 23*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ~ .w-auto {margin-left:0; clear:left} 
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden} 
-
-    /* Fixed - 3 sum 22*/
+@media (min-width: 1024px) and (max-width:1057px) {
+    /*3-fixed*/
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ,
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11  {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11 ~ .w-auto {margin-left:0; clear:left}
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 +.w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 ~ .w-auto {margin-right:0; clear: right; overflow:hidden}
-
-     /* Fixed - 3 sum 21*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10  {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10 ~ .w-auto  {margin-left:0; clear:left} 
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11 + .w-11 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden} 
-
-     /* Fixed - 3 sum 20*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8  ,                                                           
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-10  {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-10 ~ .w-auto {margin-left:0; clear:left}
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-11 + .w-11 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-11 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden} 
-
-     /* Fixed - 3 sum 19*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-7 ,                                                                 
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-7,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-6 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-5,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9,
     .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-8 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-9 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-7 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-8 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-9 ~ .w-auto {margin-left:0; clear:left} 
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-9 ,
 
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-10 + .w-10 ,                                                                  
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 + .w-12 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 + .w-12 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11 + .w-11 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-11 + .w-11 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-12 + .w-12,
     .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-11 + .w-11 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-10 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-11 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden} 
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 + .w-12 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-12 + .w-12 
+    {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
 
-     /* Fixed - 3 sum 18*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-6  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-7  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-8  {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 ~ .w-auto ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ~ .w-auto ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-7 ~ .w-auto ,
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-6 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-7 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-8 ~ .w-auto {margin-left:0; clear:left}
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-9 + .w-9   ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-10 + .w-10 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-11 + .w-11,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-9 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-10 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-11 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 ~ .w-auto  {margin-right:0;clear: right; overflow:hidden} 
-
-     /* Fixed - 3 sum 17*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-5 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-6 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-7 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-8 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-5 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-6 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-7 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-8 ~ .w-auto {margin-left:0; clear:left} 
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-10 ~ .w-auto ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-9 ~ .w-auto 
+    {margin-left:0; clear:left}
 
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-9 + .w-9   ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-10 + .w-10 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-11 + .w-11 , 
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-9 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-10 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-11 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden} 
-
-     /* Fixed - 3 sum 16*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-4 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-5 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-6 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-7  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-8   {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-4 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-5 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-6 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-7 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-8 ~ .w-auto {margin-left:0; clear:left}
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-9  + .w-9  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-10 + .w-10 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-11 + .w-11 ,  
-    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-9 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-10 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-11 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden}
-    
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 ~ .w-auto ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-12 ~ .w-auto ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-12 ~ .w-auto
+    {margin-right:0;clear: right; overflow:hidden}
 }
-
-
-
+/*YOU ARE IN THIS*/
 @media (min-width: 1008px) and (max-width:1023px) 
 {
-     /* Fixed - 3 sum 24 */
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 ~ .w-auto {margin-left:0; clear:left} 
 
-    /* Fixed - 3 sum 23*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ~ .w-auto {margin-left:0; clear:left} 
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden} 
-
-    /* Fixed - 3 sum 22*/
+    /*3-fixed*/
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ,
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11  {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11 ~ .w-auto {margin-left:0; clear:left}
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 +.w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 ~ .w-auto {margin-right:0; clear: right; overflow:hidden}
-
-     /* Fixed - 3 sum 21*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10  {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10 ~ .w-auto  {margin-left:0; clear:left} 
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11 + .w-11 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden} 
-
-     /* Fixed - 3 sum 20*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8  ,                                                           
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-10  {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-10 ~ .w-auto {margin-left:0; clear:left}
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-11 + .w-11 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-11 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden} 
-
-     /* Fixed - 3 sum 19*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-7 ,                                                                 
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-7,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-6 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-5,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-4,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9,
     .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-8 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-9 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-7 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-8 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-9 ~ .w-auto {margin-left:0; clear:left} 
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-9 ,
 
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-10 + .w-10 ,                                                                  
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 + .w-12 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 + .w-12 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11 + .w-11 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-11 + .w-11 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-12 + .w-12,
     .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-11 + .w-11 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-10 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-11 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden} 
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 + .w-12 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-12 + .w-12 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-12 + .w-12 
+    {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
 
-     /* Fixed - 3 sum 18*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-6  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-7  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-8  {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 ~ .w-auto ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ~ .w-auto ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-7 ~ .w-auto ,
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-6 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-7 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-8 ~ .w-auto {margin-left:0; clear:left}
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-9 + .w-9   ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-10 + .w-10 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-11 + .w-11,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-9 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-10 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-11 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 ~ .w-auto  {margin-right:0;clear: right; overflow:hidden} 
-
-     /* Fixed - 3 sum 17*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-5 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-6 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-7 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-8 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-5 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-6 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-7 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-8 ~ .w-auto {margin-left:0; clear:left} 
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-9 + .w-9   ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-10 + .w-10 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-11 + .w-11 , 
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-9 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-10 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-11 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden} 
-
-     /* Fixed - 3 sum 16*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-4 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-5 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-6 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-7  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-8   {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-4 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-5 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-6 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-7 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-8 ~ .w-auto {margin-left:0; clear:left}
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-10 ~ .w-auto ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-9 ~ .w-auto 
+    {margin-left:0; clear:left}
 
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-9  + .w-9  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-10 + .w-10 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-11 + .w-11 ,  
-    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-9 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-10 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-11 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden}
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 ~ .w-auto ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-12 ~ .w-auto ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-12 ~ .w-auto
+    {margin-right:0;clear: right; overflow:hidden}
 
-     /* Fixed - 3 sum 15*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-3 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-4 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-5 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-6  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-7   {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-3 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-4 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-5 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-6 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-7 ~ .w-auto {margin-left:0; clear:left}
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-8  + .w-8  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-9  + .w-9  , 
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-10 + .w-10 ,  
-    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-11 + .w-11 ,    
-    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-8 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-9 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-10 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-11 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden}  
-    
     
 }
+/*YOU ARE IN THIS*/
+
 
 @media (min-width: 993px) and (max-width:1007px) 
 {
-     /* Fixed - 3 sum 24 */
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 ~ .w-auto {margin-left:0; clear:left} 
 
-    /* Fixed - 3 sum 23*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ~ .w-auto {margin-left:0; clear:left} 
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden} 
-
-    /* Fixed - 3 sum 22*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11  {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11 ~ .w-auto {margin-left:0; clear:left}
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 +.w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 ~ .w-auto {margin-right:0; clear: right; overflow:hidden}
-
-     /* Fixed - 3 sum 21*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10  {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10 ~ .w-auto  {margin-left:0; clear:left} 
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11 + .w-11 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden} 
-
-     /* Fixed - 3 sum 20*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8  ,                                                           
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-10  {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-10 ~ .w-auto {margin-left:0; clear:left}
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-11 + .w-11 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-11 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden} 
-
-     /* Fixed - 3 sum 19*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-7 ,                                                                 
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-8 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-9 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-7 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-8 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-9 ~ .w-auto {margin-left:0; clear:left} 
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-10 + .w-10 ,                                                                  
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-11 + .w-11 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-10 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-11 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden} 
-
-     /* Fixed - 3 sum 18*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-6  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-7  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-8  {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-6 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-7 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-8 ~ .w-auto {margin-left:0; clear:left}
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-9 + .w-9   ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-10 + .w-10 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-11 + .w-11,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-9 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-10 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-11 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 ~ .w-auto  {margin-right:0;clear: right; overflow:hidden} 
-
-     /* Fixed - 3 sum 17*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-5 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-6 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-7 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-8 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-5 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-6 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-7 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-8 ~ .w-auto {margin-left:0; clear:left} 
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-9 + .w-9   ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-10 + .w-10 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-11 + .w-11 , 
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-9 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-10 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-11 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden} 
-
-     /* Fixed - 3 sum 16*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-4 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-5 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-6 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-7  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-8   {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-4 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-5 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-6 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-7 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-8 ~ .w-auto {margin-left:0; clear:left}
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-9  + .w-9  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-10 + .w-10 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-11 + .w-11 ,  
-    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-9 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-10 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-11 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden}
-
-     /* Fixed - 3 sum 15*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-3 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-4 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-5 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-6  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-7   {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-3 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-4 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-5 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-6 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-7 ~ .w-auto {margin-left:0; clear:left}
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-8  + .w-8  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-9  + .w-9  , 
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-10 + .w-10 ,  
-    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-11 + .w-11 ,    
-    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-8 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-9 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-10 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-11 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden} 
-
-    /* Fixed - 3 sum 14*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-2 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-3 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-4 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-5  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-6  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-7  {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-2 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-3 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-4 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-5 ~ .w-auto, 
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-6 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-7 ~ .w-auto {margin-left:0; clear:left} 
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-8 + .w-8  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-9 + .w-9  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-10 + .w-10, 
-    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-11 + .w-11,
-    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-8 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-9 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-10 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-11 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden} 
     
 }
 
 @media (min-width: 976px) and (max-width: 992px) {
-      /* Fixed - 3 sum 24 */
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 ~ .w-auto {margin-left:0; clear:left} 
 
-    /* Fixed - 3 sum 23*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ~ .w-auto {margin-left:0; clear:left} 
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden} 
-
-    /* Fixed - 3 sum 22*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11  {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11 ~ .w-auto {margin-left:0; clear:left}
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 +.w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 ~ .w-auto {margin-right:0; clear: right; overflow:hidden}
-
-     /* Fixed - 3 sum 21*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10  {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10 ~ .w-auto  {margin-left:0; clear:left} 
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11 + .w-11 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden} 
-
-     /* Fixed - 3 sum 20*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8  ,                                                           
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-10  {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-10 ~ .w-auto {margin-left:0; clear:left}
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-11 + .w-11 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-11 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden} 
-
-     /* Fixed - 3 sum 19*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-7 ,                                                                 
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-8 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-9 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-7 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-8 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-9 ~ .w-auto {margin-left:0; clear:left} 
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-10 + .w-10 ,                                                                  
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-11 + .w-11 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-10 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-11 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden} 
-
-     /* Fixed - 3 sum 18*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-6  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-7  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-8  {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-6 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-7 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-8 ~ .w-auto {margin-left:0; clear:left}
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-9 + .w-9   ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-10 + .w-10 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-11 + .w-11,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-9 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-10 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-11 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 ~ .w-auto  {margin-right:0;clear: right; overflow:hidden} 
-
-     /* Fixed - 3 sum 17*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-5 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-6 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-7 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-8 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-5 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-6 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-7 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-8 ~ .w-auto {margin-left:0; clear:left} 
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-9 + .w-9   ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-10 + .w-10 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-11 + .w-11 , 
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-9 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-10 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-11 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden} 
-
-     /* Fixed - 3 sum 16*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-4 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-5 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-6 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-7  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-8   {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-4 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-5 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-6 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-7 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-8 ~ .w-auto {margin-left:0; clear:left}
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-9  + .w-9  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-10 + .w-10 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-11 + .w-11 ,  
-    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-9 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-10 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-11 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden}
-
-     /* Fixed - 3 sum 15*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-3 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-4 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-5 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-6  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-7   {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-3 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-4 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-5 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-6 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-7 ~ .w-auto {margin-left:0; clear:left}
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-8  + .w-8  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-9  + .w-9  , 
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-10 + .w-10 ,  
-    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-11 + .w-11 ,    
-    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-8 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-9 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-10 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-11 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden} 
-
-    /* Fixed - 3 sum 14*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-2 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-3 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-4 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-5  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-6  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-7  {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-2 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-3 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-4 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-5 ~ .w-auto, 
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-6 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-7 ~ .w-auto {margin-left:0; clear:left} 
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-8 + .w-8  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-9 + .w-9  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-10 + .w-10, 
-    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-11 + .w-11,
-    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-8 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-9 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-10 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-11 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden}
-    
-     /* Fixed - 3 sum 13*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-1 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-2 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-3 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-4  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-5  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-6  {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-1 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-2 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-3 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-4 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-5 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-6 ~ .w-auto {margin-left:0; clear:left}
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-7  + .w-7  , 
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-8  + .w-8  ,  
-    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-9  + .w-9  ,    
-    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-10 + .w-10 , 
-    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-11 + .w-11 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-7 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-8 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-9 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-10 ~ .w-auto  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-11 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden}  
 
 }
 
 @media (min-width: 960px) and (max-width: 975px) {
-     /* Fixed - 3 sum 24 */
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 ~ .w-auto {margin-left:0; clear:left} 
-
-    /* Fixed - 3 sum 23*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ~ .w-auto {margin-left:0; clear:left} 
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden} 
-
-    /* Fixed - 3 sum 22*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11  {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11 ~ .w-auto {margin-left:0; clear:left}
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 +.w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 ~ .w-auto {margin-right:0; clear: right; overflow:hidden}
-
-     /* Fixed - 3 sum 21*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10  {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10 ~ .w-auto  {margin-left:0; clear:left} 
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11 + .w-11 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden} 
-
-     /* Fixed - 3 sum 20*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8  ,                                                           
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-10  {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-10 ~ .w-auto {margin-left:0; clear:left}
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-11 + .w-11 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-11 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden} 
-
-     /* Fixed - 3 sum 19*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-7 ,                                                                 
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-8 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-9 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-7 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-8 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-9 ~ .w-auto {margin-left:0; clear:left} 
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-10 + .w-10 ,                                                                  
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-11 + .w-11 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-10 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-11 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden} 
-
-     /* Fixed - 3 sum 18*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-6  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-7  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-8  {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-6 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-7 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-8 ~ .w-auto {margin-left:0; clear:left}
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-9 + .w-9   ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-10 + .w-10 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-11 + .w-11,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-9 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-10 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-11 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 ~ .w-auto  {margin-right:0;clear: right; overflow:hidden} 
-
-     /* Fixed - 3 sum 17*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-5 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-6 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-7 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-8 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-5 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-6 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-7 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-8 ~ .w-auto {margin-left:0; clear:left} 
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-9 + .w-9   ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-10 + .w-10 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-11 + .w-11 , 
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-9 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-10 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-11 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden} 
-
-     /* Fixed - 3 sum 16*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-4 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-5 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-6 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-7  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-8   {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-4 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-5 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-6 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-7 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-8 ~ .w-auto {margin-left:0; clear:left}
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-9  + .w-9  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-10 + .w-10 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-11 + .w-11 ,  
-    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-9 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-10 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-11 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden}
-
-     /* Fixed - 3 sum 15*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-3 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-4 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-5 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-6  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-7   {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-3 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-4 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-5 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-6 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-7 ~ .w-auto {margin-left:0; clear:left}
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-8  + .w-8  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-9  + .w-9  , 
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-10 + .w-10 ,  
-    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-11 + .w-11 ,    
-    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-8 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-9 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-10 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-11 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden} 
-
-    /* Fixed - 3 sum 14*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-2 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-3 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-4 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-5  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-6  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-7  {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-2 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-3 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-4 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-5 ~ .w-auto, 
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-6 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-7 ~ .w-auto {margin-left:0; clear:left} 
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-8 + .w-8  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-9 + .w-9  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-10 + .w-10, 
-    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-11 + .w-11,
-    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-8 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-9 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-10 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-11 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden}
-    
-     /* Fixed - 3 sum 13*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-1 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-2 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-3 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-4  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-5  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-6  {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-1 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-2 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-3 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-4 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-5 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-6 ~ .w-auto {margin-left:0; clear:left}
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-7  + .w-7  , 
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-8  + .w-8  ,  
-    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-9  + .w-9  ,    
-    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-10 + .w-10 , 
-    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-11 + .w-11 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-7 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-8 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-9 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-10 ~ .w-auto  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-11 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden} 
-
-    /* Fixed - 3 sum 12*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-1 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-2 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-3 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-4  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-5  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-6,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-1  {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-1 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-2 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-3 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-4 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-5 ~ .w-auto  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-6 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-1 ~ .w-auto {margin-left:0; clear:left}
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-7  + .w-7  , 
-    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-8  + .w-8  ,  
-    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-9  + .w-9  ,    
-    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-10 + .w-10 , 
-    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-11 + .w-11 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}   
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-7 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-8 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-9 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-10 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-11 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-12 ~ .w-auto {margin-right:0; overflow:hidden}        
+  
 
 }
 @media (min-width: 940px) and (max-width: 959px) {
@@ -1332,225 +647,7 @@
     .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(7) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
     .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
     
-     /* Fixed - 3 sum 24 */
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 ~ .w-auto {margin-left:0; clear:left} 
 
-    /* Fixed - 3 sum 23*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ~ .w-auto {margin-left:0; clear:left} 
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden} 
-
-    /* Fixed - 3 sum 22*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11  {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11 ~ .w-auto {margin-left:0; clear:left}
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 +.w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 ~ .w-auto {margin-right:0; clear: right; overflow:hidden}
-
-     /* Fixed - 3 sum 21*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10  {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10 ~ .w-auto  {margin-left:0; clear:left} 
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11 + .w-11 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden} 
-
-     /* Fixed - 3 sum 20*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8  ,                                                           
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-10  {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-10 ~ .w-auto {margin-left:0; clear:left}
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-11 + .w-11 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-11 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden} 
-
-     /* Fixed - 3 sum 19*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-7 ,                                                                 
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-8 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-9 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-7 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-8 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-9 ~ .w-auto {margin-left:0; clear:left} 
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-10 + .w-10 ,                                                                  
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-11 + .w-11 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-10 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-11 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden} 
-
-     /* Fixed - 3 sum 18*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-6  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-7  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-8  {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-6 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-7 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-8 ~ .w-auto {margin-left:0; clear:left}
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-9 + .w-9   ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-10 + .w-10 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-11 + .w-11,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-9 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-10 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-11 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 ~ .w-auto  {margin-right:0;clear: right; overflow:hidden} 
-
-     /* Fixed - 3 sum 17*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-5 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-6 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-7 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-8 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-5 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-6 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-7 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-8 ~ .w-auto {margin-left:0; clear:left} 
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-9 + .w-9   ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-10 + .w-10 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-11 + .w-11 , 
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-9 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-10 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-11 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden} 
-
-     /* Fixed - 3 sum 16*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-4 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-5 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-6 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-7  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-8   {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-4 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-5 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-6 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-7 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-8 ~ .w-auto {margin-left:0; clear:left}
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-9  + .w-9  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-10 + .w-10 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-11 + .w-11 ,  
-    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-9 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-10 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-11 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden}
-
-     /* Fixed - 3 sum 15*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-3 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-4 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-5 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-6  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-7   {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-3 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-4 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-5 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-6 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-7 ~ .w-auto {margin-left:0; clear:left}
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-8  + .w-8  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-9  + .w-9  , 
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-10 + .w-10 ,  
-    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-11 + .w-11 ,    
-    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-8 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-9 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-10 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-11 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden} 
-
-    /* Fixed - 3 sum 14*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-2 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-3 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-4 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-5  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-6  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-7  {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-2 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-3 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-4 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-5 ~ .w-auto, 
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-6 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-7 ~ .w-auto {margin-left:0; clear:left} 
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-8 + .w-8  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-9 + .w-9  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-10 + .w-10, 
-    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-11 + .w-11,
-    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-8 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-9 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-10 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-11 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden}
-    
-     /* Fixed - 3 sum 13*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-1 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-2 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-3 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-4  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-5  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-6  {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-1 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-2 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-3 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-4 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-5 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-6 ~ .w-auto {margin-left:0; clear:left}
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-7  + .w-7  , 
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-8  + .w-8  ,  
-    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-9  + .w-9  ,    
-    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-10 + .w-10 , 
-    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-11 + .w-11 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-7 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-8 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-9 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-10 ~ .w-auto  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-11 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden} 
-
-    /* Fixed - 3 sum 12*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-1 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-2 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-3 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-4  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-5  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-6,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-1  {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-1 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-2 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-3 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-4 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-5 ~ .w-auto  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-6 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-1 ~ .w-auto {margin-left:0; clear:left}
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-7  + .w-7  , 
-    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-8  + .w-8  ,  
-    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-9  + .w-9  ,    
-    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-10 + .w-10 , 
-    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-11 + .w-11 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}   
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-7 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-8 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-9 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-10 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-11 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-12 ~ .w-auto {margin-right:0; overflow:hidden}   
 }
 
 @media (min-width: 920px) and (max-width: 939px) {
@@ -1569,225 +666,7 @@
     .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(7) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
     .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
 
-     /* Fixed - 3 sum 24 */
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 ~ .w-auto {margin-left:0; clear:left} 
 
-    /* Fixed - 3 sum 23*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ~ .w-auto {margin-left:0; clear:left} 
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden} 
-
-    /* Fixed - 3 sum 22*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11  {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11 ~ .w-auto {margin-left:0; clear:left}
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 +.w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 ~ .w-auto {margin-right:0; clear: right; overflow:hidden}
-
-     /* Fixed - 3 sum 21*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10  {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10 ~ .w-auto  {margin-left:0; clear:left} 
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11 + .w-11 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden} 
-
-     /* Fixed - 3 sum 20*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8  ,                                                           
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-10  {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-10 ~ .w-auto {margin-left:0; clear:left}
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-11 + .w-11 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-11 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden} 
-
-     /* Fixed - 3 sum 19*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-7 ,                                                                 
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-8 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-9 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-7 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-8 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-9 ~ .w-auto {margin-left:0; clear:left} 
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-10 + .w-10 ,                                                                  
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-11 + .w-11 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-10 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-11 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden} 
-
-     /* Fixed - 3 sum 18*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-6  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-7  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-8  {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-6 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-7 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-8 ~ .w-auto {margin-left:0; clear:left}
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-9 + .w-9   ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-10 + .w-10 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-11 + .w-11,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-9 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-10 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-11 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 ~ .w-auto  {margin-right:0;clear: right; overflow:hidden} 
-
-     /* Fixed - 3 sum 17*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-5 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-6 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-7 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-8 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-5 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-6 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-7 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-8 ~ .w-auto {margin-left:0; clear:left} 
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-9 + .w-9   ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-10 + .w-10 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-11 + .w-11 , 
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-9 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-10 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-11 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden} 
-
-     /* Fixed - 3 sum 16*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-4 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-5 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-6 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-7  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-8   {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-4 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-5 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-6 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-7 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-8 ~ .w-auto {margin-left:0; clear:left}
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-9  + .w-9  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-10 + .w-10 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-11 + .w-11 ,  
-    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-9 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-10 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-11 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden}
-
-     /* Fixed - 3 sum 15*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-3 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-4 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-5 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-6  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-7   {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-3 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-4 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-5 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-6 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-7 ~ .w-auto {margin-left:0; clear:left}
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-8  + .w-8  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-9  + .w-9  , 
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-10 + .w-10 ,  
-    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-11 + .w-11 ,    
-    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-8 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-9 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-10 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-11 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden} 
-
-    /* Fixed - 3 sum 14*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-2 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-3 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-4 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-5  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-6  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-7  {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-2 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-3 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-4 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-5 ~ .w-auto, 
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-6 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-7 ~ .w-auto {margin-left:0; clear:left} 
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-8 + .w-8  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-9 + .w-9  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-10 + .w-10, 
-    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-11 + .w-11,
-    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-8 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-9 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-10 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-11 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden}
-    
-     /* Fixed - 3 sum 13*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-1 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-2 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-3 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-4  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-5  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-6  {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-1 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-2 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-3 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-4 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-5 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-6 ~ .w-auto {margin-left:0; clear:left}
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-7  + .w-7  , 
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-8  + .w-8  ,  
-    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-9  + .w-9  ,    
-    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-10 + .w-10 , 
-    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-11 + .w-11 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-7 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-8 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-9 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-10 ~ .w-auto  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-11 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-12 ~ .w-auto {margin-right:0;clear: right; overflow:hidden} 
-
-    /* Fixed - 3 sum 12*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-1 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-2 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-3 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-4  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-5  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-6,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-1  {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-1 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-2 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-3 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-4 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-5 ~ .w-auto  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-6 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-1 ~ .w-auto {margin-left:0; clear:left}
-
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-7  + .w-7  , 
-    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-8  + .w-8  ,  
-    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-9  + .w-9  ,    
-    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-10 + .w-10 , 
-    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-11 + .w-11 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-12 + .w-12 {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}   
-    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-7 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-8 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-9 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-10 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-11 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-12 ~ .w-auto {margin-right:0; overflow:hidden} 
 }
 
 @media (min-width: 880px) and (max-width: 919px) {
@@ -1830,9 +709,6 @@
     .waffles .w-12.w-fix:first-child:nth-last-child(2) + .w-auto,
     .waffles .w-11.w-fix:first-child:nth-last-child(2) + .w-auto{clear: both; float: left; margin-left: 0; margin-right: 0 ; width: 100%; display:block}
 
-
-    
-    
 }
 
 
