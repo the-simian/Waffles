@@ -27,22 +27,22 @@
 
      /* Fixed - 3 sum 18*/
      
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-7  ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-8  {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
+      
+  
     
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-7 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-8 ~ .w-auto {margin-left:0; clear:left}
+    
+    
 
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-9 + .w-9   ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-10 + .w-10 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-11 + .w-11
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-9 + .w-9   
+     
+    
     
     
     {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
 
     .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-9 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-10 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-11 ~ .w-auto
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-10 ~ .w-auto 
+    
       {margin-right:0;clear: right; overflow:hidden} 
 
      /* Fixed - 3 sum 17*/
