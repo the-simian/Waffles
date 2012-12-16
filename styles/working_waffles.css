@@ -1,6 +1,6 @@
 ﻿@media all {
     /*Waffles by Jesse Harlin*/
-    .waffles { margin-left: auto; margin-right: auto; max-width: 100%; min-width: 240px; width: 98%; height:100%}
+    .waffles { margin-left: auto; margin-right: auto; max-width: 100%; min-width: 240px; width: 99%; height:100%; overflow-x:hidden}
 
     .waffles .w-1, 
     .waffles .w-2, 
@@ -15,10 +15,7 @@
     .waffles .w-11, 
     .waffles .w-12, 
     .waffles .w-auto  { display: block; float: left; margin-left: 1%; margin-right: 1%; position: static; box-sizing: border-box; }
-    
-    
-    
-     
+
     .waffles .w-alpha { margin-left: 0; }
     .waffles .w-omega { margin-right: 0; }
 
@@ -28,8 +25,6 @@
 
     .waffles  .w-alpha.w-omega { clear: both; display: block}
 
-   /* .waffles  .w-auto > .w-alpha.w-omega { clear: none; background-color:yellow} */
-    
     .waffles  .w-auto > .w-alpha { clear: none; clear: none;}
     .waffles  .w-auto > .w-omega { clear: none; clear: none;}
 
@@ -60,7 +55,6 @@
     .waffles .w-10.w-alpha, .waffles .w-10.w-omega { width: 82.3333%; }
     .waffles .w-11.w-alpha, .waffles .w-11.w-omega { width: 90.6666%; }
     .waffles .w-12.w-alpha.w-omega { width: 100%; }
-
 
     /*TODO: Add additional support up to 16 items?*/
 
@@ -138,7 +132,7 @@
     .waffles .w-12.w-fix.w-omega { float: right; margin-left: 0px; margin-right: 0px; }
 
     .waffles .w-fix ~ .w-auto { clear: none; float: none; margin-left: 0px; margin-right: 0px; width: auto; }
-
+    
     /*Default based on 960*/
     .waffles .w-1.w-fix  { width:  18px;  }
     .waffles .w-2.w-fix  { width:  27px;  }
@@ -206,9 +200,7 @@
     .waffles .w-12.w-fix.w-omega ~ .w-auto.w-omega { margin-right:  864px; }
 }
 
-
 /**TODO: Hidden Helpers, Vertical spacers, procedurally add media queries and breaks!! (i mean duh!)*/
-
 @media (min-width: 1780px) and (max-width: 1879px) {
     /*3-fixed*/
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 
@@ -360,7 +352,6 @@
     .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-12 + .w-12
     {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
 
-
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 ~ .w-auto ,
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ~ .w-auto ,
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10 ~ .w-auto,
@@ -371,7 +362,6 @@
     .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10 ~ .w-auto,
     .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9 ~ .w-auto
     {margin-left:0; clear:left}
-
 
     .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 ~ .w-auto ,
     .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 ~ .w-auto,
@@ -744,7 +734,6 @@
 }
 
 @media (min-width: 940px) and (max-width: 959px) {
-
     /*Standard: Repeat Pattern Matches*/
     .waffles :not(.w-fix) > .w-1:first-child:nth-last-child(12) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
     .waffles :not(.w-fix) > .w-1:first-child:nth-last-child(12) ~ .w-1 { margin-left: 1%; margin-right: 1%; width: 14.666%; }
@@ -833,9 +822,8 @@
     .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-12 ~ .w-auto
     {margin-right:0;clear: right; overflow:hidden}
 }
-/*YOU ARE IN THIS*/
-@media (min-width: 920px) and (max-width: 939px) {
 
+@media (min-width: 920px) and (max-width: 939px) {
     /*Standard: Repeat Pattern Matches*/
     .waffles :not(.w-fix) > .w-1:first-child:nth-last-child(12) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
     .waffles :not(.w-fix) > .w-1:first-child:nth-last-child(12) ~ .w-1 { margin-left: 1%; margin-right: 1%; width: 14.666%; }
@@ -849,9 +837,6 @@
     .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(6) { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
     .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(7) { clear: left; margin-left: 0%; margin-right: 1%; width: 15.6666%; }
     .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 15.6666%; }
-
-
-
 
     /*Fixed - 2pt*/
     .waffles .w-12.w-fix:first-child:nth-last-child(2) ,
@@ -901,7 +886,6 @@
     .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-12 + .w-12
     {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
 
-    
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ~ .w-auto ,
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10 ~ .w-auto,
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9 ~ .w-auto,
@@ -1111,18 +1095,15 @@
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 ~ .w-auto ,
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12,
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 + .w-12,
-
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ,
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 + .w-11,
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ~ .w-auto ,
     .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12,
     .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 + .w-12 ,
     .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 ~ .w-auto ,
-
     .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11,
     .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11 + .w-11 ,
     .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11 ~ .w-auto 
-
     {clear: both; float: left; margin-left: 0; margin-right: 0 ; width: 100%; display:block}
 
     /*3-fixed, split 2-1*/
@@ -1262,14 +1243,12 @@
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 ~ .w-auto ,
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12,
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 + .w-12,
-
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ,
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 + .w-11,
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ~ .w-auto ,
     .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12,
     .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 + .w-12 ,
     .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 ~ .w-auto ,
-
     .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11,
     .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11 + .w-11 ,
     .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11 ~ .w-auto 
@@ -1420,14 +1399,12 @@
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 ~ .w-auto ,
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12,
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 + .w-12,
-
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ,
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 + .w-11,
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ~ .w-auto ,
     .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12,
     .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 + .w-12 ,
     .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 ~ .w-auto ,
-
     .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11,
     .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11 + .w-11 ,
     .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11 ~ .w-auto 
@@ -1444,7 +1421,6 @@
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-3,
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-2,
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-1,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11,
     .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10,
     .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9,
     .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-8 ,
@@ -1461,8 +1437,7 @@
     .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 + .w-12,
     .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-11 + .w-11 ,
     .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-10 + .w-10,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-9 + .w-9 ,
-    
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-9 + .w-9 ,    
     .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-12 + .w-12,
     .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-11 + .w-11 ,
     .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-10 + .w-10,
@@ -1490,7 +1465,6 @@
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-3 ~ .w-auto ,
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-2 ~ .w-auto ,
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-1 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11 ~ .w-auto,
     .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10 ~ .w-auto,
     .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9 ~ .w-auto,
     .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-8 ~ .w-auto,
@@ -1527,7 +1501,7 @@
     .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-12 ~ .w-auto
     {margin-right:0;clear: right; overflow:hidden}
 }
-/*YOu re in this*/
+
 @media (min-width: 720px) and (max-width: 759px) {
     /*Core*/
     .waffles .w-11.w-alpha:not(.w-fix) { margin-left: 0; margin-right: 0; width: 100%;}
@@ -1598,21 +1572,30 @@
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 ~ .w-auto ,
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12,
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 + .w-12,
-
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ,
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 + .w-11,
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ~ .w-auto ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ~ .w-auto , 
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10 + .w-10 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10 ~ .w-auto ,
     .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12,
     .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 + .w-12 ,
     .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 ~ .w-auto ,
-
     .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11,
     .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11 + .w-11 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11 ~ .w-auto 
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11 ~ .w-auto ,  
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10 + .w-10 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10 ~ .w-auto ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 + .w-12 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 ~ .w-auto ,    
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11 + .w-11 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11 ~ .w-auto 
     {clear: both; float: left; margin-left: 0; margin-right: 0 ; width: 100%; display:block}
 
     /*3-fixed, split 2-1*/
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10,
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9 ,
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8,
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-7,
@@ -1622,8 +1605,6 @@
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-3,
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-2,
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-1,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10,
     .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9,
     .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-8 ,
     .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-7,
@@ -1633,14 +1614,11 @@
     .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-9 ,
     .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-8,
     .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-7,
-    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-8,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 + .w-12 ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11 + .w-11 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-8,    
     .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 + .w-12,
     .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-11 + .w-11 ,
     .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-10 + .w-10,
     .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-9 + .w-9 ,
-    
     .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-12 + .w-12,
     .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-11 + .w-11 ,
     .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-10 + .w-10,
@@ -1658,7 +1636,6 @@
     .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-12 + .w-12
     {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
 
-    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10 ~ .w-auto,
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9 ~ .w-auto,
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8 ~ .w-auto,
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-7 ~ .w-auto ,
@@ -1668,8 +1645,6 @@
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-3 ~ .w-auto ,
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-2 ~ .w-auto ,
     .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-1 ~ .w-auto ,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10 ~ .w-auto,
     .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9 ~ .w-auto,
     .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-8 ~ .w-auto,
     .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-7 ~ .w-auto,
@@ -1682,8 +1657,6 @@
     .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-8 ~ .w-auto
     {margin-left:0; clear:left}
 
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 ~ .w-auto,
-    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11 ~ .w-auto,
     .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 ~ .w-auto,
     .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-11 ~ .w-auto,
     .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-10 ~ .w-auto,
@@ -1705,9 +1678,8 @@
     .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-12 ~ .w-auto
     {margin-right:0;clear: right; overflow:hidden}
 }
-/*You re in this*/
-@media (min-width: 680px) and (max-width: 719px) {
 
+@media (min-width: 680px) and (max-width: 719px) {
     /*standard*/
     .waffles .w-11.w-alpha:not(.w-fix) { margin-left: 0; margin-right: 0; width: 100%;}
     .waffles .w-11.w-alpha:not(.w-fix) + .w-1.w-omega { margin-left: 0; margin-right: 0; width: 100%;}
@@ -1780,11 +1752,141 @@
     .waffles .w-11.w-fix:first-child:nth-last-child(2) + .w-auto,
     .waffles .w-10.w-fix:first-child:nth-last-child(2) + .w-auto {clear: both; float: left; margin-left: 0; margin-right: 0 ; width: 100%; display:block}
 
+     /*3-fixed, split 1-1-1*/
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ~ .w-auto,   
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11 ~ .w-auto,   
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 ~ .w-auto,   
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-10 + .w-10 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-10 ~ .w-auto
+    {clear: both; float: left; margin-left: 0; margin-right: 0 ; width: 100%; display:block}
 
+     /*3-fixed, split 2-1*/
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-7,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-6,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-5,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-4,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-3,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-2,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-1,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-7,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-6,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-5,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-4,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-3,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-2,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-1,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-7,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-6,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-8,  
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-11 + .w-11
+    {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
+
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-7 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-6 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-5 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-4 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-3 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-2 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-1 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-7 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-6 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-5 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-4 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-3 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-2 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-1 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-7 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-6 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-8 ~ .w-auto
+    {margin-left:0; clear:left}
+
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-11 ~ .w-auto
+    {margin-right:0;clear: right; overflow:hidden}
 }
 
 @media (min-width: 640px) and (max-width: 679px) {
- 
     /*standard*/
     .waffles .w-11.w-alpha:not(.w-fix) { margin-left: 0; margin-right: 0; width: 100%;}
     .waffles .w-11.w-alpha:not(.w-fix) + .w-1.w-omega { margin-left: 0; margin-right: 0; width: 100%;}
@@ -1871,7 +1973,7 @@
     .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(10) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
     .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(12) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
     
-         /*Fixed - 2pt*/
+     /*Fixed - 2pt*/
     .waffles .w-12.w-fix:first-child:nth-last-child(2) ,
     .waffles .w-11.w-fix:first-child:nth-last-child(2) ,
     .waffles .w-10.w-fix:first-child:nth-last-child(2) ,
@@ -1879,11 +1981,145 @@
     .waffles .w-11.w-fix:first-child:nth-last-child(2) + .w-auto,
     .waffles .w-10.w-fix:first-child:nth-last-child(2) + .w-auto {clear: both; float: left; margin-left: 0; margin-right: 0 ; width: 100%; display:block}
 
-  
+     /*3-fixed, split 1-1-1*/
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ~ .w-auto,   
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11 ~ .w-auto,  
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 ~ .w-auto,    
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-10 + .w-10 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-10 ~ .w-auto
+    {clear: both; float: left; margin-left: 0; margin-right: 0 ; width: 100%; display:block}
+
+     /*3-fixed, split 2-1*/
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-7,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-6,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-5,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-4,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-3,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-2,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-1,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-7,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-6,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-5,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-4,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-3,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-2,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-1,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-7,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-6,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-7,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-9,    
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-11 + .w-11
+    {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
+
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-7 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-6 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-5 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-4 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-3 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-2 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-1 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-7 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-6 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-5 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-4 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-3 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-2 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-1 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-7 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-6 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-7 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-9 ~ .w-auto
+    {margin-left:0; clear:left}
+
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-11 ~ .w-auto
+    {margin-right:0;clear: right; overflow:hidden}
 }
 
-@media (min-width: 600px) and (max-width: 639px) {
-    
+@media (min-width: 600px) and (max-width: 639px) {  
     /*standard*/
     .waffles .w-11.w-alpha:not(.w-fix) { margin-left: 0; margin-right: 0; width: 100%;}
     .waffles .w-11.w-alpha:not(.w-fix) + .w-1.w-omega { margin-left: 0; margin-right: 0; width: 100%;}
@@ -1914,7 +2150,6 @@
     .waffles .w-2.w-alpha:not(.w-fix) ~ .w-3 ,
     .waffles .w-2.w-alpha:not(.w-fix) ~ .w-2 ,
     .waffles .w-2.w-alpha:not(.w-fix) ~ .w-1{margin-left: 0; margin-right: 0; width: 100%; }
-
 
     /*Standard Pattern Matches*/
     .waffles  :not(.w-fix) > .w-2:first-child:nth-last-child(6) { margin-left: 0; margin-right: 1%; width: 32.33%; }
@@ -2003,11 +2238,148 @@
     .waffles .w-11.w-fix:first-child:nth-last-child(2) + .w-auto,
     .waffles .w-10.w-fix:first-child:nth-last-child(2) + .w-auto {clear: both; float: left; margin-left: 0; margin-right: 0 ; width: 100%; display:block}
 
-    
-    
+    /*3-fixed, split 1-1-1*/
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ~ .w-auto,  
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11 ~ .w-auto, 
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-10 + .w-10 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-10 ~ .w-auto
+    {clear: both; float: left; margin-left: 0; margin-right: 0 ; width: 100%; display:block}
+
+     /*3-fixed, split 2-1*/
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-7,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-6,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-5,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-4,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-3,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-2,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-1,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-7,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-6,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-5,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-4,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-3,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-2,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-1,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-7,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-6,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-5,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-7,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-11 + .w-11
+    {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
+
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-7 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-6 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-5 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-4 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-3 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-2 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-1 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-7 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-6 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-5 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-4 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-3 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-2 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-1 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-7 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-6 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-5 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-7 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-8 ~ .w-auto
+    {margin-left:0; clear:left}
+
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-11 ~ .w-auto
+    {margin-right:0;clear: right; overflow:hidden} 
 }
 
-/*9 [4s removed]*/
 @media (min-width: 560px) and (max-width: 599px) {
 
     .waffles .w-11.w-alpha:not(.w-fix) { margin-left: 0; margin-right: 0; width: 100%;}
@@ -2124,7 +2496,7 @@
     .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(10) { clear: left; margin-left: 0%; margin-right: 1%; width: 32.33%; }
     .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(12) ~ .w-auto:last-child { clear: right; margin-left: 1%; margin-right: 0%; width: 32.33%; }
     
-     /*Fixed - 2pt*/
+    /*Fixed - 2pt*/
     .waffles .w-12.w-fix:first-child:nth-last-child(2) ,
     .waffles .w-11.w-fix:first-child:nth-last-child(2) ,
     .waffles .w-10.w-fix:first-child:nth-last-child(2) ,
@@ -2132,7 +2504,158 @@
     .waffles .w-11.w-fix:first-child:nth-last-child(2) + .w-auto,
     .waffles .w-10.w-fix:first-child:nth-last-child(2) + .w-auto {clear: both; float: left; margin-left: 0; margin-right: 0 ; width: 100%; display:block}
 
-    
+    /*3-fixed, split 1-1-1*/
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ~ .w-auto,   
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11 ~ .w-auto,    
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 ~ .w-auto,    
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-10 + .w-10 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-10 ~ .w-auto
+    {clear: both; float: left; margin-left: 0; margin-right: 0 ; width: 100%; display:block}
+
+     /*3-fixed, split 2-1*/
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-7,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-6,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-5,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-4,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-3,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-2,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-1,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-7,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-6,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-5,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-4,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-3,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-2,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-1,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-7,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-6,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-5,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-4,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-7,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-6,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-7,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-8 + .w-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-11 + .w-11
+    {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
+
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-7 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-6 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-5 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-4 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-3 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-2 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-1 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-7 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-6 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-5 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-4 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-3 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-2 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-1 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-7 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-6 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-5 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-4 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-7 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-6 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-7 ~ .w-auto
+    {margin-left:0; clear:left}
+
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-11 ~ .w-auto
+    {margin-right:0;clear: right; overflow:hidden}
 }
 
 @media (min-width: 520px) and (max-width: 559px) {
@@ -2179,7 +2702,6 @@
     .waffles .w-3.w-alpha:not(.w-fix) ~ .w-3 ,
     .waffles .w-3.w-alpha:not(.w-fix) ~ .w-2 ,
     .waffles .w-3.w-alpha:not(.w-fix) ~ .w-1{margin-left: 0; margin-right: 0; width: 100%; }
-
 
     /*Pattern Matches*/
     .waffles  :not(.w-fix) >  .w-3:first-child:nth-last-child(4):not(.w-fix) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
@@ -2274,11 +2796,179 @@
     .waffles .w-11.w-fix:first-child:nth-last-child(2) + .w-auto,
     .waffles .w-10.w-fix:first-child:nth-last-child(2) + .w-auto,
     .waffles .w-9.w-fix:first-child:nth-last-child(2) + .w-auto {clear: both; float: left; margin-left: 0; margin-right: 0 ; width: 100%; display:block}
+    
+     /*3-fixed, split 1-1-1*/
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-10 + .w-10 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-10 ~ .w-auto,    
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-9 + .w-9 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 + .w-12,    
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-11 + .w-11,  
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-10 + .w-10,  
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-9 ~ w-auto
+    {clear: both; float: left; margin-left: 0; margin-right: 0 ; width: 100%; display:block}
 
+     /*3-fixed, split 2-1*/
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-7,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-6,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-5,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-4,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-3,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-2,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-1,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-7,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-6,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-5,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-4,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-3,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-2,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-1,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-7,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-6,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-5,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-4,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-3,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-2,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-7,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-6,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-7,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-8 + .w-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-11 + .w-11
+    {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
+
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-7 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-6 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-5 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-4 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-3 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-2 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-1 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-7 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-6 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-5 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-4 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-3 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-2 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-1 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-7 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-6 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-5 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-4 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-3 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-2 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-7 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-6 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-7 ~ .w-auto
+    {margin-left:0; clear:left}
+
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-11 ~ .w-auto
+    {margin-right:0;clear: right; overflow:hidden}
 }
 
 @media (min-width: 480px) and (max-width: 519px) {
-
      /*Core*/
     .waffles .w-11.w-alpha:not(.w-fix) { margin-left: 0; margin-right: 0; width: 100%;}
     .waffles .w-11.w-alpha:not(.w-fix) + .w-1.w-omega { margin-left: 0; margin-right: 0; width: 100%;}
@@ -2409,6 +3099,187 @@
     .waffles .w-10.w-fix:first-child:nth-last-child(2) + .w-auto,
     .waffles .w-9.w-fix:first-child:nth-last-child(2) + .w-auto {clear: both; float: left; margin-left: 0; margin-right: 0 ; width: 100%; display:block}
     
+     /*3-fixed, split 1-1-1*/
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-10 + .w-10 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-10 ~ .w-auto,    
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-9 + .w-9 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 + .w-12,    
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-11 + .w-11,  
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-10 + .w-10,  
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-9 ~ w-auto
+    {clear: both; float: left; margin-left: 0; margin-right: 0 ; width: 100%; display:block}
+
+     /*3-fixed, split 2-1*/
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-7,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-6,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-5,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-4,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-3,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-2,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-1,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-7,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-6,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-5,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-4,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-3,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-2,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-1,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-7,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-6,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-5,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-4,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-3,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-2,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-1,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-7,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-6,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-5,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-7,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-6,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-8 + .w-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-8 + .w-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-10 + .w-10
+    {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
+
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-7 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-6 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-5 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-4 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-3 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-2 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-1 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-7 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-6 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-5 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-4 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-3 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-2 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-1 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-7 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-6 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-5 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-4 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-3 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-2 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-1 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-7 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-6 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-5 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-7 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-6 ~ .w-auto
+    {margin-left:0; clear:left}
+
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-10 ~ .w-auto
+    {margin-right:0;clear: right; overflow:hidden}
 }
 
 @media (min-width: 440px) and (max-width: 479px) {
@@ -2456,7 +3327,6 @@
     .waffles .w-3.w-alpha:not(.w-fix) ~ .w-3 ,
     .waffles .w-3.w-alpha:not(.w-fix) ~ .w-2 ,
     .waffles .w-3.w-alpha:not(.w-fix) ~ .w-1{margin-left: 0; margin-right: 0; width: 100%; }
-
 
     /*Pattern Matches*/
     .waffles  :not(.w-fix) > .w-4:first-child:nth-last-child(3):not(.w-fix) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
@@ -2526,10 +3396,196 @@
     .waffles .w-10.w-fix:first-child:nth-last-child(2) + .w-auto,
     .waffles .w-9.w-fix:first-child:nth-last-child(2) + .w-auto {clear: both; float: left; margin-left: 0; margin-right: 0 ; width: 100%; display:block}    
 
+     /*3-fixed, split 1-1-1*/
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-10 + .w-10 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-10 ~ .w-auto,    
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-9 + .w-9 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 + .w-12,    
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-11 + .w-11,  
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-10 + .w-10,  
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-9 ~ w-auto
+    {clear: both; float: left; margin-left: 0; margin-right: 0 ; width: 100%; display:block}
+
+     /*3-fixed, split 2-1*/
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-7,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-6,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-5,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-4,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-3,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-2,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-1,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-7,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-6,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-5,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-4,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-3,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-2,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-1,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-7,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-6,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-5,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-4,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-3,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-2,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-1,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-7,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-6,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-5,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-4,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-7,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-6,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-7,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-8 + .w-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-8 + .w-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-10 + .w-10
+    {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
+
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-7 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-6 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-5 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-4 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-3 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-2 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-1 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-7 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-6 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-5 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-4 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-3 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-2 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-1 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-7 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-6 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-5 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-4 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-3 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-2 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-1 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-7 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-6 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-5 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-4 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-7 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-6 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-7 ~ .w-auto
+    {margin-left:0; clear:left}
+
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-10 ~ .w-auto
+    {margin-right:0;clear: right; overflow:hidden}
 }
 
 @media (min-width: 400px) and (max-width: 439px) {
-
     /*DCore*/
     .waffles .w-11.w-alpha:not(.w-fix) { margin-left: 0; margin-right: 0; width: 100%; }
     .waffles .w-11.w-alpha:not(.w-fix) + .w-1.w-omega { margin-left: 0; margin-right: 0; width: 100%; }
@@ -2586,19 +3642,18 @@
     .waffles .w-4.w-alpha:not(.w-fix) ~ .w-2,
     .waffles .w-4.w-alpha:not(.w-fix) ~ .w-1 { margin-left: 0; margin-right: 0; width: 100%; }
 
-
     /*Pattern Matches*/
-    .waffles  :not(.w-fix) >  .w-4:first-child:nth-last-child(3) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
-    .waffles  :not(.w-fix) >  .w-4:first-child:nth-last-child(3) ~ .w-4:nth-child(even) { clear: left; margin-left: 0%; margin-right: 1%; width: 49%; }
-    .waffles  :not(.w-fix) >  .w-4:first-child:nth-last-child(3) ~ .w-4:nth-child(odd) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-4:not(.w-fix):first-child:nth-last-child(3) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
+    .waffles  :not(.w-fix) >  .w-4:not(.w-fix):first-child:nth-last-child(3) ~ .w-4:nth-child(even) { clear: left; margin-left: 0%; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-4:not(.w-fix):first-child:nth-last-child(3) ~ .w-4:nth-child(odd) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
                 
-    .waffles  :not(.w-fix) >  .w-3:first-child:nth-last-child(4) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles  :not(.w-fix) >  .w-3:first-child:nth-last-child(4) ~ .w-3:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-    .waffles  :not(.w-fix) >  .w-3:first-child:nth-last-child(4) ~ .w-3:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-3:not(.w-fix):first-child:nth-last-child(4) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-3:not(.w-fix):first-child:nth-last-child(4) ~ .w-3:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-3:not(.w-fix):first-child:nth-last-child(4) ~ .w-3:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
                
-    .waffles  :not(.w-fix) >  .w-2:first-child:nth-last-child(6) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles  :not(.w-fix) >  .w-2:first-child:nth-last-child(6) ~ .w-2:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-    .waffles  :not(.w-fix) >  .w-2:first-child:nth-last-child(6) ~ .w-2:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-2:not(.w-fix):first-child:nth-last-child(6) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-2:not(.w-fix):first-child:nth-last-child(6) ~ .w-2:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+    .waffles  :not(.w-fix) >  .w-2:not(.w-fix):first-child:nth-last-child(6) ~ .w-2:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
 
     /*Auto*/
     .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(3) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
@@ -2640,9 +3695,7 @@
     .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(12) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
     .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
     .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(12) ~ .w-auto:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    
-    
-    
+
      /*Fixed - 2pt*/
     .waffles .w-12.w-fix:first-child:nth-last-child(2) ,
     .waffles .w-11.w-fix:first-child:nth-last-child(2) ,
@@ -2653,14 +3706,209 @@
     .waffles .w-11.w-fix:first-child:nth-last-child(2) + .w-auto,
     .waffles .w-10.w-fix:first-child:nth-last-child(2) + .w-auto,
     .waffles .w-9.w-fix:first-child:nth-last-child(2) + .w-auto,
-    .waffles .w-8.w-fix:first-child:nth-last-child(2) + .w-auto {clear: both; float: left; margin-left: 0; margin-right: 0 ; width: 100%; display:block}
+    .waffles .w-8.w-fix:first-child:nth-last-child(2) + .w-auto 
+    {clear: both; float: left; margin-left: 0; margin-right: 0 ; width: 100%; display:block}
     
+     /*3-fixed, split 1-1-1*/
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8 + .w-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8 ~ .w-auto,   
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-8 + .w-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-10 + .w-10 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-10 ~ .w-auto,    
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-9 + .w-9 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-8 + .w-8 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 + .w-12,    
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-11 + .w-11,  
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-10 + .w-10,  
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-9 ~ w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-8 + .w-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-8 ~ w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-12 + .w-12,    
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-11 + .w-11,  
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-10 + .w-10,  
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-8 + .w-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-8 ~ .w-auto
+    {clear: both; float: left; margin-left: 0; margin-right: 0 ; width: 100%; display:block}
+
+     /*3-fixed, split 2-1*/
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-7,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-6,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-5,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-4,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-3,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-2,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-1,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-7,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-6,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-5,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-4,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-3,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-2,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-1,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-7,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-6,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-5,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-4,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-3,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-2,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-1,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-7,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-6,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-5,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-4,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-7,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-6,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-7,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-8 + .w-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-8 + .w-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-10 + .w-10
+    {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
+
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-7 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-6 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-5 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-4 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-3 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-2 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-1 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-7 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-6 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-5 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-4 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-3 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-2 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-1 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-7 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-6 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-5 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-4 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-3 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-2 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-1 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-7 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-6 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-5 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-4 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-7 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-6 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-7 ~ .w-auto
+    {margin-left:0; clear:left}
+
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-10 ~ .w-auto
+    {margin-right:0;clear: right; overflow:hidden}
 }
-
-/*4*/
+/*You re in this*/
 @media (min-width: 360px) and (max-width: 399px) {
-   
-
     /*Core Fluid Widths**/
     .waffles .w-11.w-alpha:not(.w-fix) { margin-left: 0; margin-right: 0; width: 100%;}
     .waffles .w-11.w-alpha:not(.w-fix) + .w-1.w-omega { margin-left: 0; margin-right: 0; width: 100%;}
@@ -2718,13 +3966,13 @@
     .waffles .w-4.w-alpha:not(.w-fix) ~ .w-1{margin-left: 0; margin-right: 0; width: 100%; }
 
     /*Pattern Matches*/
-    .waffles  :not(.w-fix) > .w-4:first-child:nth-last-child(3) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
-    .waffles  :not(.w-fix) > .w-4:first-child:nth-last-child(3) ~ .w-4:nth-child(even) { clear: left; margin-left: 0%; margin-right: 1%; width: 49%; }
-    .waffles  :not(.w-fix) > .w-4:first-child:nth-last-child(3) ~ .w-4:nth-child(odd) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-4:not(.w-fix):first-child:nth-last-child(3) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
+    .waffles  :not(.w-fix) > .w-4:not(.w-fix):first-child:nth-last-child(3) ~ .w-4:nth-child(even) { clear: left; margin-left: 0%; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-4:not(.w-fix):first-child:nth-last-child(3) ~ .w-4:nth-child(odd) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
              
-    .waffles  :not(.w-fix) > .w-3:first-child:nth-last-child(4) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
-    .waffles  :not(.w-fix) > .w-3:first-child:nth-last-child(4) ~ .w-3:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
-    .waffles  :not(.w-fix) > .w-3:first-child:nth-last-child(4) ~ .w-3:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-3:not(.w-fix):first-child:nth-last-child(4) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-3:not(.w-fix):first-child:nth-last-child(4) ~ .w-3:nth-child(even) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+    .waffles  :not(.w-fix) > .w-3:not(.w-fix):first-child:nth-last-child(4) ~ .w-3:nth-child(odd) { clear: left; margin-left: 0; margin-right: 1%; width: 49%; }
 
     /*Auto*/
     .waffles  :not(.w-fix) > .w-auto:first-child:nth-last-child(3) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
@@ -2777,12 +4025,236 @@
     .waffles .w-11.w-fix:first-child:nth-last-child(2) + .w-auto,
     .waffles .w-10.w-fix:first-child:nth-last-child(2) + .w-auto,
     .waffles .w-9.w-fix:first-child:nth-last-child(2) + .w-auto,
-    .waffles .w-8.w-fix:first-child:nth-last-child(2) + .w-auto {clear: both; float: left; margin-left: 0; margin-right: 0 ; width: 100%; display:block}
+    .waffles .w-8.w-fix:first-child:nth-last-child(2) + .w-auto 
+    {clear: both; float: left; margin-left: 0; margin-right: 0 ; width: 100%; display:block}
+    
+    /*3-fixed, split 1-1-1*/
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8 + .w-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8 ~ .w-auto,   
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-8 + .w-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-10 + .w-10 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-10 ~ .w-auto,    
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-9 + .w-9 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-8 + .w-8 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 + .w-12,    
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-11 + .w-11,  
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-10 + .w-10,  
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-8 + .w-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-8 ~ w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-12 + .w-12,    
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-11 + .w-11,  
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-10 + .w-10,  
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-8 + .w-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-8 ~ .w-auto
+    {clear: both; float: left; margin-left: 0; margin-right: 0 ; width: 100%; display:block}
 
+     /*3-fixed, split 2-1*/
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-7,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-6,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-5,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-4,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-3,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-2,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-1,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-7,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-6,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-5,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-4,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-3,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-2,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-1,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-7,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-6,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-5,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-4,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-3,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-2,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-1,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-7,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-6,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-5,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-4,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-3,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-2,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-1,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-7,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-6,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-5,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-4,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-7,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-6,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-6,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-8 + .w-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-8 + .w-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-7 + .w-7,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-8 + .w-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-8 + .w-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-9 + .w-9
+    {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
+
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-7 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-6 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-5 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-4 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-3 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-2 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-1 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-7 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-6 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-5 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-4 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-3 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-2 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-1 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-7 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-6 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-5 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-4 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-3 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-2 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-1 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-7 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-6 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-5 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-4 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-3 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-2 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-1 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-7 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-6 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-5 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-4 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-7 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-6 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-6 ~ .w-auto
+    {margin-left:0; clear:left}
+
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-7 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-9 ~ .w-auto
+    {margin-right:0;clear: right; overflow:hidden}
 }
 
 @media (min-width: 320px) and (max-width: 359px) {
-
     /*Core*/
     .waffles .w-11.w-alpha:not(.w-fix) { margin-left: 0; margin-right: 0; width: 100%;}
     .waffles .w-11.w-alpha:not(.w-fix) + .w-1.w-omega { margin-left: 0; margin-right: 0; width: 100%;}
@@ -2850,11 +4322,10 @@
     .waffles .w-5.w-alpha:not(.w-fix) ~ .w-2 ,
     .waffles .w-5.w-alpha:not(.w-fix) ~ .w-1{margin-left: 0; margin-right: 0; width: 100%; }
 
-
     /*Pattern Matches*/
-    .waffles .w-4:first-child:nth-last-child(3) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
-    .waffles .w-4:first-child:nth-last-child(3) ~ .w-4:nth-child(even) { clear: left; margin-left: 0%; margin-right: 1%; width: 49%; }
-    .waffles .w-4:first-child:nth-last-child(3) ~ .w-4:nth-child(odd) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
+    .waffles :not(.w-fix) > .w-4:not(.w-fix):first-child:nth-last-child(3) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
+    .waffles :not(.w-fix) > .w-4:not(.w-fix):first-child:nth-last-child(3) ~ .w-4:nth-child(even) { clear: left; margin-left: 0%; margin-right: 1%; width: 49%; }
+    .waffles :not(.w-fix) > .w-4:not(.w-fix):first-child:nth-last-child(3) ~ .w-4:nth-child(odd) { clear: right; margin-left: 1%; margin-right: 0%; width: 49%; }
 
     /*Auto*/
     .waffles  :not(.w-fix) >  .w-auto:first-child:nth-last-child(3) { clear: both; margin-left: 0; margin-right: 0%; width: 100%; }
@@ -2907,13 +4378,245 @@
     .waffles .w-11.w-fix:first-child:nth-last-child(2) + .w-auto,
     .waffles .w-10.w-fix:first-child:nth-last-child(2) + .w-auto,
     .waffles .w-9.w-fix:first-child:nth-last-child(2) + .w-auto,
-    .waffles .w-8.w-fix:first-child:nth-last-child(2) + .w-auto {clear: both; float: left; margin-left: 0; margin-right: 0 ; width: 100%; display:block}
-}
+    .waffles .w-8.w-fix:first-child:nth-last-child(2) + .w-auto 
+    {clear: both; float: left; margin-left: 0; margin-right: 0 ; width: 100%; display:block}
+  
+    /*3-fixed, split 1-1-1*/
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8 + .w-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-8 ~ .w-auto,   
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-8 + .w-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-10 + .w-10 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-10 ~ .w-auto,    
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-9 + .w-9 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-8 + .w-8 ,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-12 + .w-12,    
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-11 + .w-11,  
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-10 + .w-10,  
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-8 + .w-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-8 ~ w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-12 + .w-12,    
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-11 + .w-11,  
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-10 + .w-10,  
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-8 + .w-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-8 ~ .w-auto
+    {clear: both; float: left; margin-left: 0; margin-right: 0 ; width: 100%; display:block}
 
+     /*3-fixed, split 2-1*/
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-7,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-6,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-5,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-4,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-3,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-2,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-1,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-7,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-6,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-5,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-4,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-3,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-2,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-1,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-7,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-6,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-5,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-4,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-3,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-2,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-1,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-7,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-6,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-5,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-4,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-3,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-2,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-1,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-7,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-6,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-5,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-4,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-3,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-7,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-6,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-5,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-6,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-8 + .w-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-8 + .w-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-7 + .w-7,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-8 + .w-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-7 + .w-7,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-8 + .w-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-8 + .w-8,
+    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-9 + .w-9,
+    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-12 + .w-12,
+    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-11 + .w-11,
+    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-10 + .w-10,
+    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-9 + .w-9
+    {clear: both; float: left; margin-left: 0; margin-right: 0; width: 100%;}
+
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-7 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-6 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-5 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-4 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-3 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-2 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-12.w-pair-1 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-7 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-6 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-5 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-4 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-3 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-2 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-11.w-pair-1 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-7 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-6 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-5 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-4 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-3 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-2 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-10.w-pair-1 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-7 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-6 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-5 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-4 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-3 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-2 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-9.w-pair-1 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-7 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-6 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-5 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-4 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-8.w-pair-3 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-7 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-6 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-5 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-6 ~ .w-auto
+    {margin-left:0; clear:left}
+
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-7.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-6.w-pair-7 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-5.w-pair-7 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-4.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-3.w-pair-8 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-2.w-pair-9 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-12 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-11 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-10 ~ .w-auto,
+    .waffles .w-fix:first-child:nth-last-child(3).w-1.w-pair-9 ~ .w-auto
+    {margin-right:0;clear: right; overflow:hidden}
+}
 
 @media (min-width: 0px) and (max-width: 319px) {
     /*Core Fluid Widths**/
-
     .waffles .w-1,
     .waffles .w-2,
     .waffles .w-3,
@@ -2935,8 +4638,3 @@
     .waffles .w-auto { clear: both; display: block; float: left; margin-left: 0 !important; margin-right: 0 !important; width: 100% !important; }
     /*Fixed*/
 }
-
-
-
-
-
