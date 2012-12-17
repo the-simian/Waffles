@@ -15,7 +15,8 @@
     .waffles .w-10, 
     .waffles .w-11, 
     .waffles .w-12, 
-    .waffles .w-auto  { display: block; float: left; margin-left: 1%; margin-right: 1%; position: static; box-sizing: border-box; margin-top:0; margin-bottom:0}
+    .waffles .w-auto  
+    { display: block; float: left; margin-left: 1%; margin-right: 1%; position: static; box-sizing: border-box; margin-top:0px; margin-bottom:0px}
 
     .waffles .w-alpha { margin-left: 0; }
     .waffles .w-omega { margin-right: 0; }
@@ -213,6 +214,22 @@
    .waffles .w-v-10 {margin-top: 96px}
    .waffles .w-v-11 {margin-top: 112px}
    .waffles .w-v-12 {margin-top: 128px}
+
+
+   .waffles .w-v-1:before {box-sizing: border-box;  content:""}
+   .waffles .w-v-2:before {box-sizing: border-box;  content:""}
+   .waffles .w-v-3:before {box-sizing: border-box;  content:""}
+   .waffles .w-v-4:before {box-sizing: border-box;  content:""}
+   .waffles .w-v-5:before {box-sizing: border-box;  content:""}
+   .waffles .w-v-6:before {box-sizing: border-box;  content:""}
+   .waffles .w-v-7:before {box-sizing: border-box;  content:""}
+   .waffles .w-v-8:before {box-sizing: border-box;  content:""}
+   .waffles .w-v-9:before {box-sizing: border-box;  content:""}
+   .waffles .w-v-10:before {box-sizing: border-box;  content:""}
+   .waffles .w-v-11:before {box-sizing: border-box;  content:""}
+   .waffles .w-v-12:before {box-sizing: border-box;  content:""}
+
+
    
    .waffles .w-v_1  {margin-bottom: 4px}
    .waffles .w-v_2  {margin-bottom: 8px}
