@@ -38,7 +38,7 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-    $(document).tooltip({
+    $(document).find('.tooltip-zone').tooltip({
         position: {
             my: "center bottom-20",
             at: "center top",

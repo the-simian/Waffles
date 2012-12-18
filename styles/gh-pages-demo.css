@@ -189,3 +189,11 @@ a.current-location {
         bottom: -20px;
         top: auto;
     }
+
+
+    .rangeHelperThing {
+
+
+        border-bottom: 1px dotted black;
+        text-align: center;
+    }

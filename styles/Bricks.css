@@ -18,6 +18,20 @@
 
 }
 
+.demo-brick-helper-text {
+   text-align: center;
+    background-color: white;
+    color: black;
+    font-size: 19px;
+    border-radius: 45px;
+    padding: 6px;
+    min-width: 14px;
+    display: block;
+    width: 7px;
+    margin: 1px auto;
+    opacity: 0.9;
+}
+
 .brick:hover {
     opacity: 1;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);

@@ -6,11 +6,11 @@ vm.data = {};
 vm.$el = {};
 vm.ui.widgets = {};
 
-vm.sliderValue1 = ko.observable(0);
+vm.sliderValue1 = ko.observable(1);
 
-vm.sliderValue2 = ko.observable(0);
+vm.sliderValue2 = ko.observable(1);
 
-vm.sliderValue3 = ko.observable(0);
+vm.sliderValue3 = ko.observable(1);
 
 vm.sliderPorportionValue = ko.observable(0);
 vm.sliderPorportionOppositeValue = ko.computed(function () {
@@ -32,6 +32,8 @@ var changePortion = function () {
 
     var w2 = vm.sliderPorportionOppositeValue() ? 'w-' +  vm.sliderPorportionOppositeValue() : '';
 
+    var w1_pair = "w-pair-" + w2;
+
     vm.$el.$por1.removeClass(vm.data.allClasses).show();
     vm.$el.$por2.removeClass(vm.data.allClasses).show();
 
@@ -51,11 +53,11 @@ var changePortion = function () {
 
  
 
-    vm.$el.$por1.addClass(w1);
-    vm.$el.$por2.addClass(w2);
+    vm.$el.$por1.addClass(w1 + ' ' + w1_pair + ' w-alpha' );
+    vm.$el.$por2.addClass(w2 + ' w-omega');
 
 
-
+    applyTooltip();
 
 };
 
@@ -68,7 +70,7 @@ var injectAutos = function ($target, amount) {
     
     for (var i = 0; i < amount; i++) {
 
-        autos += '<div class="w-auto"><div class="brick"></div></div>';
+        autos += '<div class="w-auto w-v-1"><div class="brick"><span class="demo-brick-helper-text">'+amount+'</span></div></div>';
     }
 
 
@@ -76,10 +78,10 @@ var injectAutos = function ($target, amount) {
 };
 
 
-var applyTooltip = function() {
+var applyTooltip = function(demoDiv) {
 
 
-    var $demodivs = $();
+    var $demodivs = demoDiv || $('#porportionInject');
 
     var $brix = $demodivs.find('.brick');
     $.each($brix, function() {
@@ -101,6 +103,14 @@ var applyTooltip = function() {
         }
     });
 
+};
+
+
+var fillBasic = function() {
+
+    injectAutos($('#basicAutoDemo'), vm.sliderValue1());
+
+    applyTooltip($('#basicAutoDemo'));
 };
 
 vm.ui.widgets.waffleslider_Portion = ko.computed(function () {
@@ -145,9 +155,9 @@ vm.ui.widgets.waffleslider_1 = ko.computed(function () {
             slide: function (e, ui) {
 
                 vm.sliderValue1(ui.value);
-                
+                fillBasic();
             },
-            //stop: populateDiv
+            stop: fillBasic
         }
 
     };
@@ -220,4 +230,10 @@ $(document).ready(function () {
     vm.$el.$porAuto2 = $wafflePorportion.find('.auto-target-2');
 
     changePortion();
+    injectAutos(vm.$el.$porAuto1, vm.sliderValue2());
+    injectAutos(vm.$el.$porAuto2, vm.sliderValue3());
+
+    fillBasic();
+
+    applyTooltip();
 });
