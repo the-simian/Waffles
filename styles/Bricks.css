@@ -95,6 +95,10 @@
 .w-omega > .brick { }
 .w-alpha > .brick { }
 
+#media-query {
+
+    z-index: 999;
+}
 
 #resolution {
 
@@ -104,6 +108,8 @@
     text-align:center;
     opacity: 1;
     box-shadow: 0 0 7px black;
+   
+
 }
 
 /*xx-large*/
