@@ -5,10 +5,17 @@
     float: left;
     font-family: calibri;
     font-size: 16px;
-    height: 35px;
+    height: 34px;
     width: 100%;
     opacity: 0.8;
     -webkit-transition: color,box-shadow 0.75s;
+}
+
+.mini {
+    
+
+    height: 17px !important;
+
 }
 
 .brick:hover {
@@ -69,20 +76,20 @@
 }
 
 .w-auto > .brick { background-color: orange; background-image: url(../styles/images/waffle_pat.png)}
-
+.w-auto > .brick-mini { background-color: orange; background-image: url(../styles/images/waffle_pat.png)}
 
 .w-omega > .brick { }
 .w-alpha > .brick { }
 
 
 #resolution {
-    color: black;
+
     display: block;
     font-size: 30px;
-    left: 2.5%;
-    opacity: 0.7;
-    position: fixed;
-    top: 2.5%;
+    padding-top: 7px;
+    text-align:center;
+    opacity: 1;
+    box-shadow: 0 0 7px black;
 }
 
 /*xx-large*/

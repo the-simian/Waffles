@@ -6,14 +6,16 @@
 }
 
 .title {
-    height: 20px;
+    
 }
 
-h1 { font-size: 40px; text-align: left; text-indent: 90px;}
+h1 { font-size: 40px; text-align: left; text-indent: 28px;  display:block}
 
 h1 > a{
     color: rgba(255, 255, 255, 0.97) !important;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+   
+
 }
 
 h2 {
