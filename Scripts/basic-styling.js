@@ -32,24 +32,13 @@ var populateDiv = function (e,ui) {
         $html.removeClass('w-alpha w-omega').addClass('w-alpha w-omega');
 
     }
-
+    
 
     $demoDiv.html($html);
-
-
-
-
-
-
     var $brix = $demoDiv.find('.brick');
-
     $.each($brix, function() {
         $(this).attr('title', $(this).parent().attr('class'));
     });
-    
-
-
-
 
     $demoDiv.tooltip({
         position: {
@@ -67,6 +56,9 @@ var populateDiv = function (e,ui) {
     });
 
 };
+
+
+
 
 
 vm.ui.widgets.waffleslider = ko.computed(function () {

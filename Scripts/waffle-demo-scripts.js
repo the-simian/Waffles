@@ -37,7 +37,7 @@ $(document).ready(function () {
     
 });
 
-$(window).load(function () {
+$(document).ready(function () {
     $(document).tooltip({
         position: {
             my: "center bottom-20",
