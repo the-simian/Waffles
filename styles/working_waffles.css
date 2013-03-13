@@ -1,7 +1,7 @@
 ﻿@media all {
     /*Waffles by Jesse Harlin*/
     /**TODO: Hidden Helpers, Vertical spacers, procedurally add media queries and breaks!! */
-    .waffles { margin-left: auto; margin-right: auto; max-width: 100%; min-width: 240px; width: 99%; height:100%; overflow-x:hidden}
+    .waffles { margin-left: auto; margin-right: auto; max-width: 100%; min-width: 240px; width: 100%;overflow: hidden; padding:0}
 
     .waffles .w-1, 
     .waffles .w-2, 
@@ -202,32 +202,32 @@
     .waffles .w-12.w-fix.w-omega ~ .w-auto.w-omega { margin-right:  864px; }
     
     /*vertical margins*/
-   .waffles .w-v-1  {margin-top: 4px}
-   .waffles .w-v-2  {margin-top: 8px}
-   .waffles .w-v-3  {margin-top: 12px}
-   .waffles .w-v-4  {margin-top: 16px}
-   .waffles .w-v-5  {margin-top: 24px}
-   .waffles .w-v-6  {margin-top: 32px}
-   .waffles .w-v-7  {margin-top: 48px}
-   .waffles .w-v-8  {margin-top: 64px}
-   .waffles .w-v-9  {margin-top: 72px}
-   .waffles .w-v-10 {margin-top: 96px}
-   .waffles .w-v-11 {margin-top: 112px}
-   .waffles .w-v-12 {margin-top: 128px}
+   .waffles .w-v-1  {margin-top: 4px   }
+   .waffles .w-v-2  {margin-top: 8px   }
+   .waffles .w-v-3  {margin-top: 12px  }
+   .waffles .w-v-4  {margin-top: 16px }
+   .waffles .w-v-5  {margin-top: 24px }
+   .waffles .w-v-6  {margin-top: 32px }
+   .waffles .w-v-7  {margin-top: 48px }
+   .waffles .w-v-8  {margin-top: 64px }
+   .waffles .w-v-9  {margin-top: 72px }
+   .waffles .w-v-10 {margin-top: 96px }
+   .waffles .w-v-11 {margin-top: 112px }
+   .waffles .w-v-12 {margin-top: 128px }
 
 
-   .waffles .w-v-1:before {box-sizing: border-box;  content:""}
-   .waffles .w-v-2:before {box-sizing: border-box;  content:""}
-   .waffles .w-v-3:before {box-sizing: border-box;  content:""}
-   .waffles .w-v-4:before {box-sizing: border-box;  content:""}
-   .waffles .w-v-5:before {box-sizing: border-box;  content:""}
-   .waffles .w-v-6:before {box-sizing: border-box;  content:""}
-   .waffles .w-v-7:before {box-sizing: border-box;  content:""}
-   .waffles .w-v-8:before {box-sizing: border-box;  content:""}
-   .waffles .w-v-9:before {box-sizing: border-box;  content:""}
-   .waffles .w-v-10:before {box-sizing: border-box;  content:""}
-   .waffles .w-v-11:before {box-sizing: border-box;  content:""}
-   .waffles .w-v-12:before {box-sizing: border-box;  content:""}
+   .waffles .w-v-1:before {box-sizing: border-box;content: ""  ; }
+   .waffles .w-v-2:before {box-sizing: border-box;  content:"" ; }
+   .waffles .w-v-3:before {box-sizing: border-box;  content:"" ; }
+   .waffles .w-v-4:before {box-sizing: border-box;  content:"" ;}
+   .waffles .w-v-5:before {box-sizing: border-box;  content:"" ;}
+   .waffles .w-v-6:before {box-sizing: border-box;  content:"" ;}
+   .waffles .w-v-7:before {box-sizing: border-box;  content:"" ;}
+   .waffles .w-v-8:before {box-sizing: border-box;  content:"" ;}
+   .waffles .w-v-9:before {box-sizing: border-box;content: ""  ;}
+   .waffles .w-v-10:before {box-sizing: border-box;  content:"";}
+   .waffles .w-v-11:before {box-sizing: border-box;  content:""; }
+   .waffles .w-v-12:before {box-sizing: border-box;content: "" ; }
 
 
    
@@ -280,6 +280,297 @@
 }
 
 
+/*visibility helpers*/
+@media (min-width: 0px) and (max-width: 399px) {
+    
+    /*phone*/
+    .w-visible-phone {display:inherit}
+    .w-hide-phone {display:none}
+    .w-visible-phone-small {display:inherit}
+    .w-hide-phone-small {display:none}
+    .w-visible-phone-medium {display:none}
+    .w-hide-phone-medium {display:inherit}
+    .w-visible-phone-large {display:none}
+    .w-hide-phone-large {display:inherit}
+    
+    /*tablet*/
+    .w-visible-tablet {display:none}
+    .w-hide-tablet {display:inherit}
+    .w-visible-tablet-small {display:none}
+    .w-hide-tablet-small {display:inherit}
+    .w-visible-tablet-medium {display:none}
+    .w-hide-tablet-medium {display:inherit}
+    .w-visible-tablet-large {display:none}
+    .w-hide-tablet-large {display:inherit}
+
+
+    /*desktop*/
+    .w-visible-desktop {display:none}
+    .w-hide-desktop {display:inherit}   
+    .w-visible-desktop-small  {display:none}
+    .w-hide-desktop-small    {display:inherit}   
+    .w-visible-desktop-medium {display:none}
+    .w-hide-desktop-medium    {display:inherit}   
+    .w-visible-desktop-large {display:none}
+    .w-hide-desktop-large    {display:inherit}
+    
+}
+@media (min-width: 400px) and (max-width: 639px) {
+    /*phone*/
+    .w-visible-phone {display:inherit}
+    .w-hide-phone {display:none}
+    .w-visible-phone-small {display:none}
+    .w-hide-phone-small {display:inherit}
+    .w-visible-phone-medium {display:inherit}
+    .w-hide-phone-medium {display:none}
+    .w-visible-phone-large {display:none}
+    .w-hide-phone-large {display:inherit}
+    
+    /*tablet*/
+    .w-visible-tablet {display:none}
+    .w-hide-tablet {display:inherit}
+    .w-visible-tablet-small {display:none}
+    .w-hide-tablet-small {display:inherit}
+    .w-visible-tablet-medium {display:none}
+    .w-hide-tablet-medium {display:inherit}
+    .w-visible-tablet-large {display:none}
+    .w-hide-tablet-large {display:inherit}
+
+    
+    /*desktop*/
+    .w-visible-desktop {display:none}
+    .w-hide-desktop {display:inherit}   
+    .w-visible-desktop-small  {display:none}
+    .w-hide-desktop-small    {display:inherit}  
+    .w-visible-desktop-medium {display:none}
+    .w-hide-desktop-medium    {display:inherit}    
+    .w-visible-desktop-large {display:none}
+    .w-hide-desktop-large    {display:inherit}
+
+}
+@media (min-width: 640px) and (max-width: 799px) {
+    /*phone*/
+    .w-visible-phone {display:inherit}
+    .w-hide-phone {display:none}
+    .w-visible-phone-small {display:none}
+    .w-hide-phone-small {display:inherit}
+    .w-visible-phone-medium {display:inherit}
+    .w-hide-phone-medium {display:none}
+    .w-visible-phone-large {display:none}
+    .w-hide-phone-large {display:inherit}
+    
+    /*tablet*/
+    .w-visible-tablet {display:inherit}
+    .w-hide-tablet {display:none}
+    .w-visible-tablet-small {display:inherit}
+    .w-hide-tablet-small {display:none}
+    .w-visible-tablet-medium {display:none}
+    .w-hide-tablet-medium {display:inherit}
+    .w-visible-tablet-large {display:none}
+    .w-hide-tablet-large {display:inherit}
+
+    
+    /*desktop*/
+    .w-visible-desktop {display:none}
+    .w-hide-desktop {display:inherit}   
+    .w-visible-desktop-small  {display:none}
+    .w-hide-desktop-small    {display:inherit} 
+    .w-visible-desktop-medium {display:none}
+    .w-hide-desktop-medium    {display:inherit}
+    .w-visible-desktop-large {display:none}
+    .w-hide-desktop-large    {display:inherit}
+
+}
+@media (min-width: 800px) and (max-width: 959px) {
+    /*phone*/
+    .w-visible-phone {display:inherit}
+    .w-hide-phone {display:none}
+    .w-visible-phone-small {display:none}
+    .w-hide-phone-small {display:inherit}
+    .w-visible-phone-medium {display:inherit}
+    .w-hide-phone-medium {display:none}
+    .w-visible-phone-large {display:inherit}
+    .w-hide-phone-large {display:none}
+    
+    /*tablet*/
+    .w-visible-tablet {display:inherit}
+    .w-hide-tablet {display:none}
+    .w-visible-tablet-small {display:inherit}
+    .w-hide-tablet-small {display:none}
+    .w-visible-tablet-medium {display:inherit}
+    .w-hide-tablet-medium {display:none}
+    .w-visible-tablet-large {display:none}
+    .w-hide-tablet-large {display:inherit}
+    
+    /*desktop*/
+    .w-visible-desktop {display:inherit}
+    .w-hide-desktop {display:none}
+    .w-visible-desktop-small  {display:inherit}
+    .w-hide-desktop-small     {display:none}
+    .w-visible-desktop-medium {display:none}
+    .w-hide-desktop-medium    {display:inherit}
+    .w-visible-desktop-large {display:none}
+    .w-hide-desktop-large    {display:inherit}
+
+}
+@media (min-width: 960px) and (max-width: 1023px) {
+    /*phone*/
+    .w-visible-phone {display:inherit}
+    .w-hide-phone {display:none}
+    .w-visible-phone-small {display:none}
+    .w-hide-phone-small {display:inherit}
+    .w-visible-phone-medium {display:none}
+    .w-hide-phone-medium {display:inherit}
+    .w-visible-phone-large {display:inherit}
+    .w-hide-phone-large {display:none}
+    
+    /*tablet*/
+    .w-visible-tablet {display:inherit}
+    .w-hide-tablet {display:none}
+    .w-visible-tablet-small {display:none}
+    .w-hide-tablet-small {display:inherit}
+    .w-visible-tablet-medium {display:inherit}
+    .w-hide-tablet-medium {display:none}
+    .w-visible-tablet-large {display:none}
+    .w-hide-tablet-large {display:inherit}
+
+    /*desktop*/
+    .w-visible-desktop {display:inherit}
+    .w-hide-desktop {display:none}
+    .w-visible-desktop-small  {display:none}
+    .w-hide-desktop-small     {display:inherit}
+    .w-visible-desktop-medium {display:inherit}
+    .w-hide-desktop-medium    {display:none}
+    .w-visible-desktop-large {display:inherit}
+    .w-hide-desktop-large    {display:none}
+
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+    /*phone*/
+    .w-visible-phone {display:none}
+    .w-hide-phone {display:inherit}
+    .w-visible-phone-small {display:none}
+    .w-hide-phone-small {display:inherit}
+    .w-visible-phone-medium {display:none}
+    .w-hide-phone-medium {display:inherit}
+    .w-visible-phone-large {display:none}
+    .w-hide-phone-large {display:inherit}
+    
+    /*tablet*/
+    .w-visible-tablet {display:inherit}
+    .w-hide-tablet {display:none}
+    .w-visible-tablet-small {display:none}
+    .w-hide-tablet-small {display:inherit}
+    .w-visible-tablet-medium {display:inherit}
+    .w-hide-tablet-medium {display:none}
+    .w-visible-tablet-large {display:inherit}
+    .w-hide-tablet-large {display:none}
+
+    /*desktop*/
+    .w-visible-desktop {display:inherit}
+    .w-hide-desktop {display:none}
+    .w-visible-desktop-small  {display:none}
+    .w-hide-desktop-small     {display:inherit}
+    .w-visible-desktop-medium {display:inherit}
+    .w-hide-desktop-medium    {display:none}
+    .w-visible-desktop-large {display:inherit}
+    .w-hide-desktop-large    {display:none}
+}
+@media (min-width: 1280px) and (max-width: 1440px) {
+    /*phone*/
+    .w-visible-phone {display:none}
+    .w-hide-phone {display:inherit}
+    .w-visible-phone-small {display:none}
+    .w-hide-phone-small {display:inherit}
+    .w-visible-phone-medium {display:none}
+    .w-hide-phone-medium {display:inherit}
+    .w-visible-phone-large {display:none}
+    .w-hide-phone-large {display:inherit}
+    
+    /*tablet*/
+    .w-visible-tablet {display:inherit}
+    .w-hide-tablet {display:none}
+    .w-visible-tablet-small {display:none}
+    .w-hide-tablet-small {display:inherit}
+    .w-visible-tablet-medium {display:none}
+    .w-hide-tablet-medium {display:inherit}
+    .w-visible-tablet-large {display:inherit}
+    .w-hide-tablet-large {display:none}
+
+    /*desktop*/
+    .w-visible-desktop {display:inherit}
+    .w-hide-desktop {display:none}
+    .w-visible-desktop-small  {display:none}
+    .w-hide-desktop-small     {display:inherit}
+    .w-visible-desktop-medium {display:inherit}
+    .w-hide-desktop-medium    {display:none}
+    .w-visible-desktop-large {display:inherit}
+    .w-hide-desktop-large    {display:none}
+    
+}
+@media (min-width: 1441px) and (max-width: 1599px) {
+    /*phone*/
+    .w-visible-phone {display:none}
+    .w-hide-phone {display:inherit}
+    .w-visible-phone-small {display:none}
+    .w-hide-phone-small {display:inherit}
+    .w-visible-phone-medium {display:none}
+    .w-hide-phone-medium {display:inherit}
+    .w-visible-phone-large {display:none}
+    .w-hide-phone-large {display:inherit}
+    
+    /*tablet*/
+    .w-visible-tablet {display:none}
+    .w-hide-tablet {display:inherit}
+    .w-visible-tablet-small {display:none}
+    .w-hide-tablet-small {display:inherit}
+    .w-visible-tablet-medium {display:none}
+    .w-hide-tablet-medium {display:inherit}
+    .w-visible-tablet-large {display:none}
+    .w-hide-tablet-large {display:inherit}
+
+    /*desktop*/
+    .w-visible-desktop {display:inherit}
+    .w-hide-desktop {display:none}
+    .w-visible-desktop-small  {display:none}
+    .w-hide-desktop-small     {display:inherit}
+    .w-visible-desktop-medium {display:inherit}
+    .w-hide-desktop-medium    {display:none}
+    .w-visible-desktop-large {display:inherit}
+    .w-hide-desktop-large    {display:none}
+    
+}
+@media (min-width: 1680px) and (max-width: 2880px) {
+    /*phone*/
+    .w-visible-phone {display:none}
+    .w-hide-phone {display:inherit}
+    .w-visible-phone-small {display:none}
+    .w-hide-phone-small {display:inherit}
+    .w-visible-phone-medium {display:none}
+    .w-hide-phone-medium {display:inherit}
+    .w-visible-phone-large {display:none}
+    .w-hide-phone-large {display:inherit}
+    
+    /*tablet*/
+    .w-visible-tablet {display:none}
+    .w-hide-tablet {display:inherit}
+    .w-visible-tablet-small {display:none}
+    .w-hide-tablet-small {display:inherit}
+    .w-visible-tablet-medium {display:none}
+    .w-hide-tablet-medium {display:inherit}
+    .w-visible-tablet-large {display:none}
+    .w-hide-tablet-large {display:inherit}
+    
+     /*desktop*/
+    .w-visible-desktop {display:inherit}
+    .w-hide-desktop {display:none}
+    .w-visible-desktop-small {display:inherit}
+    .w-hide-desktop-small {display:none}
+    .w-visible-desktop-medium {display:inherit}
+    .w-hide-desktop-medium {display:none}
+    .w-visible-desktop-large {display:inherit}
+    .w-hide-desktop-large {display:none}
+}
 
 /*Responsive behavior*/
 
@@ -4719,298 +5010,4 @@
     .waffles .w-fix.w-11 + .w-fix.w-1 ~ .w-auto,
     .waffles .w-auto { clear: both; display: block; float: left; margin-left: 0 !important; margin-right: 0 !important; width: 100% !important; }
     /*Fixed*/
-}
-
-
-
-/*visibility helpers*/
-@media (min-width: 0px) and (max-width: 399px) {
-    
-    /*phone*/
-    .w-visible-phone {display:inherit}
-    .w-hide-phone {display:none}
-    .w-visible-phone-small {display:inherit}
-    .w-hide-phone-small {display:none}
-    .w-visible-phone-medium {display:none}
-    .w-hide-phone-medium {display:inherit}
-    .w-visible-phone-large {display:none}
-    .w-hide-phone-large {display:inherit}
-    
-    /*tablet*/
-    .w-visible-tablet {display:none}
-    .w-hide-tablet {display:inherit}
-    .w-visible-tablet-small {display:none}
-    .w-hide-tablet-small {display:inherit}
-    .w-visible-tablet-medium {display:none}
-    .w-hide-tablet-medium {display:inherit}
-    .w-visible-tablet-large {display:none}
-    .w-hide-tablet-large {display:inherit}
-
-
-    /*desktop*/
-    .w-visible-desktop {display:none}
-    .w-hide-desktop {display:inherit}   
-    .w-visible-desktop-small  {display:none}
-    .w-hide-desktop-small    {display:inherit}   
-    .w-visible-desktop-medium {display:none}
-    .w-hide-desktop-medium    {display:inherit}   
-    .w-visible-desktop-large {display:none}
-    .w-hide-desktop-large    {display:inherit}
-    
-}
-@media (min-width: 400px) and (max-width: 639px) {
-    /*phone*/
-    .w-visible-phone {display:inherit}
-    .w-hide-phone {display:none}
-    .w-visible-phone-small {display:none}
-    .w-hide-phone-small {display:inherit}
-    .w-visible-phone-medium {display:inherit}
-    .w-hide-phone-medium {display:none}
-    .w-visible-phone-large {display:none}
-    .w-hide-phone-large {display:inherit}
-    
-    /*tablet*/
-    .w-visible-tablet {display:none}
-    .w-hide-tablet {display:inherit}
-    .w-visible-tablet-small {display:none}
-    .w-hide-tablet-small {display:inherit}
-    .w-visible-tablet-medium {display:none}
-    .w-hide-tablet-medium {display:inherit}
-    .w-visible-tablet-large {display:none}
-    .w-hide-tablet-large {display:inherit}
-
-    
-    /*desktop*/
-    .w-visible-desktop {display:none}
-    .w-hide-desktop {display:inherit}   
-    .w-visible-desktop-small  {display:none}
-    .w-hide-desktop-small    {display:inherit}  
-    .w-visible-desktop-medium {display:none}
-    .w-hide-desktop-medium    {display:inherit}    
-    .w-visible-desktop-large {display:none}
-    .w-hide-desktop-large    {display:inherit}
-
-}
-@media (min-width: 640px) and (max-width: 799px) {
-    /*phone*/
-    .w-visible-phone {display:inherit}
-    .w-hide-phone {display:none}
-    .w-visible-phone-small {display:none}
-    .w-hide-phone-small {display:inherit}
-    .w-visible-phone-medium {display:inherit}
-    .w-hide-phone-medium {display:none}
-    .w-visible-phone-large {display:none}
-    .w-hide-phone-large {display:inherit}
-    
-    /*tablet*/
-    .w-visible-tablet {display:inherit}
-    .w-hide-tablet {display:none}
-    .w-visible-tablet-small {display:inherit}
-    .w-hide-tablet-small {display:none}
-    .w-visible-tablet-medium {display:none}
-    .w-hide-tablet-medium {display:inherit}
-    .w-visible-tablet-large {display:none}
-    .w-hide-tablet-large {display:inherit}
-
-    
-    /*desktop*/
-    .w-visible-desktop {display:none}
-    .w-hide-desktop {display:inherit}   
-    .w-visible-desktop-small  {display:none}
-    .w-hide-desktop-small    {display:inherit} 
-    .w-visible-desktop-medium {display:none}
-    .w-hide-desktop-medium    {display:inherit}
-    .w-visible-desktop-large {display:none !important}
-    .w-hide-desktop-large    {display:inherit}
-
-}
-@media (min-width: 800px) and (max-width: 959px) {
-    /*phone*/
-    .w-visible-phone {display:inherit}
-    .w-hide-phone {display:none}
-    .w-visible-phone-small {display:none}
-    .w-hide-phone-small {display:inherit}
-    .w-visible-phone-medium {display:inherit}
-    .w-hide-phone-medium {display:none}
-    .w-visible-phone-large {display:inherit}
-    .w-hide-phone-large {display:none}
-    
-    /*tablet*/
-    .w-visible-tablet {display:inherit}
-    .w-hide-tablet {display:none}
-    .w-visible-tablet-small {display:inherit}
-    .w-hide-tablet-small {display:none}
-    .w-visible-tablet-medium {display:inherit}
-    .w-hide-tablet-medium {display:none}
-    .w-visible-tablet-large {display:none}
-    .w-hide-tablet-large {display:inherit}
-    
-    /*desktop*/
-    .w-visible-desktop {display:inherit}
-    .w-hide-desktop {display:none}
-    .w-visible-desktop-small  {display:inherit}
-    .w-hide-desktop-small     {display:none}
-    .w-visible-desktop-medium {display:none}
-    .w-hide-desktop-medium    {display:inherit}
-    .w-visible-desktop-large {display:none !important}
-    .w-hide-desktop-large    {display:inherit}
-
-}
-@media (min-width: 960px) and (max-width: 1023px) {
-    /*phone*/
-    .w-visible-phone {display:inherit}
-    .w-hide-phone {display:none}
-    .w-visible-phone-small {display:none}
-    .w-hide-phone-small {display:inherit}
-    .w-visible-phone-medium {display:none}
-    .w-hide-phone-medium {display:inherit}
-    .w-visible-phone-large {display:inherit}
-    .w-hide-phone-large {display:none}
-    
-    /*tablet*/
-    .w-visible-tablet {display:inherit}
-    .w-hide-tablet {display:none}
-    .w-visible-tablet-small {display:none}
-    .w-hide-tablet-small {display:inherit}
-    .w-visible-tablet-medium {display:inherit}
-    .w-hide-tablet-medium {display:none}
-    .w-visible-tablet-large {display:none}
-    .w-hide-tablet-large {display:inherit}
-
-    /*desktop*/
-    .w-visible-desktop {display:inherit}
-    .w-hide-desktop {display:none}
-    .w-visible-desktop-small  {display:none}
-    .w-hide-desktop-small     {display:inherit}
-    .w-visible-desktop-medium {display:inherit}
-    .w-hide-desktop-medium    {display:none}
-    .w-visible-desktop-large {display:none !important}
-    .w-hide-desktop-large    {display:inherit}
-
-}
-@media (min-width: 1024px) and (max-width: 1279px) {
-    /*phone*/
-    .w-visible-phone {display:none}
-    .w-hide-phone {display:inherit}
-    .w-visible-phone-small {display:none}
-    .w-hide-phone-small {display:inherit}
-    .w-visible-phone-medium {display:none}
-    .w-hide-phone-medium {display:inherit}
-    .w-visible-phone-large {display:none}
-    .w-hide-phone-large {display:inherit}
-    
-    /*tablet*/
-    .w-visible-tablet {display:inherit}
-    .w-hide-tablet {display:none}
-    .w-visible-tablet-small {display:none}
-    .w-hide-tablet-small {display:inherit}
-    .w-visible-tablet-medium {display:inherit}
-    .w-hide-tablet-medium {display:none}
-    .w-visible-tablet-large {display:inherit}
-    .w-hide-tablet-large {display:none}
-
-    /*desktop*/
-    .w-visible-desktop {display:inherit}
-    .w-hide-desktop {display:none}
-    .w-visible-desktop-small  {display:none}
-    .w-hide-desktop-small     {display:inherit}
-    .w-visible-desktop-medium {display:inherit}
-    .w-hide-desktop-medium    {display:none}
-    .w-visible-desktop-large {display:none !important}
-    .w-hide-desktop-large    {display:inherit}
-}
-@media (min-width: 1280px) and (max-width: 1440px) {
-    /*phone*/
-    .w-visible-phone {display:none}
-    .w-hide-phone {display:inherit}
-    .w-visible-phone-small {display:none}
-    .w-hide-phone-small {display:inherit}
-    .w-visible-phone-medium {display:none}
-    .w-hide-phone-medium {display:inherit}
-    .w-visible-phone-large {display:none}
-    .w-hide-phone-large {display:inherit}
-    
-    /*tablet*/
-    .w-visible-tablet {display:inherit}
-    .w-hide-tablet {display:none}
-    .w-visible-tablet-small {display:none}
-    .w-hide-tablet-small {display:inherit}
-    .w-visible-tablet-medium {display:none}
-    .w-hide-tablet-medium {display:inherit}
-    .w-visible-tablet-large {display:inherit}
-    .w-hide-tablet-large {display:none}
-
-    /*desktop*/
-    .w-visible-desktop {display:inherit}
-    .w-hide-desktop {display:none}
-    .w-visible-desktop-small  {display:none}
-    .w-hide-desktop-small     {display:inherit}
-    .w-visible-desktop-medium {display:inherit}
-    .w-hide-desktop-medium    {display:none}
-    .w-visible-desktop-large {display:inherit !important}
-    .w-hide-desktop-large    {display:none}
-    
-}
-@media (min-width: 1441px) and (max-width: 1599px) {
-    /*phone*/
-    .w-visible-phone {display:none}
-    .w-hide-phone {display:inherit}
-    .w-visible-phone-small {display:none}
-    .w-hide-phone-small {display:inherit}
-    .w-visible-phone-medium {display:none}
-    .w-hide-phone-medium {display:inherit}
-    .w-visible-phone-large {display:none}
-    .w-hide-phone-large {display:inherit}
-    
-    /*tablet*/
-    .w-visible-tablet {display:none}
-    .w-hide-tablet {display:inherit}
-    .w-visible-tablet-small {display:none}
-    .w-hide-tablet-small {display:inherit}
-    .w-visible-tablet-medium {display:none}
-    .w-hide-tablet-medium {display:inherit}
-    .w-visible-tablet-large {display:none}
-    .w-hide-tablet-large {display:inherit}
-
-    /*desktop*/
-    .w-visible-desktop {display:inherit}
-    .w-hide-desktop {display:none}
-    .w-visible-desktop-small  {display:none}
-    .w-hide-desktop-small     {display:inherit}
-    .w-visible-desktop-medium {display:inherit}
-    .w-hide-desktop-medium    {display:none}
-    .w-visible-desktop-large {display:inherit !important}
-    .w-hide-desktop-large    {display:none}
-    
-}
-@media (min-width: 1680px) and (max-width: 2880px) {
-    /*phone*/
-    .w-visible-phone {display:none}
-    .w-hide-phone {display:inherit}
-    .w-visible-phone-small {display:none}
-    .w-hide-phone-small {display:inherit}
-    .w-visible-phone-medium {display:none}
-    .w-hide-phone-medium {display:inherit}
-    .w-visible-phone-large {display:none}
-    .w-hide-phone-large {display:inherit}
-    
-    /*tablet*/
-    .w-visible-tablet {display:none}
-    .w-hide-tablet {display:inherit}
-    .w-visible-tablet-small {display:none}
-    .w-hide-tablet-small {display:inherit}
-    .w-visible-tablet-medium {display:none}
-    .w-hide-tablet-medium {display:inherit}
-    .w-visible-tablet-large {display:none}
-    .w-hide-tablet-large {display:inherit}
-    
-     /*desktop*/
-    .w-visible-desktop {display:inherit}
-    .w-hide-desktop {display:none}
-    .w-visible-desktop-small {display:inherit}
-    .w-hide-desktop-small {display:none}
-    .w-visible-desktop-medium {display:inherit}
-    .w-hide-desktop-medium {display:none}
-    .w-visible-desktop-large {display:inherit !important}
-    .w-hide-desktop-large {display:none}
 }
