@@ -1,6 +1,17 @@
 {
 	"name": "waffles",
-	"author": "Jesse Harlin",
+	"author": {
+		"name": "Jesse Harlin",
+		"url": "http://github.com/JesseHarlin",
+		"email": "Jesse Harlin <harlinjesse@gmail.com>"
+	},
+	"maintainers": [
+		{
+			"name": "Joe Hare",
+			"url": "http://github.com/jhare",
+			"email": "Joe Hare <joseph.hare@gmail.com>"
+		}
+	],
 	"description": "A responsive grid framework that supports automatic sizing and mixed fixed/ fluid layouts.",
 	"version": "1.0.0",
 	"devDependencies": {
