@@ -1,0 +1,33 @@
+{
+	"name": "waffles",
+	"author": {
+		"name": "Jesse Harlin",
+		"url": "http://github.com/JesseHarlin",
+		"email": "Jesse Harlin <harlinjesse@gmail.com>"
+	},
+	"maintainers": [
+		{
+			"name": "Joe Hare",
+			"url": "http://github.com/jhare",
+			"email": "Joe Hare <joseph.hare@gmail.com>"
+		}
+	],
+	"description": "A responsive grid framework that supports automatic sizing and mixed fixed/ fluid layouts.",
+	"version": "1.0.0",
+	"devDependencies": {
+		"gulp": "3.8.x",
+		"gulp-stylus": "1.3.x",
+		"gulp-minify-css": "0.3.x",
+		"gulp-task-listing": "0.3.x",
+		"gulp-rename": "1.2.x",
+		"gulp-rimraf": "0.1.x"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/JesseHarlin/Waffles"
+	},
+	"readmeFilename": "README.md",
+	"licenses": {
+		"type": "MIT"
+	}
+}
