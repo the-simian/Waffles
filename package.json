@@ -21,7 +21,8 @@
 		"gulp-minify-css": "0.3.x",
 		"gulp-task-listing": "0.3.x",
 		"gulp-rename": "1.2.x",
-		"gulp-rimraf": "0.1.x"
+		"gulp-rimraf": "0.1.x",
+		"gulp-livereload": "2.x.x"
 	},
 	"repository": {
 		"type": "git",
