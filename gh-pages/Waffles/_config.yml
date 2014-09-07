@@ -4,8 +4,8 @@
 
 # Site
 title: Waffles
-subtitle: A REsponsive Grid, with autosizing, and mixed fixed and fluid layouts
-description:
+subtitle: A Css Grid
+description: Waffles is a css grid with autosizing and mixed fixed + fluid layouts
 author: Jesse Harlin
 email: harlinjesse@gmail.com
 language:
