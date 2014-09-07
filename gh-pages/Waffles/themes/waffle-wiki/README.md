@@ -3,21 +3,7 @@ Hexo-Waffles-Wiki
 
 Thsi was based initially on the Wixo theme, and has been modified
 
-Turn your Hexo into a Wiki, powered by Waffles!
-
-
-## Features ##
-
-* **Simple** - keep it simple and stupid;
-* **Notebook** - notebook-aware post arrangement and pagination. A category is a notebook;
-* **Scrollspy** - automatically updating ToC targets based on scroll position;
-* **Tag plugins** - luxuriant Bootstrap tag plugins, provided by [hexo-tag-bootstrap](https://github.com/wzpan/hexo-tag-bootstrap), including:
-  - textcolor - a paragraph of text with specified color;
-  - button - a button with target links, text and specified color;
-  - label - a label with text and specified color;
-  - badge - a badge with text;
-  - alert - alert messages with text and specified color;
-
+I'm using this for the documentation for the waffles grid system.
 
 
 ## Enable ##
@@ -43,7 +29,7 @@ google_analytics:
 * **google_analytics** - Google Analytics ID
 
 ## Front-Matter ##
-
+This technique comes from Wixo:
 * **toc** - renders a table of contents
 
 For example:
