@@ -1,16 +1,14 @@
-Hexo-Theme-Wixo
+Hexo-Waffles-Wiki
 ===
 
-Turn your Hexo into a Wiki!
+Thsi was based initially on the Wixo theme, and has been modified
 
-* [Demo](http://hahack.tk/hexo-theme-wixo/)
-* [Q&A](http://hahack.tk/hexo-theme-wixo/Docs/qna/)
-* [Tag Plugins](http://hahack.tk/hexo-theme-wixo/Docs/tag-plugins/)
+Turn your Hexo into a Wiki, powered by Waffles!
+
 
 ## Features ##
 
 * **Simple** - keep it simple and stupid;
-* **Bootstrap** - get the power of Twitter Bootstrap with minimal hassle;
 * **Notebook** - notebook-aware post arrangement and pagination. A category is a notebook;
 * **Scrollspy** - automatically updating ToC targets based on scroll position;
 * **Tag plugins** - luxuriant Bootstrap tag plugins, provided by [hexo-tag-bootstrap](https://github.com/wzpan/hexo-tag-bootstrap), including:
@@ -20,23 +18,11 @@ Turn your Hexo into a Wiki!
   - badge - a badge with text;
   - alert - alert messages with text and specified color;
 
-## Install ##
 
-1) install theme:
-
-``` sh
-$ git clone https://github.com/wzpan/hexo-theme-wixo.git themes/wixo
-```
-
-2) install [hexo-tag-bootstrap](https://github.com/wzpan/hexo-tag-bootstrap):
-
-``` sh
-$ npm install hexo-tag-bootstrap --save
-```
 
 ## Enable ##
 
-Modify `theme` setting in your `_config.yml` to `wixo`.
+Modify `theme` setting in your `_config.yml` to `waffle-wiki`.
 
 ## Update ##
 
