@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
+title: Waffles
+subtitle: A REsponsive Grid, with autosizing, and mixed fixed and fluid layouts
 description:
-author: John Doe
-email:
+author: Jesse Harlin
+email: harlinjesse@gmail.com
 language:
 
 # URL
@@ -79,7 +79,7 @@ disqus_shortname:
 # Extensions
 ## Plugins: https://github.com/hexojs/hexo/wiki/Plugins
 ## Themes: https://github.com/hexojs/hexo/wiki/Themes
-theme: wixo
+theme: waffle-wiki
 exclude_generator:
 
 # Deployment
