@@ -56,15 +56,10 @@ toc: true
 ---
 ```
 
-## Todo ##
-
-See [TODO](https://github.com/wzpan/hexo-theme-wixo/wiki/TODO).
-
 ## License ##
 
 This theme is provided under [MIT License](http://opensource.org/licenses/MIT).
 
 ## Credits ##
-
-* The theme is built based on [Twitter-Bootstrap 3.1.1](getbootstrap.com/3.1.1/);
+* Initially based on [Wixo](https://github.com/wzpan/hexo-theme-wixo)
 * The beautiful icons are from [Font Awesome](http://fortawesome.github.io/Font-Awesome/icons/).
