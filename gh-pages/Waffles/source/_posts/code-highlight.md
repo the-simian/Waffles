@@ -1,8 +1,22 @@
 title: "Code Highlight"
 date: 2014-03-15 20:17:16
-categories: [Example]
+categories: [ExamplePost]
 toc: true
 ---
+
+This post is just here to show some code examples while we flesh this documentation out
+Based on the Wixo Theme
+
+## Html ##
+
+```html
+<div class="waffles">
+  <div class="w-12 w-alpha w-omega">
+      <p>I am content!</p>
+  </div>
+</div>
+
+```
 
 ## C ##
 

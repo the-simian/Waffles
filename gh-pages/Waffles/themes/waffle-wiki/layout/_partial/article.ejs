@@ -1,27 +1,28 @@
-<div class="page-header">
+<div class="waffles">
   <h1><a class="brand" href="<%= config.root %>"><%= config.title %></a> - <%= page.title %></h1>
-  <h2><%= config.subtitle %></h2>
 </div>
 
-<div class="row page">
-  <% if (page.toc) { %>
-    <div class="col-xs-12 col-sm-12 col-md-3 toc">
+<div class="waffles">
+<% if (page.toc) { %>
+    <div class="w-3 w-alpha toc">
       <%- partial( 'post/toc', {page: item}) %>
     </div>
-    <% } %>
+<% } %>
 
-      <% if (page.toc) { %>
-        <div class="col-xs-12 col-sm-12 col-md-9 note">
-          <% } else { %>
-            <div class="col-md-12">
-              <% } %>
+<% if (page.toc) { %>
+    <div class="w-9 w-omega note">
+<% } else { %>
+    <div class="w-12 w-alpha w-omega">
+<% } %>
 
-                <%- item.content %>
+  <%- item.content %>
 
-                  <div>
-                    <center>
-                      <%- partial( 'post/pagination', {page: item}) %>
-                    </center>
-                  </div>
-            </div>
-        </div>
+      <div>
+        <center>
+          <%- partial( 'post/pagination', {page: item}) %>
+        </center>
+      </div>
+      
+    </div>
+      
+</div>
