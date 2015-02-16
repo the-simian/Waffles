@@ -293,7 +293,7 @@
   margin-right: auto;
 }
 .waffles .w-1.w-fix {
-  width: 4px;
+  width: 5px;
 }
 .waffles .w-1.w-fix.w-alpha {
   float: left;
@@ -306,31 +306,31 @@
   margin-right: 0px;
 }
 .waffles .w-1.w-fix.w-alpha ~ .w-auto {
-  margin-left: 14.666666666666666px;
+  margin-left: 18.333333333333336px;
 }
 .waffles .w-1.w-fix.w-omega ~ .w-auto {
-  margin-right: 14.666666666666666px;
+  margin-right: 18.333333333333336px;
 }
 .waffles .w-1.w-fix.w-alpha ~ .w-auto.w-alpha {
-  margin-left: 14.666666666666666px;
+  margin-left: 18.333333333333336px;
 }
 .waffles wfomegaautoomega {
-  margin-right: 14.666666666666666px;
+  margin-right: 18.333333333333336px;
 }
 .waffles .w-v-1 {
-  margin-top: 4px;
+  margin-top: 5px;
 }
 .waffles .w-v_1 {
-  margin-bottom: 4px;
+  margin-bottom: 5px;
 }
 .waffles .w-freeze.w-v-1 {
-  top: 4px;
+  top: 5px;
 }
 .waffles .w-freeze.w-v_1 {
-  bottom: 4px;
+  bottom: 5px;
 }
 .waffles .w-2.w-fix {
-  width: 8px;
+  width: 10px;
 }
 .waffles .w-2.w-fix.w-alpha {
   float: left;
@@ -343,31 +343,31 @@
   margin-right: 0px;
 }
 .waffles .w-2.w-fix.w-alpha ~ .w-auto {
-  margin-left: 18.666666666666664px;
+  margin-left: 23.333333333333336px;
 }
 .waffles .w-2.w-fix.w-omega ~ .w-auto {
-  margin-right: 18.666666666666664px;
+  margin-right: 23.333333333333336px;
 }
 .waffles .w-2.w-fix.w-alpha ~ .w-auto.w-alpha {
-  margin-left: 18.666666666666664px;
+  margin-left: 23.333333333333336px;
 }
 .waffles wfomegaautoomega {
-  margin-right: 18.666666666666664px;
+  margin-right: 23.333333333333336px;
 }
 .waffles .w-v-2 {
-  margin-top: 8px;
+  margin-top: 10px;
 }
 .waffles .w-v_2 {
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 .waffles .w-freeze.w-v-2 {
-  top: 8px;
+  top: 10px;
 }
 .waffles .w-freeze.w-v_2 {
-  bottom: 8px;
+  bottom: 10px;
 }
 .waffles .w-3.w-fix {
-  width: 16px;
+  width: 20px;
 }
 .waffles .w-3.w-fix.w-alpha {
   float: left;
@@ -380,31 +380,31 @@
   margin-right: 0px;
 }
 .waffles .w-3.w-fix.w-alpha ~ .w-auto {
-  margin-left: 26.666666666666664px;
+  margin-left: 33.333333333333336px;
 }
 .waffles .w-3.w-fix.w-omega ~ .w-auto {
-  margin-right: 26.666666666666664px;
+  margin-right: 33.333333333333336px;
 }
 .waffles .w-3.w-fix.w-alpha ~ .w-auto.w-alpha {
-  margin-left: 26.666666666666664px;
+  margin-left: 33.333333333333336px;
 }
 .waffles wfomegaautoomega {
-  margin-right: 26.666666666666664px;
+  margin-right: 33.333333333333336px;
 }
 .waffles .w-v-3 {
-  margin-top: 16px;
+  margin-top: 20px;
 }
 .waffles .w-v_3 {
-  margin-bottom: 16px;
+  margin-bottom: 20px;
 }
 .waffles .w-freeze.w-v-3 {
-  top: 16px;
+  top: 20px;
 }
 .waffles .w-freeze.w-v_3 {
-  bottom: 16px;
+  bottom: 20px;
 }
 .waffles .w-4.w-fix {
-  width: 20px;
+  width: 25px;
 }
 .waffles .w-4.w-fix.w-alpha {
   float: left;
@@ -417,31 +417,31 @@
   margin-right: 0px;
 }
 .waffles .w-4.w-fix.w-alpha ~ .w-auto {
-  margin-left: 30.666666666666664px;
+  margin-left: 38.333333333333336px;
 }
 .waffles .w-4.w-fix.w-omega ~ .w-auto {
-  margin-right: 30.666666666666664px;
+  margin-right: 38.333333333333336px;
 }
 .waffles .w-4.w-fix.w-alpha ~ .w-auto.w-alpha {
-  margin-left: 30.666666666666664px;
+  margin-left: 38.333333333333336px;
 }
 .waffles wfomegaautoomega {
-  margin-right: 30.666666666666664px;
+  margin-right: 38.333333333333336px;
 }
 .waffles .w-v-4 {
-  margin-top: 20px;
+  margin-top: 25px;
 }
 .waffles .w-v_4 {
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 .waffles .w-freeze.w-v-4 {
-  top: 20px;
+  top: 25px;
 }
 .waffles .w-freeze.w-v_4 {
-  bottom: 20px;
+  bottom: 25px;
 }
 .waffles .w-5.w-fix {
-  width: 24px;
+  width: 30px;
 }
 .waffles .w-5.w-fix.w-alpha {
   float: left;
@@ -454,31 +454,31 @@
   margin-right: 0px;
 }
 .waffles .w-5.w-fix.w-alpha ~ .w-auto {
-  margin-left: 34.666666666666664px;
+  margin-left: 43.333333333333336px;
 }
 .waffles .w-5.w-fix.w-omega ~ .w-auto {
-  margin-right: 34.666666666666664px;
+  margin-right: 43.333333333333336px;
 }
 .waffles .w-5.w-fix.w-alpha ~ .w-auto.w-alpha {
-  margin-left: 34.666666666666664px;
+  margin-left: 43.333333333333336px;
 }
 .waffles wfomegaautoomega {
-  margin-right: 34.666666666666664px;
+  margin-right: 43.333333333333336px;
 }
 .waffles .w-v-5 {
-  margin-top: 24px;
+  margin-top: 30px;
 }
 .waffles .w-v_5 {
-  margin-bottom: 24px;
+  margin-bottom: 30px;
 }
 .waffles .w-freeze.w-v-5 {
-  top: 24px;
+  top: 30px;
 }
 .waffles .w-freeze.w-v_5 {
-  bottom: 24px;
+  bottom: 30px;
 }
 .waffles .w-6.w-fix {
-  width: 32px;
+  width: 40px;
 }
 .waffles .w-6.w-fix.w-alpha {
   float: left;
@@ -491,31 +491,31 @@
   margin-right: 0px;
 }
 .waffles .w-6.w-fix.w-alpha ~ .w-auto {
-  margin-left: 42.666666666666664px;
+  margin-left: 53.333333333333336px;
 }
 .waffles .w-6.w-fix.w-omega ~ .w-auto {
-  margin-right: 42.666666666666664px;
+  margin-right: 53.333333333333336px;
 }
 .waffles .w-6.w-fix.w-alpha ~ .w-auto.w-alpha {
-  margin-left: 42.666666666666664px;
+  margin-left: 53.333333333333336px;
 }
 .waffles wfomegaautoomega {
-  margin-right: 42.666666666666664px;
+  margin-right: 53.333333333333336px;
 }
 .waffles .w-v-6 {
-  margin-top: 32px;
+  margin-top: 40px;
 }
 .waffles .w-v_6 {
-  margin-bottom: 32px;
+  margin-bottom: 40px;
 }
 .waffles .w-freeze.w-v-6 {
-  top: 32px;
+  top: 40px;
 }
 .waffles .w-freeze.w-v_6 {
-  bottom: 32px;
+  bottom: 40px;
 }
 .waffles .w-7.w-fix {
-  width: 48px;
+  width: 60px;
 }
 .waffles .w-7.w-fix.w-alpha {
   float: left;
@@ -528,31 +528,31 @@
   margin-right: 0px;
 }
 .waffles .w-7.w-fix.w-alpha ~ .w-auto {
-  margin-left: 58.666666666666664px;
+  margin-left: 73.33333333333333px;
 }
 .waffles .w-7.w-fix.w-omega ~ .w-auto {
-  margin-right: 58.666666666666664px;
+  margin-right: 73.33333333333333px;
 }
 .waffles .w-7.w-fix.w-alpha ~ .w-auto.w-alpha {
-  margin-left: 58.666666666666664px;
+  margin-left: 73.33333333333333px;
 }
 .waffles wfomegaautoomega {
-  margin-right: 58.666666666666664px;
+  margin-right: 73.33333333333333px;
 }
 .waffles .w-v-7 {
-  margin-top: 48px;
+  margin-top: 60px;
 }
 .waffles .w-v_7 {
-  margin-bottom: 48px;
+  margin-bottom: 60px;
 }
 .waffles .w-freeze.w-v-7 {
-  top: 48px;
+  top: 60px;
 }
 .waffles .w-freeze.w-v_7 {
-  bottom: 48px;
+  bottom: 60px;
 }
 .waffles .w-8.w-fix {
-  width: 64px;
+  width: 80px;
 }
 .waffles .w-8.w-fix.w-alpha {
   float: left;
@@ -565,31 +565,31 @@
   margin-right: 0px;
 }
 .waffles .w-8.w-fix.w-alpha ~ .w-auto {
-  margin-left: 74.66666666666667px;
+  margin-left: 93.33333333333333px;
 }
 .waffles .w-8.w-fix.w-omega ~ .w-auto {
-  margin-right: 74.66666666666667px;
+  margin-right: 93.33333333333333px;
 }
 .waffles .w-8.w-fix.w-alpha ~ .w-auto.w-alpha {
-  margin-left: 74.66666666666667px;
+  margin-left: 93.33333333333333px;
 }
 .waffles wfomegaautoomega {
-  margin-right: 74.66666666666667px;
+  margin-right: 93.33333333333333px;
 }
 .waffles .w-v-8 {
-  margin-top: 64px;
+  margin-top: 80px;
 }
 .waffles .w-v_8 {
-  margin-bottom: 64px;
+  margin-bottom: 80px;
 }
 .waffles .w-freeze.w-v-8 {
-  top: 64px;
+  top: 80px;
 }
 .waffles .w-freeze.w-v_8 {
-  bottom: 64px;
+  bottom: 80px;
 }
 .waffles .w-9.w-fix {
-  width: 80px;
+  width: 100px;
 }
 .waffles .w-9.w-fix.w-alpha {
   float: left;
@@ -602,31 +602,31 @@
   margin-right: 0px;
 }
 .waffles .w-9.w-fix.w-alpha ~ .w-auto {
-  margin-left: 90.66666666666667px;
+  margin-left: 113.33333333333333px;
 }
 .waffles .w-9.w-fix.w-omega ~ .w-auto {
-  margin-right: 90.66666666666667px;
+  margin-right: 113.33333333333333px;
 }
 .waffles .w-9.w-fix.w-alpha ~ .w-auto.w-alpha {
-  margin-left: 90.66666666666667px;
+  margin-left: 113.33333333333333px;
 }
 .waffles wfomegaautoomega {
-  margin-right: 90.66666666666667px;
+  margin-right: 113.33333333333333px;
 }
 .waffles .w-v-9 {
-  margin-top: 80px;
+  margin-top: 100px;
 }
 .waffles .w-v_9 {
-  margin-bottom: 80px;
+  margin-bottom: 100px;
 }
 .waffles .w-freeze.w-v-9 {
-  top: 80px;
+  top: 100px;
 }
 .waffles .w-freeze.w-v_9 {
-  bottom: 80px;
+  bottom: 100px;
 }
 .waffles .w-10.w-fix {
-  width: 96px;
+  width: 120px;
 }
 .waffles .w-10.w-fix.w-alpha {
   float: left;
@@ -639,31 +639,31 @@
   margin-right: 0px;
 }
 .waffles .w-10.w-fix.w-alpha ~ .w-auto {
-  margin-left: 106.66666666666667px;
+  margin-left: 133.33333333333334px;
 }
 .waffles .w-10.w-fix.w-omega ~ .w-auto {
-  margin-right: 106.66666666666667px;
+  margin-right: 133.33333333333334px;
 }
 .waffles .w-10.w-fix.w-alpha ~ .w-auto.w-alpha {
-  margin-left: 106.66666666666667px;
+  margin-left: 133.33333333333334px;
 }
 .waffles wfomegaautoomega {
-  margin-right: 106.66666666666667px;
+  margin-right: 133.33333333333334px;
 }
 .waffles .w-v-10 {
-  margin-top: 96px;
+  margin-top: 120px;
 }
 .waffles .w-v_10 {
-  margin-bottom: 96px;
+  margin-bottom: 120px;
 }
 .waffles .w-freeze.w-v-10 {
-  top: 96px;
+  top: 120px;
 }
 .waffles .w-freeze.w-v_10 {
-  bottom: 96px;
+  bottom: 120px;
 }
 .waffles .w-11.w-fix {
-  width: 112px;
+  width: 140px;
 }
 .waffles .w-11.w-fix.w-alpha {
   float: left;
@@ -676,31 +676,31 @@
   margin-right: 0px;
 }
 .waffles .w-11.w-fix.w-alpha ~ .w-auto {
-  margin-left: 122.66666666666667px;
+  margin-left: 153.33333333333334px;
 }
 .waffles .w-11.w-fix.w-omega ~ .w-auto {
-  margin-right: 122.66666666666667px;
+  margin-right: 153.33333333333334px;
 }
 .waffles .w-11.w-fix.w-alpha ~ .w-auto.w-alpha {
-  margin-left: 122.66666666666667px;
+  margin-left: 153.33333333333334px;
 }
 .waffles wfomegaautoomega {
-  margin-right: 122.66666666666667px;
+  margin-right: 153.33333333333334px;
 }
 .waffles .w-v-11 {
-  margin-top: 112px;
+  margin-top: 140px;
 }
 .waffles .w-v_11 {
-  margin-bottom: 112px;
+  margin-bottom: 140px;
 }
 .waffles .w-freeze.w-v-11 {
-  top: 112px;
+  top: 140px;
 }
 .waffles .w-freeze.w-v_11 {
-  bottom: 112px;
+  bottom: 140px;
 }
 .waffles .w-12.w-fix {
-  width: 128px;
+  width: 160px;
 }
 .waffles .w-12.w-fix.w-alpha {
   float: left;
@@ -713,31 +713,31 @@
   margin-right: 0px;
 }
 .waffles .w-12.w-fix.w-alpha ~ .w-auto {
-  margin-left: 138.66666666666666px;
+  margin-left: 173.33333333333334px;
 }
 .waffles .w-12.w-fix.w-omega ~ .w-auto {
-  margin-right: 138.66666666666666px;
+  margin-right: 173.33333333333334px;
 }
 .waffles .w-12.w-fix.w-alpha ~ .w-auto.w-alpha {
-  margin-left: 138.66666666666666px;
+  margin-left: 173.33333333333334px;
 }
 .waffles wfomegaautoomega {
-  margin-right: 138.66666666666666px;
+  margin-right: 173.33333333333334px;
 }
 .waffles .w-v-12 {
-  margin-top: 128px;
+  margin-top: 160px;
 }
 .waffles .w-v_12 {
-  margin-bottom: 128px;
+  margin-bottom: 160px;
 }
 .waffles .w-freeze.w-v-12 {
-  top: 128px;
+  top: 160px;
 }
 .waffles .w-freeze.w-v_12 {
-  bottom: 128px;
+  bottom: 160px;
 }
 .waffles .w-13.w-fix {
-  width: 160px;
+  width: 200px;
 }
 .waffles .w-13.w-fix.w-alpha {
   float: left;
@@ -750,31 +750,31 @@
   margin-right: 0px;
 }
 .waffles .w-13.w-fix.w-alpha ~ .w-auto {
-  margin-left: 170.66666666666666px;
+  margin-left: 213.33333333333334px;
 }
 .waffles .w-13.w-fix.w-omega ~ .w-auto {
-  margin-right: 170.66666666666666px;
+  margin-right: 213.33333333333334px;
 }
 .waffles .w-13.w-fix.w-alpha ~ .w-auto.w-alpha {
-  margin-left: 170.66666666666666px;
+  margin-left: 213.33333333333334px;
 }
 .waffles wfomegaautoomega {
-  margin-right: 170.66666666666666px;
+  margin-right: 213.33333333333334px;
 }
 .waffles .w-v-13 {
-  margin-top: 160px;
+  margin-top: 200px;
 }
 .waffles .w-v_13 {
-  margin-bottom: 160px;
+  margin-bottom: 200px;
 }
 .waffles .w-freeze.w-v-13 {
-  top: 160px;
+  top: 200px;
 }
 .waffles .w-freeze.w-v_13 {
-  bottom: 160px;
+  bottom: 200px;
 }
 .waffles .w-14.w-fix {
-  width: 192px;
+  width: 240px;
 }
 .waffles .w-14.w-fix.w-alpha {
   float: left;
@@ -787,31 +787,31 @@
   margin-right: 0px;
 }
 .waffles .w-14.w-fix.w-alpha ~ .w-auto {
-  margin-left: 202.66666666666666px;
+  margin-left: 253.33333333333334px;
 }
 .waffles .w-14.w-fix.w-omega ~ .w-auto {
-  margin-right: 202.66666666666666px;
+  margin-right: 253.33333333333334px;
 }
 .waffles .w-14.w-fix.w-alpha ~ .w-auto.w-alpha {
-  margin-left: 202.66666666666666px;
+  margin-left: 253.33333333333334px;
 }
 .waffles wfomegaautoomega {
-  margin-right: 202.66666666666666px;
+  margin-right: 253.33333333333334px;
 }
 .waffles .w-v-14 {
-  margin-top: 192px;
+  margin-top: 240px;
 }
 .waffles .w-v_14 {
-  margin-bottom: 192px;
+  margin-bottom: 240px;
 }
 .waffles .w-freeze.w-v-14 {
-  top: 192px;
+  top: 240px;
 }
 .waffles .w-freeze.w-v_14 {
-  bottom: 192px;
+  bottom: 240px;
 }
 .waffles .w-15.w-fix {
-  width: 224px;
+  width: 280px;
 }
 .waffles .w-15.w-fix.w-alpha {
   float: left;
@@ -824,31 +824,31 @@
   margin-right: 0px;
 }
 .waffles .w-15.w-fix.w-alpha ~ .w-auto {
-  margin-left: 234.66666666666666px;
+  margin-left: 293.3333333333333px;
 }
 .waffles .w-15.w-fix.w-omega ~ .w-auto {
-  margin-right: 234.66666666666666px;
+  margin-right: 293.3333333333333px;
 }
 .waffles .w-15.w-fix.w-alpha ~ .w-auto.w-alpha {
-  margin-left: 234.66666666666666px;
+  margin-left: 293.3333333333333px;
 }
 .waffles wfomegaautoomega {
-  margin-right: 234.66666666666666px;
+  margin-right: 293.3333333333333px;
 }
 .waffles .w-v-15 {
-  margin-top: 224px;
+  margin-top: 280px;
 }
 .waffles .w-v_15 {
-  margin-bottom: 224px;
+  margin-bottom: 280px;
 }
 .waffles .w-freeze.w-v-15 {
-  top: 224px;
+  top: 280px;
 }
 .waffles .w-freeze.w-v_15 {
-  bottom: 224px;
+  bottom: 280px;
 }
 .waffles .w-16.w-fix {
-  width: 256px;
+  width: 320px;
 }
 .waffles .w-16.w-fix.w-alpha {
   float: left;
@@ -861,31 +861,31 @@
   margin-right: 0px;
 }
 .waffles .w-16.w-fix.w-alpha ~ .w-auto {
-  margin-left: 266.6666666666667px;
+  margin-left: 333.3333333333333px;
 }
 .waffles .w-16.w-fix.w-omega ~ .w-auto {
-  margin-right: 266.6666666666667px;
+  margin-right: 333.3333333333333px;
 }
 .waffles .w-16.w-fix.w-alpha ~ .w-auto.w-alpha {
-  margin-left: 266.6666666666667px;
+  margin-left: 333.3333333333333px;
 }
 .waffles wfomegaautoomega {
-  margin-right: 266.6666666666667px;
+  margin-right: 333.3333333333333px;
 }
 .waffles .w-v-16 {
-  margin-top: 256px;
+  margin-top: 320px;
 }
 .waffles .w-v_16 {
-  margin-bottom: 256px;
+  margin-bottom: 320px;
 }
 .waffles .w-freeze.w-v-16 {
-  top: 256px;
+  top: 320px;
 }
 .waffles .w-freeze.w-v_16 {
-  bottom: 256px;
+  bottom: 320px;
 }
 .waffles .w-17.w-fix {
-  width: 288px;
+  width: 360px;
 }
 .waffles .w-17.w-fix.w-alpha {
   float: left;
@@ -898,31 +898,31 @@
   margin-right: 0px;
 }
 .waffles .w-17.w-fix.w-alpha ~ .w-auto {
-  margin-left: 298.6666666666667px;
+  margin-left: 373.3333333333333px;
 }
 .waffles .w-17.w-fix.w-omega ~ .w-auto {
-  margin-right: 298.6666666666667px;
+  margin-right: 373.3333333333333px;
 }
 .waffles .w-17.w-fix.w-alpha ~ .w-auto.w-alpha {
-  margin-left: 298.6666666666667px;
+  margin-left: 373.3333333333333px;
 }
 .waffles wfomegaautoomega {
-  margin-right: 298.6666666666667px;
+  margin-right: 373.3333333333333px;
 }
 .waffles .w-v-17 {
-  margin-top: 288px;
+  margin-top: 360px;
 }
 .waffles .w-v_17 {
-  margin-bottom: 288px;
+  margin-bottom: 360px;
 }
 .waffles .w-freeze.w-v-17 {
-  top: 288px;
+  top: 360px;
 }
 .waffles .w-freeze.w-v_17 {
-  bottom: 288px;
+  bottom: 360px;
 }
 .waffles .w-18.w-fix {
-  width: 320px;
+  width: 400px;
 }
 .waffles .w-18.w-fix.w-alpha {
   float: left;
@@ -935,26 +935,26 @@
   margin-right: 0px;
 }
 .waffles .w-18.w-fix.w-alpha ~ .w-auto {
-  margin-left: 330.6666666666667px;
+  margin-left: 413.3333333333333px;
 }
 .waffles .w-18.w-fix.w-omega ~ .w-auto {
-  margin-right: 330.6666666666667px;
+  margin-right: 413.3333333333333px;
 }
 .waffles .w-18.w-fix.w-alpha ~ .w-auto.w-alpha {
-  margin-left: 330.6666666666667px;
+  margin-left: 413.3333333333333px;
 }
 .waffles wfomegaautoomega {
-  margin-right: 330.6666666666667px;
+  margin-right: 413.3333333333333px;
 }
 .waffles .w-v-18 {
-  margin-top: 320px;
+  margin-top: 400px;
 }
 .waffles .w-v_18 {
-  margin-bottom: 320px;
+  margin-bottom: 400px;
 }
 .waffles .w-freeze.w-v-18 {
-  top: 320px;
+  top: 400px;
 }
 .waffles .w-freeze.w-v_18 {
-  bottom: 320px;
+  bottom: 400px;
 }
