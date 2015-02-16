@@ -9,7 +9,7 @@ var rimraf = require('gulp-rimraf');
 var livereload = require('gulp-livereload');
 
 var options = {
-	srcFiles: './stylus/**/*',
+	srcFiles: './lib/**/*',
 	distPath: './dist',
 	developmentName: 'waffles.css',
 	productionName: 'waffles.min.css',
