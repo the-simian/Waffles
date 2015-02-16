@@ -1,0 +1,222 @@
+
+/*Waffles by Jesse Harlin*/
+
+
+$brick ?= 40px;
+$line ?= $brick * 0.5;
+
+_gutter = 2%;
+_margin = _gutter * 0.5;
+
+_w1 = 7.333%;
+_w2 = 15.666%;
+_w3 = 24%;
+_w4 = 32.333%;
+_w5 = 40.666%;
+_w6 = 49%;
+_w7 = 57.333%;
+_w8 = 65.666%;
+_w9 = 74%;
+_w10 = 82.333%;
+_w11 = 90.666%;
+_w12 = 100%;
+
+_gutter_f = ($brick/3) * 2;
+_margin_f = _gutter_f * 0.5;
+
+_w1_f = $line * 0.25;
+_w2_f = $line * 0.5;
+_w3_f = $line;
+_w4_f = $line + _w1_f;
+_w5_f = $line + _w2_f;
+_w6_f = $brick;
+_w7_f = $brick + $line;
+_w8_f = $brick * 2;
+_w9_f = ($brick  * 2) + $line;
+_w10_f = $brick * 3;
+_w11_f = ($brick * 3) + $line;
+_w12_f = $brick * 4;
+_w13_f = $brick * 5;
+_w14_f = $brick * 6;
+_w15_f = $brick * 7;
+_w16_f = $brick * 8;
+_w17_f = $brick * 9;
+_w18_f = $brick * 10;
+
+fixedgrid = _w1_f _w2_f _w3_f _w4_f _w5_f _w6_f _w7_f _w8_f _w9_f _w10_f _w11_f _w12_f _w13_f _w14_f _w15_f _w16_f _w17_f _w18_f
+
+.waffles { margin-left: auto; margin-right: auto; max-width: 100%; min-width: 0px; width: 100%;overflow: hidden; padding:0}
+
+.waffles .w-1, 
+.waffles .w-2, 
+.waffles .w-3, 
+.waffles .w-4, 
+.waffles .w-5, 
+.waffles .w-6, 
+.waffles .w-7, 
+.waffles .w-8, 
+.waffles .w-9, 
+.waffles .w-10, 
+.waffles .w-11, 
+.waffles .w-12, 
+.waffles .w-13, 
+.waffles .w-14, 
+.waffles .w-15, 
+.waffles .w-16, 
+.waffles .w-17, 
+.waffles .w-18, 
+.waffles .w-auto  {
+    display: block;
+    float: left;
+    margin-left: 1%;
+    margin-right: 1%;
+    position: static;
+    margin-top:0px;
+    margin-bottom:0px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
+}
+
+.waffles .w-alpha { margin-left: 0; }
+.waffles .w-omega { margin-right: 0; }
+
+.waffles  .w-alpha ~ .w-omega { clear: right; display: block; }
+
+.waffles  .w-omega ~ .w-alpha { clear: left; display: block; }
+
+.waffles  .w-alpha.w-omega { clear: both; display: block}
+
+.waffles  .w-auto > .w-alpha { clear: none;}
+.waffles  .w-auto > .w-omega { clear: none;}
+
+/*Core Fluid Widths*/
+.waffles .w-1 { width: _w1 - _margin; }
+.waffles .w-2 { width: _w2 - _margin; }
+.waffles .w-3 { width: _w3 - _margin; }
+.waffles .w-4 { width: _w4 - _margin; }
+.waffles .w-5 { width: _w5 - _margin; }
+.waffles .w-6 { width: _w6 - _margin; }
+.waffles .w-7 { width: _w7 - _margin; }
+.waffles .w-8 { width: _w8 - _margin; }
+.waffles .w-9 { width: _w9 - _margin; }
+.waffles .w-10 { width: _w10 - _margin; }
+.waffles .w-11 { width: _w11 - _margin; }
+.waffles .w-12 { width: _w12 - _gutter; }
+
+/*Css3 Overrides for side margins*/
+.waffles .w-1.w-alpha, .waffles .w-1.w-omega { width: _w1; }
+.waffles .w-2.w-alpha, .waffles .w-2.w-omega { width: _w2; }
+.waffles .w-3.w-omega, .waffles .w-3.w-alpha { width: _w3; }
+.waffles .w-4.w-alpha, .waffles .w-4.w-omega { width: _w4; }
+.waffles .w-5.w-alpha, .waffles .w-5.w-omega { width: _w5; }
+.waffles .w-6.w-omega, .waffles .w-6.w-alpha { width: _w6; }
+.waffles .w-7.w-alpha, .waffles .w-7.w-omega { width: _w7; }
+.waffles .w-9.w-omega, .waffles .w-9.w-alpha { width: _w8; }
+.waffles .w-8.w-alpha, .waffles .w-8.w-omega { width: _w9; }
+.waffles .w-10.w-alpha, .waffles .w-10.w-omega { width: _w10; }
+.waffles .w-11.w-alpha, .waffles .w-11.w-omega { width: _w11; }
+.waffles .w-12.w-alpha.w-omega { width: _w12; }
+
+/*TODO: Add additional support up to 16 items?*/
+
+/*autogroup*/
+.waffles .w-auto:first-child:nth-last-child(1) { margin-left: 0; margin-right: 0; width: _w12; }
+
+.waffles .w-auto:first-child:nth-last-child(2) { margin-left: 0; width: (_w12/2) - _margin; }
+.waffles .w-auto:first-child:nth-last-child(2) + .w-auto { margin-right: 0; width: (_w12/2) - _margin; }
+
+.waffles .w-auto:first-child:nth-last-child(3) { margin-left: 0; width: (_w12/3) - _margin; }
+.waffles .w-auto:first-child:nth-last-child(3) ~ .w-auto { width: (_w12/3) - _gutter; }
+.waffles .w-auto:first-child:nth-last-child(3) ~ .w-auto:last-child { margin-right: 0%; width: (_w12/3) - _margin; }
+
+.waffles .w-auto:first-child:nth-last-child(4) { margin-left: 0; width: (_w12/4) - _margin; }
+.waffles .w-auto:first-child:nth-last-child(4) ~ .w-auto { width: (_w12/4) - _gutter; }
+.waffles .w-auto:first-child:nth-last-child(4) ~ .w-auto:last-child { margin-right: 0%; width: (_w12/4) - _margin; }
+
+.waffles .w-auto:first-child:nth-last-child(5) { margin-left: 0; width: (_w12/5) - _margin; }
+.waffles .w-auto:first-child:nth-last-child(5) ~ .w-auto { width: (_w12/5) - _gutter; }
+.waffles .w-auto:first-child:nth-last-child(5) ~ .w-auto:last-child { margin-right: 0%; width: (_w12/5) - _margin; }
+
+.waffles .w-auto:first-child:nth-last-child(6) { margin-left: 0; width: (_w12/6) - _margin; }
+.waffles .w-auto:first-child:nth-last-child(6) ~ .w-auto { width: (_w12/6) - _gutter; }
+.waffles .w-auto:first-child:nth-last-child(6) ~ .w-auto:last-child { margin-right: 0%; width: (_w12/6) - _margin; }
+
+.waffles .w-auto:first-child:nth-last-child(7) { margin-left: 0; width: (_w12/7) - _margin; }
+.waffles .w-auto:first-child:nth-last-child(7) ~ .w-auto { width: (_w12/7) - _gutter; }
+.waffles .w-auto:first-child:nth-last-child(7) ~ .w-auto:last-child { margin-right: 0%; width: (_w12/7) - _margin; }
+
+.waffles .w-auto:first-child:nth-last-child(8) { margin-left: 0; width: (_w12/8) - _margin; }
+.waffles .w-auto:first-child:nth-last-child(8) ~ .w-auto { width: (_w12/8) - _gutter; }
+.waffles .w-auto:first-child:nth-last-child(8) ~ .w-auto:last-child { margin-right: 0%; width: (_w12/8) - _margin; }
+
+.waffles .w-auto:first-child:nth-last-child(9) { margin-left: 0; width: (_w12/9) - _margin; }
+.waffles .w-auto:first-child:nth-last-child(9) ~ .w-auto { width: (_w12/9) - _gutter; }
+.waffles .w-auto:first-child:nth-last-child(9) ~ .w-auto:last-child { margin-right: 0%; width: (_w12/9) - _margin; }
+
+.waffles .w-auto:first-child:nth-last-child(10) { margin-left: 0; width: (_w12/10) - _margin; }
+.waffles .w-auto:first-child:nth-last-child(10) ~ .w-auto { width: (_w12/10) - _gutter; }
+.waffles .w-auto:first-child:nth-last-child(10) ~ .w-auto:last-child { margin-right: 0%; width: (_w12/10) - _margin; }
+
+.waffles .w-auto:first-child:nth-last-child(11) { margin-left: 0; width: (_w12/11) - _margin; }
+.waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto { width: (_w12/10) - _gutter; }
+.waffles .w-auto:first-child:nth-last-child(11) ~ .w-auto:last-child { margin-right: 0%; width: (_w12/11) - _margin; }
+
+.waffles .w-auto:first-child:nth-last-child(12) { margin-left: 0; width: (_w12/12) - _margin; }
+.waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto { width: (_w12/12) - _gutter; }
+.waffles .w-auto:first-child:nth-last-child(12) ~ .w-auto:last-child { margin-right: 0%; width: (_w12/12) - _margin; }
+
+.waffles .w-fix ~ .w-auto { 
+    clear: none;
+    float: none;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: auto;
+}
+
+.waffles
+  .w-freeze { position: fixed; }
+  .w-freeze.w-alpha { left:_margin; }
+  .w-freeze.w-omega { right: _margin; }
+  .w-freeze.w-alpha.w-omega { margin-left:auto; margin-right:auto; }
+
+.waffles
+  for val, i in fixedgrid
+    index = (i + 1)
+    wf = '.w-' + index + '.w-fix'
+    wfa = wf + '.w-alpha'
+    wfo = wf + '.w-omega'
+    wfalphaauto  = wf + '.w-alpha ~ .w-auto'
+    wfomegaauto = wf + '.w-omega ~ .w-auto'
+    wfalphaautoalpha = wf + '.w-alpha ~ .w-auto.w-alpha'
+    wfalphaautoomega = wf + '.w-omega ~ .w-auto.w-omega'
+    wfvertup = '.w-v-' + index
+    wfvertdown = '.w-v_' + index
+    wffreezetop = '.w-freeze.w-v-' + index
+    wffreezebottom = '.w-freeze.w-v_' + index
+    {wf}
+      width: val;
+    {wfa}
+      float: left;
+      margin-left: 0px;
+      margin-right: 0px;
+    {wfo}
+      float: right;
+      margin-left: 0px;
+      margin-right: 0px;
+    {wfalphaauto}
+      margin-left: val + _margin_f;
+    {wfomegaauto}
+      margin-right: val + _margin_f;
+    {wfalphaautoalpha}
+      margin-left: val + _margin_f;
+    {wfomegaautoomega}
+      margin-right: val + _margin_f;
+    {wfvertup}
+      margin-top: val;
+    {wfvertdown}
+      margin-bottom: val;
+    {wffreezetop}
+      top: val;
+    {wffreezebottom}
+      bottom: val;
