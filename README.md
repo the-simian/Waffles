@@ -1,6 +1,8 @@
 waffles
 ==========
 
+[![Join the chat at https://gitter.im/the-simian/Waffles](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/the-simian/Waffles?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 A responsive grid framework that supports automatic sizing and mixed fixed/
 fluid layouts.
 
