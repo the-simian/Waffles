@@ -8,7 +8,11 @@ fluid layouts.
 
 Waffles, fundamentally is based on the idea of a unit of measurement, that scales every fluid and fixed element to a 'worldspace value'. If a measurement is not by natre, fluid, then it is probably scaled to this value. This value, defaulted to 40px can be overidden at any point by overriding the value $brick before including waffle sin your build pipeline.
 
-Including waffle sin your pipeline is pretty straighforaward, and is like any other stylus plugin. Here is an example using gulp:
+### Include waffles from the CDN
+[waffles.css CDN](//cdn.jsdelivr.net/waffles/1.0.1/waffles.min.css): //cdn.jsdelivr.net/waffles/1.0.1/waffles.min.css
+
+### Include waffles in your build
+Including waffles in your pipeline is pretty straighforaward, and is like any other stylus plugin. Here is an example using gulp:
 
 ```
 
